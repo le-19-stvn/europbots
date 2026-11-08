@@ -25,6 +25,19 @@ export default function Nav() {
     return () => window.removeEventListener("scroll", on);
   }, []);
 
+  // menu mobile ouvert : page figée, Échap pour fermer
+  useEffect(() => {
+    if (!open) return;
+    const root = document.documentElement;
+    root.style.overflow = "hidden";
+    const onKey = (e: KeyboardEvent) => e.key === "Escape" && setOpen(false);
+    window.addEventListener("keydown", onKey);
+    return () => {
+      root.style.overflow = "";
+      window.removeEventListener("keydown", onKey);
+    };
+  }, [open]);
+
   // ferme les menus à chaque navigation
   const [lastPath, setLastPath] = useState(path);
   if (path !== lastPath) {
@@ -33,13 +46,14 @@ export default function Nav() {
     setMega(false);
   }
 
-  const dark = DARK_HERO.includes(path) && !scrolled && !mega;
+  const dark = open || (DARK_HERO.includes(path) && !scrolled && !mega);
   const link = `text-[15px] font-medium transition-opacity duration-300 hover:opacity-60 ${dark ? "text-on-dark" : "text-ink"}`;
 
   return (
+    <>
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-[background-color,border-color,backdrop-filter] duration-[450ms] ease-[cubic-bezier(.32,.72,0,1)] ${
-        dark ? "border-b border-transparent bg-transparent" : "border-b border-border bg-paper/85 backdrop-blur-xl"
+        open ? "border-b border-ink-line bg-ink" : dark ? "border-b border-transparent bg-transparent" : "border-b border-border bg-paper/85 backdrop-blur-xl"
       }`}
       onMouseLeave={() => setMega(false)}
     >
@@ -118,6 +132,9 @@ export default function Nav() {
         )}
       </AnimatePresence>
 
+
+    </header>
+    {/* Menu mobile hors du header : le backdrop-filter du header piégerait un enfant en position fixed. */}
       <AnimatePresence>
         {open && (
           <motion.div
@@ -125,7 +142,7 @@ export default function Nav() {
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
             transition={{ duration: 0.45, ease: E }}
-            className="fixed inset-0 z-[55] overflow-y-auto bg-ink px-[var(--gutter)] pb-10 pt-24 text-on-dark lg:hidden"
+            className="fixed inset-0 z-40 overflow-y-auto overscroll-contain bg-ink px-[var(--gutter)] pb-10 pt-24 text-on-dark lg:hidden"
           >
             <nav className="grid gap-1" aria-label="Navigation mobile">
               {[
@@ -145,12 +162,12 @@ export default function Nav() {
               ))}
             </nav>
             <div className="mt-10 grid gap-4">
-              <Button href={BOOKING_HREF}>Demander une démo</Button>
+              <Button href={BOOKING_HREF} className="w-full justify-between">Demander une démo</Button>
               <a href="tel:+33185370337" className="font-mono text-sm text-on-dark-muted">+33 1 85 37 03 37</a>
             </div>
           </motion.div>
         )}
       </AnimatePresence>
-    </header>
+    </>
   );
 }
