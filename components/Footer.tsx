@@ -62,7 +62,7 @@ export default function Footer() {
       </div>
 
       <div className="wrap" aria-hidden>
-        <p className="select-none whitespace-nowrap text-center font-brand text-[13.4vw] font-bold uppercase leading-[0.8] tracking-[-0.04em] text-ink-3 xl:text-[188px]">Europbots</p>
+        <p className="select-none whitespace-nowrap text-center font-brand text-[10.6vw] font-bold uppercase leading-[0.8] tracking-[-0.04em] text-ink-3 xl:text-[150px]">Europbots</p>
       </div>
 
       <div className="border-t border-ink-line">

@@ -31,11 +31,11 @@ export default function RangePanels({ panels }: { panels: Panel[] }) {
               </span>
             </div>
             <div>
-              <h3 className="t-display text-[clamp(1.8rem,3.2vw,3.2rem)]">{p.name}</h3>
+              <h3 className={`t-display transition-[font-size] duration-[700ms] ease-[cubic-bezier(.32,.72,0,1)] ${on ? "text-[clamp(2rem,3.4vw,3.4rem)]" : "text-[clamp(2rem,2.4vw,2.4rem)]"}`}>{p.name}</h3>
               <div className={`grid transition-[grid-template-rows,opacity] duration-[700ms] ease-[cubic-bezier(.32,.72,0,1)] ${on ? "grid-rows-[1fr] opacity-100" : "grid-rows-[1fr] opacity-100 lg:grid-rows-[0fr] lg:opacity-0"}`}>
                 <div className="overflow-hidden">
                   <p className="mt-4 max-w-[44ch] text-[16px] leading-relaxed text-on-dark-muted">{p.lead}</p>
-                  <p className="t-mono mt-5 text-[11px] leading-relaxed text-on-dark">{p.names.join("  ·  ")}</p>
+                  <p className="t-mono mt-5 text-[12px] leading-relaxed text-on-dark">{p.names.join("  ·  ")}</p>
                 </div>
               </div>
             </div>

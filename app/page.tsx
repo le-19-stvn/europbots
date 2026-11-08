@@ -130,7 +130,7 @@ export default function Home() {
               <h2 className="t-h2 mt-5">Les {robots.length} robots, disponibles en location, leasing ou achat.</h2>
             </div>
             <p className="text-[17px] leading-relaxed text-text-muted lg:justify-self-end lg:text-right">
-              Survolez une fiche pour voir le robot en situation et ses deux chiffres clés.
+              Chaque fiche détaille les usages, les chiffres clés, la fiche technique et les questions fréquentes.
             </p>
           </div>
           <Catalogue robots={robots} />

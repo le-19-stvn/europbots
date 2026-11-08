@@ -100,7 +100,7 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
             <span className="t-mono absolute bottom-5 left-5 text-text-subtle">Réf. {r.slug.toUpperCase()}</span>
             {r.highlight && (
               <div className="absolute right-5 top-5 bg-paper px-4 py-3">
-                <p className="t-mono text-[10px] text-text-subtle">{r.highlight.label}</p>
+                <p className="t-mono text-[12px] text-text-subtle">{r.highlight.label}</p>
                 <p className="text-[20px] t-h3 ">{r.highlight.value}</p>
               </div>
             )}
@@ -130,7 +130,7 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
           <dl className="grid content-start border-t border-ink sm:grid-cols-2 sm:gap-x-8">
             {brief.facts.map(([k, v]) => (
               <div key={k} className="border-b border-border py-3.5">
-                <dt className="t-mono text-[11px] text-text-subtle">{k}</dt>
+                <dt className="t-mono text-[12px] text-text-subtle">{k}</dt>
                 <dd className="mt-1 text-[15px] font-medium">{v}</dd>
               </div>
             ))}

@@ -62,6 +62,7 @@ body {
 h1, h2, h3, h4 { text-wrap: balance; }
 ::selection { background: var(--lime); color: var(--ink); }
 
+@layer components {
 .wrap { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: var(--gutter); }
 
 /* Titres : Syncopate pour l'affiche, Red Hat Display serré pour le reste */
@@ -178,6 +179,8 @@ h1, h2, h3, h4 { text-wrap: balance; }
 
 @keyframes ping { 75%, 100% { transform: scale(2.2); opacity: 0; } }
 .ping { animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+
+}
 
 input, select, textarea { font-size: 16px; }
 

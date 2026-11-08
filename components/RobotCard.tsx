@@ -11,7 +11,7 @@ export default function RobotCard({ robot, index, priority }: { robot: Robot; in
         <div className="absolute left-5 top-5 z-10 flex items-center gap-2">
           <span className="t-mono text-text-subtle">{index !== undefined ? String(index + 1).padStart(2, "0") : robot.maker}</span>
         </div>
-        <span className="t-mono absolute right-5 top-5 z-10 rounded-full bg-paper px-2.5 py-1 text-[11px] text-text-muted">{robot.label}</span>
+        <span className="t-mono absolute right-5 top-5 z-10 rounded-full bg-paper px-2.5 py-1 text-[12px] text-text-muted">{robot.label}</span>
         <span className="floor-glow" />
         <img
           src={robot.image}
@@ -31,7 +31,7 @@ export default function RobotCard({ robot, index, priority }: { robot: Robot; in
           {lead.map((s) => (
             <div key={s.label} className="flex-1 bg-ink/90 px-4 py-3 text-on-dark backdrop-blur">
               <div className="text-[18px] t-h3 ">{s.value}</div>
-              <div className="t-mono text-[10px] text-on-dark-muted">{s.label}</div>
+              <div className="t-mono text-[12px] text-on-dark-muted">{s.label}</div>
             </div>
           ))}
         </div>

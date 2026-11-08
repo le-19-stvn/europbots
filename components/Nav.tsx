@@ -57,11 +57,14 @@ export default function Nav() {
           <Link href="/showrooms" className={link} onMouseEnter={() => setMega(false)}>Showrooms</Link>
           <Link href="/contact" className={link} onMouseEnter={() => setMega(false)}>Contact</Link>
         </nav>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <a href="tel:+33185370337" className={`hidden font-mono text-[13px] xl:block ${dark ? "text-on-dark-muted" : "text-text-muted"}`}>
             01 85 37 03 37
           </a>
-          <Button href={BOOKING_HREF} size="sm" className="hidden sm:inline-flex">Demander une démo</Button>
+          <Button href={BOOKING_HREF} size="sm">
+            <span className="sm:hidden">Démo</span>
+            <span className="hidden sm:inline">Demander une démo</span>
+          </Button>
           <button
             type="button"
             className={`grid h-11 w-11 place-items-center lg:hidden ${dark || open ? "text-on-dark" : "text-ink"} relative z-[60]`}
