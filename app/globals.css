@@ -198,3 +198,8 @@ input, select, textarea { font-size: 16px; }
 }
 
 @keyframes fadein { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }
+
+/* Focus : visible au clavier seulement, à la couleur signal */
+:focus { outline: none; }
+:focus-visible { outline: 2px solid var(--lime); outline-offset: 3px; }
+a, button { -webkit-tap-highlight-color: transparent; }
