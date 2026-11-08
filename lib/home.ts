@@ -52,6 +52,7 @@ export const formulas = [
   {
     name: "Location courte",
     for: "Événements, salons, tests",
+    price: "sur devis",
     text: "Un robot pour quelques jours ou quelques semaines, livré, programmé et récupéré par nos équipes.",
     lines: ["Durée à la journée ou à la semaine", "Livraison et reprise incluses", "Programmation des contenus", "Technicien présent à la mise en route", "Idéal pour tester avant de s'engager"],
     cta: "Louer pour un événement",
@@ -60,14 +61,16 @@ export const formulas = [
   {
     name: "Leasing",
     for: "Exploitation au quotidien",
-    text: "Un loyer mensuel qui inclut le robot, l'installation et la maintenance. Aucun investissement initial à porter.",
-    lines: ["Loyer mensuel, sans apport", "Installation et cartographie incluses", "Maintenance et support pendant toute la durée", "Formation de vos équipes"],
+    price: "dès 500 € HT / mois",
+    text: "Un loyer mensuel sur 36 mois, à partir de 500 € HT selon le modèle. Pas d'investissement initial important, un budget prévisible.",
+    lines: ["Loyer mensuel, sans apport", "Installation et cartographie incluses", "Support technique inclus", "Formation de vos équipes", "Maintenance selon les conditions du contrat"],
     cta: "Étudier un leasing",
     featured: true,
   },
   {
     name: "Achat",
     for: "Parc en propre",
+    price: "sur devis",
     text: "Le robot vous appartient. Nous l'installons, formons vos équipes et assurons le support technique.",
     lines: ["Robot neuf, garantie constructeur", "Installation et cartographie", "Formation des équipes", "Contrat de maintenance en option", "Pièces détachées et réparations"],
     cta: "Demander un prix",
@@ -83,12 +86,13 @@ export const steps = [
 ];
 
 export const homeFaq = [
-  { q: "Combien coûte un robot de service ?", a: "Le prix dépend du modèle, de la formule et de la durée. Nous établissons un devis précis sous 24 h ouvrées." },
-  { q: "Vaut-il mieux louer, prendre un leasing ou acheter ?", a: "La location courte sert les événements et les tests. Le leasing convient à une exploitation quotidienne sans investissement initial, maintenance comprise. L'achat est pertinent si vous voulez constituer un parc en propre. Nous comparons les trois avec vous." },
+  { q: "Combien coûte un robot de service ?", a: "En leasing, la gamme Europbots démarre à 500 € HT par mois sur 36 mois ; le loyer exact dépend du modèle et du nombre de robots. La location courte et l'achat se font sur devis, établi sous 24 h ouvrées." },
+  { q: "Un robot à 500 € par mois est-il rentable ?", a: "Avec un coût horaire employeur de 13 € et 22 jours d'activité, le loyer de 500 € est couvert dès qu'environ 39 heures de travail rémunéré sont évitées par mois, soit moins de deux heures par jour. Au-delà, chaque heure économisée devient un gain, à condition que les heures libérées réduisent réellement les dépenses de personnel ou évitent un recrutement." },
+  { q: "Vaut-il mieux louer, prendre un leasing ou acheter ?", a: "La location courte sert les événements et les tests. Le leasing convient à une exploitation quotidienne sans investissement initial important, à partir de 500 € HT par mois sur 36 mois. L'achat est pertinent si vous voulez constituer un parc en propre. Nous comparons les trois avec vous." },
   { q: "Combien de temps faut-il pour mettre un robot en service ?", a: "Une fois le robot disponible, l'installation se fait en général en une journée : cartographie, paramétrage des missions, essais et formation de vos équipes." },
   { q: "Le robot fonctionne-t-il en présence du public ?", a: "Oui. Tous nos robots détectent les personnes et les obstacles (LiDAR, caméras 3D, capteurs à ultrasons) et adaptent leur vitesse et leur trajectoire." },
   { q: "Faut-il un Wi-Fi pour faire fonctionner les robots ?", a: "Le Wi-Fi est recommandé pour les mises à jour, le pilotage à distance et les rapports. La plupart des robots naviguent toutefois de manière autonome sur leur propre carte, même en cas de coupure ponctuelle." },
-  { q: "Qui s'occupe de la maintenance ?", a: "Europbots. Le support technique et la maintenance sont inclus en leasing et proposés en contrat à l'achat. Nos techniciens interviennent à distance ou sur site." },
+  { q: "Qui s'occupe de la maintenance ?", a: "Europbots. Le support technique est inclus ; l'étendue de la maintenance est précisée dans chaque contrat, en leasing comme à l'achat. Nos techniciens interviennent à distance ou sur site." },
   { q: "Peut-on voir les robots avant de s'engager ?", a: "Oui, dans nos showrooms de Paris et de Clermont-Ferrand, ou sur votre site lors d'une démonstration. Lyon, Marseille et Lisbonne ouvrent prochainement." },
   { q: "Intervenez-vous partout en France ?", a: "Oui, en France et en Europe, notamment au Portugal. Nous organisons la livraison, l'installation et le support quel que soit votre emplacement." },
   { q: "Plusieurs robots peuvent-ils travailler dans le même lieu ?", a: "Oui. Les robots serveurs et logistiques fonctionnent en flotte : ils se répartissent les missions et se cèdent le passage." },

@@ -70,7 +70,7 @@ function genericFaq(r: RawRobot): { q: string; a: string }[] {
   const out = [
     {
       q: `Peut-on louer le ${r.name} plutôt que l'acheter ?`,
-      a: `Oui. Le ${r.name} est disponible en location courte durée (événement, test), en location longue durée, en leasing ou à l'achat. Le tarif dépend de la durée et du nombre de robots : Europbots vous adresse un devis sous 24 h.`,
+      a: `Oui. Le ${r.name} est disponible en location courte durée (événement, test), en leasing sur 36 mois ou à l'achat. La gamme Europbots démarre à 500 € HT par mois en leasing ; le loyer du ${r.name} dépend de la configuration et du nombre de robots : Europbots vous adresse un devis sous 24 h.`,
     },
   ];
   const battery = r.specs.find((x) => /autonomie|batterie/i.test(x.label));

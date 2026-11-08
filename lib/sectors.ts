@@ -12,11 +12,14 @@ export type SectorPage = {
   solutions: { slug: string; why: string }[];
   steps: string[];
   faq: { q: string; a: string }[];
+  /** Argumentaire de rentabilité (absent pour la location événementielle). */
+  pitch?: { title: string; text: string; hours: number };
 };
 
 export const sectorPages: SectorPage[] = [
   {
     slug: "restauration",
+    pitch: { title: "Deux heures de trajets en moins par jour suffisent.", text: "Un serveur peut passer une bonne partie de son service à marcher entre la cuisine et la salle. Si le robot reprend ne serait-ce que deux heures de ces allers-retours par jour, il finance son loyer de 500 € HT ; au-delà, chaque heure libérée est un gain, à condition qu'elle évite des heures supplémentaires ou un recrutement.", hours: 3 },
     name: "Restauration",
     h1: "Robots serveurs pour restaurants",
     seoTitle: "Robot serveur pour restaurant : location, leasing et achat",
@@ -48,6 +51,7 @@ export const sectorPages: SectorPage[] = [
   },
   {
     slug: "hotellerie",
+    pitch: { title: "Couloirs, espaces communs et horaires décalés.", text: "Le nettoyage des couloirs et des parties communes revient chaque jour, souvent en horaires décalés, là où une heure de travail coûte le plus cher. Un robot programmé la nuit prend en charge ces surfaces répétitives ; vos équipes se concentrent sur les chambres et le service client.", hours: 4 },
     name: "Hôtellerie",
     h1: "Robots pour hôtels",
     seoTitle: "Robots pour l'hôtellerie : accueil, room service et nettoyage",
@@ -79,6 +83,7 @@ export const sectorPages: SectorPage[] = [
   },
   {
     slug: "retail",
+    pitch: { title: "De grandes surfaces, un nettoyage qui revient chaque jour.", text: "En grande surface, le lavage des allées est régulier, prévisible et étendu : c'est le terrain idéal d'une autolaveuse autonome. Elle tient le rythme quotidien pendant que vos équipes se redéploient vers la mise en rayon, l'accueil et la caisse.", hours: 4 },
     name: "Retail et centres commerciaux",
     h1: "Robots pour le commerce et les centres commerciaux",
     seoTitle: "Robots pour le retail : affichage mobile, accueil et nettoyage",
@@ -110,6 +115,7 @@ export const sectorPages: SectorPage[] = [
   },
   {
     slug: "sante",
+    pitch: { title: "Des heures soignantes rendues aux patients.", text: "Chaque navette de linge ou de consommables, chaque passage de lavage des couloirs prend du temps aux équipes. Confiées à un robot, ces heures reviennent au soin. Le calcul se fait sur les heures réellement libérées.", hours: 3 },
     name: "Santé et EHPAD",
     h1: "Robots pour hôpitaux, cliniques et EHPAD",
     seoTitle: "Robots pour la santé et les EHPAD : téléprésence, logistique, nettoyage",
@@ -140,6 +146,7 @@ export const sectorPages: SectorPage[] = [
   },
   {
     slug: "industrie-logistique",
+    pitch: { title: "Des milliers de mètres carrés et des trajets à vide.", text: "Le lavage de grandes surfaces et les trajets de manutention sont les tâches les plus faciles à chiffrer : on connaît les surfaces, les fréquences et le temps passé. Un robot qui reprend trois ou quatre heures de ces tâches par jour se rembourse largement.", hours: 4 },
     name: "Industrie et entrepôts",
     h1: "Robots pour l'industrie et les entrepôts",
     seoTitle: "Robots logistiques et autolaveuses autonomes pour entrepôts",
@@ -196,6 +203,38 @@ export const sectorPages: SectorPage[] = [
       { q: "Combien de temps à l'avance faut-il réserver ?", a: "Le plus tôt possible pour garantir la disponibilité, idéalement plusieurs semaines avant un salon. Contactez-nous avec vos dates." },
       { q: "Un technicien est-il présent ?", a: "Un technicien assure la mise en route ; une assistance pendant l'événement peut être prévue dans le devis." },
       { q: "Peut-on personnaliser l'habillage et les contenus ?", a: "Oui, les contenus affichés sont préparés à vos couleurs à partir de vos visuels et vidéos." },
+    ],
+  },
+  {
+    slug: "entreprises-de-nettoyage",
+    name: "Entreprises de nettoyage",
+    pitch: { title: "Plus de surfaces traitées, moins d'heures manuelles.", text: "Pour une entreprise de propreté, le robot est un outil de rentabilité sur chaque contrat : il prend les grandes surfaces répétitives (halls, couloirs, allées) pendant que vos agents se concentrent sur les finitions, les sanitaires et les détails qui font la qualité perçue. À 500 € HT par mois, il est rentable dès qu'il évite moins de deux heures de travail manuel par jour.", hours: 4 },
+    h1: "Robots de nettoyage pour entreprises de propreté",
+    seoTitle: "Robot de nettoyage pour entreprise de propreté : leasing dès 500 €/mois",
+    metaDescription:
+      "Autolaveuses et aspirateurs autonomes pour entreprises de nettoyage : plus de m² traités par agent, des heures manuelles en moins. Leasing dès 500 € HT/mois sur 36 mois, simulateur de rentabilité.",
+    photo: "/assets/robots/l3/situation.webp",
+    intro: [
+      "Une entreprise de nettoyage vend des heures et des mètres carrés. Un robot autonome prend en charge la part la plus répétitive des prestations (lavage des grandes surfaces, aspiration des couloirs) et augmente le nombre de mètres carrés traités par agent.",
+      "Les modèles proposés par Europbots couvrent de 700 m² par heure (CleaniBot K1, aspiration) à 2 203 m² par heure (Cenobots L50, lavage). Ils se programment pour travailler la nuit, se vident et se rechargent seuls selon le modèle, et fournissent des rapports de nettoyage à présenter à vos clients.",
+    ],
+    challenges: [
+      { t: "Marges serrées", d: "Les contrats se jouent sur le coût de l'heure : chaque heure manuelle évitée compte." },
+      { t: "Recrutement", d: "Les postes d'agent restent difficiles à pourvoir, surtout en horaires décalés." },
+      { t: "Preuve de passage", d: "Les clients demandent une traçabilité des prestations réalisées." },
+    ],
+    solutions: [
+      { slug: "cenobots-l50", why: "Grandes surfaces : 2 203 m²/h, réservoirs de 55 L, cartographie mise à jour seule." },
+      { slug: "cleanibot-c5", why: "Lavage profond 3-en-1 à 1 980 m²/h, vidange et recharge automatiques." },
+      { slug: "cleanibot-m1", why: "Immeubles multi-étages : il prend l'ascenseur seul." },
+      { slug: "cleanibot-k1", why: "Moquettes de bureaux et d'hôtels, rapports de nettoyage dans le cloud." },
+      { slug: "ikitbot-one-s55", why: "Sites ouverts au public : 42 dB, sol sec immédiatement." },
+    ],
+    steps: ["Choix des sites et surfaces à robotiser", "Essai sur un contrat pilote", "Cartographie et programmation des cycles", "Suivi des rapports et extension"],
+    faq: [
+      { q: "Un robot de nettoyage est-il rentable pour une entreprise de propreté ?", a: "À 500 € HT par mois et 13 € de coût horaire, il faut éviter environ 39 heures de travail par mois, soit moins de deux heures par jour. Sur de grandes surfaces nettoyées quotidiennement, ce seuil est vite atteint." },
+      { q: "Le robot peut-il passer d'un site client à l'autre ?", a: "Oui, plusieurs cartes peuvent être enregistrées. En pratique, un robot affecté à un site à forte surface est le plus rentable." },
+      { q: "Peut-on montrer au client ce qui a été nettoyé ?", a: "Les robots pilotés par application ou cloud (gamme CleaniBot notamment) produisent des rapports de nettoyage : surfaces, durées, trajets." },
     ],
   },
 ];

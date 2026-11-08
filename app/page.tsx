@@ -6,6 +6,8 @@ import Faq from "@/components/Faq";
 import HeroVideo from "@/components/HeroVideo";
 import MapEmbed from "@/components/MapEmbed";
 import RangePanels from "@/components/RangePanels";
+import Simulator from "@/components/Simulator";
+import { pricing } from "@/lib/pricing";
 import Sectors from "@/components/Sectors";
 import { CountUp, LineReveal, Reveal } from "@/components/motion";
 import { Arrow, Button, Eyebrow } from "@/components/ui";
@@ -29,7 +31,7 @@ export default function Home() {
       <section className="relative isolate flex min-h-[100svh] flex-col justify-end overflow-hidden text-on-dark">
         <HeroVideo poster="/assets/robots/novabot/situation.webp" src="/assets/video/hero.mp4" />
         <div className="wrap pb-10 pt-32 md:pb-14">
-          <Eyebrow onDark>Location · Leasing · Achat</Eyebrow>
+          <Eyebrow onDark>Leasing dès 500 € HT / mois · Location · Achat</Eyebrow>
           <h1 className="t-display mt-6 text-[clamp(2.6rem,9.2vw,9.5rem)]">
             <LineReveal lines={["Robotique", "de service", <span key="a" className="text-lime">accessible.</span>]} />
           </h1>
@@ -50,7 +52,7 @@ export default function Home() {
         <div className="wrap"><div className="grid grid-cols-2 gap-px bg-border md:grid-cols-4">
           {[
             [String(robots.length), "robots au catalogue"],
-            ["3", "gammes : service, nettoyage, logistique"],
+            ["500 €", "HT par mois, leasing sur 36 mois"],
             ["2", "showrooms ouverts, 3 en préparation"],
             ["24 h", "pour recevoir votre devis"],
           ].map(([v, l]) => (
@@ -83,7 +85,7 @@ export default function Home() {
             </Reveal>
             <div className="mt-16 grid gap-10 border-t border-border pt-10 md:grid-cols-3">
               {[
-                ["Leasing", "Un loyer mensuel, maintenance comprise, sans investissement lourd."],
+                ["Leasing", "Dès 500 € HT par mois sur 36 mois, sans investissement lourd."],
                 ["Clé en main", "Livraison, cartographie, paramétrage et formation de vos équipes."],
                 ["Support", "Des techniciens à distance et sur site, pendant toute la durée du contrat."],
               ].map(([t, d]) => (
@@ -170,14 +172,15 @@ export default function Home() {
           <div className="mx-auto mb-14 max-w-2xl text-center">
             <Eyebrow index="04">Formules</Eyebrow>
             <h2 className="t-h2 mt-5">Louer, prendre en leasing ou acheter.</h2>
-            <p className="mt-4 text-[17px] text-text-muted">Les trois formules incluent l&rsquo;installation et la formation. Le prix dépend du robot et de la durée : devis sous 24 h.</p>
+            <p className="mt-4 text-[17px] text-text-muted">Les trois formules incluent l&rsquo;installation et la formation. Leasing sur 36 mois à partir de 500 € HT par mois ; location courte et achat sur devis, sous 24 h.</p>
           </div>
           <div className="grid gap-4 lg:grid-cols-3 lg:items-stretch">
             {formulas.map((f) => (
               <div key={f.name} className={`relative flex flex-col p-8 md:p-10 ${f.featured ? "bg-ink text-on-dark lg:-my-4 lg:py-14" : "bg-paper"}`}>
                 {f.featured && <span className="t-mono absolute right-6 top-6 bg-lime px-2.5 py-1 text-ink">Le plus choisi</span>}
                 <p className={`t-mono ${f.featured ? "text-on-dark-muted" : "text-text-subtle"}`}>{f.for}</p>
-                <h3 className="mt-3 text-[clamp(2.2rem,3.4vw,3rem)] t-h3 leading-none ">{f.name}</h3>
+                <h3 className="mt-3 text-[clamp(2.2rem,3.4vw,3rem)] t-h3 leading-none">{f.name}</h3>
+                <p className={`mt-3 text-[18px] font-medium ${f.featured ? "text-lime" : "text-text-muted"}`}>{f.price}</p>
                 <p className={`mt-4 text-[16px] leading-relaxed ${f.featured ? "text-on-dark-muted" : "text-text-muted"}`}>{f.text}</p>
                 <ul className={`mt-8 grid gap-3 border-t pt-8 text-[15px] ${f.featured ? "border-ink-line" : "border-border"}`}>
                   {f.lines.map((l) => (
@@ -193,6 +196,24 @@ export default function Home() {
               </div>
             ))}
           </div>
+        </div>
+      </section>
+
+      {/* 7 bis. Rentabilité — simulateur (chiffres Europbots) */}
+      <section id="simulateur" className="scroll-mt-20 bg-ink py-28 text-on-dark md:py-36">
+        <div className="wrap">
+          <div className="mb-14 grid gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
+            <div>
+              <Eyebrow onDark>Rentabilité</Eyebrow>
+              <h2 className="t-h2 mt-5 max-w-[20ch]">
+                Un robot à {pricing.leaseFrom} € par mois n&rsquo;a pas besoin de remplacer un salarié <span className="text-lime">pour être rentable.</span>
+              </h2>
+            </div>
+            <p className="max-w-[48ch] text-[17px] leading-relaxed text-on-dark-muted lg:justify-self-end">
+              Il lui suffit de faire économiser assez d&rsquo;heures de travail. À 13 € de l&rsquo;heure, le loyer est couvert dès 39 heures évitées par mois, soit moins de deux heures par jour. Réglez les curseurs selon votre activité.
+            </p>
+          </div>
+          <Simulator compact />
         </div>
       </section>
 

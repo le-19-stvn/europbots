@@ -92,7 +92,7 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
               <Button href={`/contact?robot=${r.slug}#devis`}>Demander un devis</Button>
               <Button href={BOOKING_HREF} variant="line">Demander une démo</Button>
             </div>
-            <p className="t-mono mt-6 text-text-subtle">Location · Leasing · Achat — réponse sous 24 h</p>
+            <p className="t-mono mt-6 text-text-subtle">Leasing 36 mois · gamme dès 500 € HT / mois · <Link href="/location-leasing-robot#simulateur" className="underline underline-offset-4 hover:text-ink">calculer la rentabilité</Link></p>
           </div>
           <Stage className="aspect-square overflow-hidden lg:aspect-[5/5.4]">
             <span className="floor-glow" />

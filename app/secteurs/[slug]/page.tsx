@@ -5,6 +5,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import CtaFinal from "@/components/CtaFinal";
 import Faq from "@/components/Faq";
+import Simulator from "@/components/Simulator";
 import { LineReveal } from "@/components/motion";
 import { Arrow, Button, Eyebrow, Stage } from "@/components/ui";
 import { getRobot } from "@/lib/robots";
@@ -108,6 +109,21 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
           </ul>
         </div>
       </section>
+
+      {s.pitch && (
+        <section className="bg-ink py-24 text-on-dark md:py-32">
+          <div className="wrap">
+            <div className="mb-12 grid gap-8 lg:grid-cols-[1fr_1fr] lg:items-end">
+              <div>
+                <Eyebrow onDark>Rentabilité · leasing dès 500 € HT / mois</Eyebrow>
+                <h2 className="t-h2 mt-5 max-w-[18ch]">{s.pitch.title}</h2>
+              </div>
+              <p className="max-w-[54ch] text-[17px] leading-relaxed text-on-dark-muted lg:justify-self-end">{s.pitch.text}</p>
+            </div>
+            <Simulator compact initialHours={s.pitch.hours} />
+          </div>
+        </section>
+      )}
 
       <section className="bg-surface py-24 md:py-28">
         <div className="wrap">

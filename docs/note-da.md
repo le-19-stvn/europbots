@@ -50,8 +50,8 @@ Sur https://www.bing.com/webmasters, importer le site depuis Search Console (un 
 1. **Constructeur des Dinerbot T5, T8, T9 et T10** : le site actuel indique OrionStar, mais ces modèles sont fabriqués par **Keenon Robotics** (le logo Keenon est visible sur les photos). Le nouveau site affiche Keenon : à confirmer.
 2. **LuckiBot** : le site actuel mélange Pudu (balise titre) et OrionStar (fiche). Le nouveau site affiche OrionStar.
 3. **Temi V3** : dimensions corrigées de « 35 × 45 × 97 mm » en 350 × 450 × 970 mm (erreur d'unité probable).
-4. **Calculateur de leasing** : en attente des grilles de prix (durées, loyers par robot). Aucun prix n'a été inventé ; le guide propose pour l'instant « Recevoir une simulation de loyer ».
-5. **Formules** : les lignes de la section Formules (ce qui est inclus en location, leasing, achat) sont déduites du site actuel (« installation, cartographie et support technique inclus »). À relire.
+4. **Prix et simulateur** : leasing sur 36 mois à partir de 500 € HT/mois, coût horaire de 13 €, 22 jours, salarié à 2 000 €/mois (chiffres fournis par Europbots, centralisés dans `lib/pricing.ts`). Le simulateur (accueil, guide, pages secteurs) reprend les réserves : estimation hors maintenance, consommables et supervision ; économies réelles seulement si les heures libérées réduisent les dépenses de personnel.
+5. **Maintenance en leasing** : le site indique « support technique inclus, maintenance selon les conditions du contrat ». À préciser si la maintenance est incluse dans les 500 €.
 6. **Formulaire de contact** : il ouvre la messagerie du visiteur avec la demande pré-remplie vers contact@europbots.com. Pour un envoi direct sans messagerie, brancher une route `/api/devis` (Resend, Brevo ou webhook CRM).
 7. **Vidéo du hero** : 40 Mo. À compresser (cible < 8 Mo, H.264 1080p) pour accélérer le chargement ; elle n'est chargée qu'en desktop.
 8. **Photo du showroom de Clermont-Ferrand** : la carte utilise une photo de robot en attendant une vraie photo du lieu.

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: "%s · Europbots",
   },
   description:
-    "Location, leasing et vente de robots de service, d'accueil, de nettoyage et de logistique. 19 robots OrionStar, Keenon, temi, Cenobots… installés, cartographiés et suivis par Europbots.",
+    "Leasing de robots dès 500 € HT/mois, location et vente : robots de service, d'accueil, de nettoyage et de logistique. 19 robots OrionStar, Keenon, temi, Cenobots… installés, cartographiés et suivis par Europbots.",
   openGraph: {
     type: "website",
     siteName: "Europbots",
