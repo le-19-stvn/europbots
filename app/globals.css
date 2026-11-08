@@ -1,0 +1,188 @@
+@import "tailwindcss";
+
+/* Charte Europbots : nuit #080808, papier #FAFAFA, signal #D2FF00 (logo-jaune.svg). */
+:root {
+  --ink: #080808;
+  --ink-2: #111111;
+  --ink-3: #1a1a1a;
+  --ink-line: #262626;
+  --paper: #fafafa;
+  --surface: #f1f1ee;
+  --surface-2: #e7e7e3;
+  --border: #e0e0dc;
+  --text: #080808;
+  --text-muted: #5b5b57;
+  --text-subtle: #858580;
+  --on-dark: #fafafa;
+  --on-dark-muted: #a6a6a0;
+  --on-dark-subtle: #6f6f6a;
+  --lime: #d2ff00;
+  --lime-hover: #e2ff4d;
+
+
+  --font-display: "Clash Grotesk", "Geist", sans-serif;
+  --font-brand: "Syncopate", sans-serif;
+  --font-body: "Geist", system-ui, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, monospace;
+  --ease-ui: cubic-bezier(0.32, 0.72, 0, 1);
+  --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
+  --dur-ui: 450ms;
+  --gutter: clamp(16px, 4vw, 56px);
+}
+
+@theme inline {
+  --color-ink: var(--ink);
+  --color-ink-2: var(--ink-2);
+  --color-ink-3: var(--ink-3);
+  --color-ink-line: var(--ink-line);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-border: var(--border);
+  --color-text: var(--text);
+  --color-text-muted: var(--text-muted);
+  --color-text-subtle: var(--text-subtle);
+  --color-on-dark: var(--on-dark);
+  --color-on-dark-muted: var(--on-dark-muted);
+  --color-on-dark-subtle: var(--on-dark-subtle);
+  --color-lime: var(--lime);
+  --color-lime-hover: var(--lime-hover);
+  --font-display: var(--font-display);
+  --font-brand: var(--font-brand);
+  --font-sans: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+html { scroll-behavior: smooth; -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--paper);
+  color: var(--text);
+  font-family: var(--font-body);
+}
+h1, h2, h3, h4 { text-wrap: balance; }
+::selection { background: var(--lime); color: var(--ink); }
+
+.wrap { width: 100%; max-width: 1440px; margin-inline: auto; padding-inline: var(--gutter); }
+
+/* Titres : Syncopate pour l'affiche, Red Hat Display serré pour le reste */
+.t-display {
+  font-family: var(--font-display);
+  font-weight: 500;
+  text-transform: uppercase;
+  letter-spacing: -0.035em;
+  line-height: 0.88;
+}
+.t-h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  letter-spacing: -0.03em;
+  line-height: 1;
+  font-size: clamp(2.1rem, 4.4vw, 4rem);
+}
+.t-h3 { font-family: var(--font-display); font-weight: 500; letter-spacing: -0.02em; line-height: 1.05; }
+.t-mono {
+  font-family: var(--font-mono);
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Eyebrow : les trois barres du monogramme EB */
+.eyebrow { display: inline-flex; align-items: center; gap: 12px; }
+.eyebrow-bars { display: inline-grid; gap: 2px; }
+.eyebrow-bars i { display: block; height: 2px; background: currentColor; }
+.eyebrow-bars i:nth-child(1) { width: 9px; }
+.eyebrow-bars i:nth-child(2), .eyebrow-bars i:nth-child(3) { width: 16px; border-radius: 0 2px 2px 0; }
+
+/* Forme signature : le « B » du logo, angle droit à gauche, demi-cercle à droite */
+.btn {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 14px;
+  height: 52px;
+  padding: 0 10px 0 22px;
+  border-radius: 0 999px 999px 0;
+  font-weight: 700;
+  font-size: 15px;
+  letter-spacing: -0.01em;
+  white-space: nowrap;
+  overflow: hidden;
+  transition: background-color 300ms var(--ease-ui), color 300ms var(--ease-ui), box-shadow 300ms var(--ease-ui);
+}
+.btn:active { transform: scale(0.97); }
+.btn-lime { background: var(--lime); color: var(--ink); }
+.btn-lime:hover { background: var(--lime-hover); box-shadow: 0 0 0 4px rgb(210 255 0 / 0.22); }
+.btn-ink { background: var(--ink); color: var(--paper); }
+.btn-ink:hover { background: #262626; }
+.btn-line { border: 1px solid currentColor; padding-right: 10px; }
+.btn-line:hover { background: rgb(128 128 128 / 0.08); }
+.btn-sm { height: 42px; font-size: 14px; padding-left: 18px; gap: 10px; }
+.btn-icon {
+  display: grid; place-items: center; width: 34px; height: 34px; border-radius: 999px;
+  overflow: hidden; position: relative;
+}
+.btn-sm .btn-icon { width: 28px; height: 28px; }
+.btn-lime .btn-icon { background: var(--ink); color: var(--lime); }
+.btn-ink .btn-icon { background: var(--lime); color: var(--ink); }
+.btn-line .btn-icon { background: currentColor; }
+.btn-line .btn-icon svg { color: var(--paper); }
+.btn-line.on-dark .btn-icon svg { color: var(--ink); }
+/* deux flèches qui se relaient */
+.btn-icon svg { transition: transform 450ms var(--ease-ui); }
+.btn-icon svg + svg { position: absolute; transform: translateX(-160%); }
+.btn:hover .btn-icon svg:first-child { transform: translateX(160%); }
+.btn:hover .btn-icon svg + svg { transform: translateX(0); }
+
+/* Lien souligné qui se dessine */
+.ulink { background: linear-gradient(currentColor, currentColor) 0 100% / 0 1px no-repeat; transition: background-size 450ms var(--ease-ui); }
+.ulink:hover { background-size: 100% 1px; }
+
+/* Scène produit : repères de fiche technique aux quatre coins */
+.stage { position: relative; background: var(--surface); }
+.stage::before, .stage::after, .stage > .stage-c1, .stage > .stage-c2 {
+  content: ""; position: absolute; width: 11px; height: 11px; pointer-events: none;
+  background:
+    linear-gradient(var(--text-subtle), var(--text-subtle)) center / 11px 1px no-repeat,
+    linear-gradient(var(--text-subtle), var(--text-subtle)) center / 1px 11px no-repeat;
+}
+.stage::before { top: 10px; left: 10px; }
+.stage::after { top: 10px; right: 10px; }
+.stage > .stage-c1 { bottom: 10px; left: 10px; }
+.stage > .stage-c2 { bottom: 10px; right: 10px; }
+.stage.dark { background: var(--ink-2); }
+.stage.dark::before, .stage.dark::after, .stage.dark > .stage-c1, .stage.dark > .stage-c2 {
+  background:
+    linear-gradient(var(--on-dark-subtle), var(--on-dark-subtle)) center / 11px 1px no-repeat,
+    linear-gradient(var(--on-dark-subtle), var(--on-dark-subtle)) center / 1px 11px no-repeat;
+}
+
+/* Halo de sol sous les robots */
+.floor-glow { position: absolute; left: 50%; bottom: 8%; width: 70%; height: 14%; transform: translateX(-50%);
+  background: radial-gradient(closest-side, rgb(0 0 0 / 0.16), transparent); filter: blur(6px); }
+
+/* Gros chiffres sur fond sombre */
+.grad-dark { background: linear-gradient(180deg, #ffffff 30%, #8f8f8a 110%); -webkit-background-clip: text; background-clip: text; color: transparent; }
+
+/* FAQ */
+.faq-body { display: grid; grid-template-rows: 0fr; transition: grid-template-rows 450ms var(--ease-ui); }
+.faq-item[data-open="true"] .faq-body { grid-template-rows: 1fr; }
+.faq-plus { transition: transform 450ms var(--ease-ui); }
+.faq-item[data-open="true"] .faq-plus { transform: rotate(45deg); }
+
+/* Marquee */
+@keyframes marquee { to { transform: translateX(-50%); } }
+.marquee { animation: marquee 48s linear infinite; }
+.marquee-mask { mask-image: linear-gradient(90deg, transparent, #000 12%, #000 88%, transparent); }
+.marquee-mask:hover .marquee { animation-play-state: paused; }
+
+@keyframes ping { 75%, 100% { transform: scale(2.2); opacity: 0; } }
+.ping { animation: ping 2s cubic-bezier(0, 0, 0.2, 1) infinite; }
+
+input, select, textarea { font-size: 16px; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
+}
+
+@keyframes fadein { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: none; } }

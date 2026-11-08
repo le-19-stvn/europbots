@@ -1,0 +1,1350 @@
+[
+ {
+  "oldSlug": "cruzr",
+  "name": "Ubtech Cruzr",
+  "category": "service",
+  "desc": "Robot humanoïde basé sur l'IA avec bras articulés et plateforme de gestion cloud. Conçu pour l'accueil personnalisé et les démonstrations interactives.",
+  "specs": [
+   {
+    "label": "Hauteur / Poids",
+    "value": "128 cm / 47 kg"
+   },
+   {
+    "label": "Bras",
+    "value": "2 bras 6-DOF"
+   },
+   {
+    "label": "Écran",
+    "value": "11.6\""
+   },
+   {
+    "label": "Caméra & Son",
+    "value": "Caméra HD / Son stéréo"
+   },
+   {
+    "label": "Batterie",
+    "value": "4h d'autonomie"
+   },
+   {
+    "label": "Navigation",
+    "value": "SLAM Laser + Vision"
+   }
+  ],
+  "stats": [
+   {
+    "value": "2",
+    "label": "Bras articulés"
+   },
+   {
+    "value": "28+",
+    "label": "Langues"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "SLAM",
+    "label": "Navigation"
+   }
+  ],
+  "features": [
+   {
+    "title": "Bras Articulés.",
+    "desc": "Deux bras 6-DOF expressifs et précis. Permet des gestes naturels, démonstrations interactives et accueil personnalisé.",
+    "metrics": [
+     {
+      "value": "6-DOF",
+      "label": "Par bras"
+     },
+     {
+      "value": "2",
+      "label": "Bras"
+     }
+    ]
+   },
+   {
+    "title": "IA Conversationnelle.",
+    "desc": "Une intelligence artificielle avancée pour échanger naturellement en plus de 28 langues, avec reconnaissance vocale et synthèse fluide.",
+    "metrics": [
+     {
+      "value": "28+",
+      "label": "Langues"
+     },
+     {
+      "value": "HD",
+      "label": "Caméra"
+     }
+    ]
+   },
+   {
+    "title": "Plateforme Cloud.",
+    "desc": "Gestion centralisée à distance, mises à jour OTA, déploiement de scénarios personnalisés et analytics en temps réel.",
+    "metrics": [
+     {
+      "value": "OTA",
+      "label": "Mises à jour"
+     },
+     {
+      "value": "24/7",
+      "label": "Monitoring"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "padbot-x3",
+  "name": "Inbot PadBot X3",
+  "category": "service",
+  "desc": "Tête motorisée orientable, reconnaissance faciale et navigation SLAM Laser pour un accueil personnalisé adaptatif.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "410 × 410 × 1280 mm"
+   },
+   {
+    "label": "Tête motorisée",
+    "value": "Rotation 360°"
+   },
+   {
+    "label": "Écran",
+    "value": "Tactile 10.1\""
+   },
+   {
+    "label": "Reconnaissance",
+    "value": "Faciale par IA"
+   },
+   {
+    "label": "Navigation",
+    "value": "SLAM Laser"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "8h / 4h"
+   }
+  ],
+  "stats": [
+   {
+    "value": "360°",
+    "label": "Tête motorisée"
+   },
+   {
+    "value": "AI",
+    "label": "Reconnaissance faciale"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "10.1\"",
+    "label": "Écran tactile"
+   }
+  ],
+  "features": [
+   {
+    "title": "Tête Motorisée 360°.",
+    "desc": "Une tête entièrement orientable suit naturellement les visiteurs et crée une présence chaleureuse à l'accueil.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Rotation"
+     },
+     {
+      "value": "10.1\"",
+      "label": "Écran"
+     }
+    ]
+   },
+   {
+    "title": "Reconnaissance Faciale.",
+    "desc": "Identifiez vos visiteurs récurrents et personnalisez l'accueil avec une reconnaissance faciale rapide et fiable.",
+    "metrics": [
+     {
+      "value": "AI",
+      "label": "Reconnaissance"
+     },
+     {
+      "value": "RGPD",
+      "label": "Compatible"
+     }
+    ]
+   },
+   {
+    "title": "Navigation SLAM Laser.",
+    "desc": "Cartographie laser de précision pour évoluer en toute autonomie et guider vos visiteurs avec sécurité.",
+    "metrics": [
+     {
+      "value": "Laser",
+      "label": "SLAM"
+     },
+     {
+      "value": "8h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "W3",
+  "name": "Butlerbot W3",
+  "category": "service",
+  "desc": "L'élégance au service de l'hospitalité. Le Butlerbot W3 redéfinit le room service grâce à ses compartiments sécurisés et sa capacité à emprunter les ascenseurs en totale autonomie.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "450 × 450 × 1080 mm"
+   },
+   {
+    "label": "Poids à vide",
+    "value": "45 kg"
+   },
+   {
+    "label": "Compartiments",
+    "value": "Jusqu'à 4 (Total : 90 L)"
+   },
+   {
+    "label": "Charge utile",
+    "value": "20 kg"
+   },
+   {
+    "label": "Navigation",
+    "value": "V-SLAM (Vision IA + Laser)"
+   },
+   {
+    "label": "Vitesse max",
+    "value": "1.0 m/s (ajustable)"
+   },
+   {
+    "label": "Autonomie / Charge",
+    "value": "10-12h / 4.5h"
+   }
+  ],
+  "stats": [
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "4",
+    "label": "Compartiments"
+   },
+   {
+    "value": "90L",
+    "label": "Volume total"
+   },
+   {
+    "value": "IoT",
+    "label": "Ascenseur"
+   }
+  ],
+  "features": [
+   {
+    "title": "Intégration Ascenseur.",
+    "desc": "Le W3 s'interface avec le système IoT de votre bâtiment pour appeler l'ascenseur et changer d'étage sans assistance humaine.",
+    "metrics": [
+     {
+      "value": "IoT",
+      "label": "Protocole"
+     },
+     {
+      "value": "Multi",
+      "label": "Étages"
+     }
+    ]
+   },
+   {
+    "title": "Cabines Sécurisées.",
+    "desc": "Multiples compartiments verrouillés numériquement. Le client ouvre son casier via un code PIN ou un QR code sur l'écran.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Compartiments"
+     },
+     {
+      "value": "PIN/QR",
+      "label": "Verrouillage"
+     }
+    ]
+   },
+   {
+    "title": "Évitement 3D.",
+    "desc": "Caméras de profondeur et capteurs LiDAR permettant au robot d'éviter les obstacles dynamiques avec une précision millimétrique.",
+    "metrics": [
+     {
+      "value": "V-SLAM",
+      "label": "Navigation"
+     },
+     {
+      "value": "3D",
+      "label": "Caméras"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "cadebot-l100",
+  "name": "Reeman Cadebot L100",
+  "category": "service",
+  "desc": "Double écran (10.1\" tactile + 21.5\" Pub) et navigation U-SLAM Fusion (Laser + Vision IA) pour livraison et publicité combinées.",
+  "specs": [
+   {
+    "label": "Charge max",
+    "value": "100 kg"
+   },
+   {
+    "label": "Écran tactile",
+    "value": "10.1\""
+   },
+   {
+    "label": "Écran publicitaire",
+    "value": "21.5\""
+   },
+   {
+    "label": "Navigation",
+    "value": "U-SLAM Fusion (Laser + Vision IA)"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "12h / 4h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "600 × 500 × 1450 mm"
+   }
+  ],
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge max"
+   },
+   {
+    "value": "2",
+    "label": "Écrans"
+   },
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "U-SLAM",
+    "label": "Fusion"
+   }
+  ],
+  "features": [
+   {
+    "title": "Double Écran.",
+    "desc": "Combinaison d'un écran tactile 10.1\" pour l'interaction et d'un écran publicitaire 21.5\" pour diffuser vos contenus marketing.",
+    "metrics": [
+     {
+      "value": "10.1\"",
+      "label": "Tactile"
+     },
+     {
+      "value": "21.5\"",
+      "label": "Publicitaire"
+     }
+    ]
+   },
+   {
+    "title": "U-SLAM Fusion.",
+    "desc": "Navigation hybride combinant LiDAR laser et vision par intelligence artificielle pour une cartographie dynamique et fiable.",
+    "metrics": [
+     {
+      "value": "Laser",
+      "label": "LiDAR"
+     },
+     {
+      "value": "Vision IA",
+      "label": "Caméra"
+     }
+    ]
+   },
+   {
+    "title": "Charge 100kg.",
+    "desc": "Capacité de charge utile jusqu'à 100 kg pour assurer le transport et la livraison de vos marchandises en toute fiabilité.",
+    "metrics": [
+     {
+      "value": "100kg",
+      "label": "Charge max"
+     },
+     {
+      "value": "12h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "temi-platform",
+  "name": "Temi Platform",
+  "category": "service",
+  "desc": "La Temi Platform est une base mobile autonome ouverte. Conçue pour les entreprises et laboratoires, elle permet d'intégrer facilement vos propres dispositifs (écrans, capteurs, bras) sur un système de navigation éprouvé.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "500 × 500 × 320 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "36.3 kg"
+   },
+   {
+    "label": "Charge utile",
+    "value": "50 kg"
+   },
+   {
+    "label": "Emplacements",
+    "value": "1000 emplacements"
+   },
+   {
+    "label": "Couverture",
+    "value": "20 000 m²"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8h"
+   },
+   {
+    "label": "Charge",
+    "value": "4h"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1 m/s"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR"
+   }
+  ],
+  "stats": [
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "50kg",
+    "label": "Charge"
+   },
+   {
+    "value": "20000m²",
+    "label": "Couverture"
+   },
+   {
+    "value": "1000",
+    "label": "Points"
+   }
+  ],
+  "features": [
+   {
+    "title": "Open Source.",
+    "desc": "SDK Android complet pour développer vos propres applications et workflows sur mesure.",
+    "metrics": [
+     {
+      "value": "SDK",
+      "label": "Android"
+     },
+     {
+      "value": "Open",
+      "label": "Source"
+     }
+    ]
+   },
+   {
+    "title": "Modulaire Intégrable.",
+    "desc": "Fixations standard pour ajouter écrans, capteurs, bras robotiques ou modules métier spécifiques.",
+    "metrics": [
+     {
+      "value": "Modulaire",
+      "label": "Base"
+     },
+     {
+      "value": "50kg",
+      "label": "Charge"
+     }
+    ]
+   },
+   {
+    "title": "Navigation LiDAR.",
+    "desc": "LiDAR et caméras 3D pour une cartographie jusqu'à 20 000 m² et 1000 emplacements.",
+    "metrics": [
+     {
+      "value": "LiDAR",
+      "label": "3D Cam"
+     },
+     {
+      "value": "20K m²",
+      "label": "Couverture"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "blackjack",
+  "name": "SMP Robotics Blackjack",
+  "category": "service",
+  "desc": "Mât télescopique (2m21), caméra 360° thermique, capteurs d'air, son et vibrations pour inspection et sécurité industrielles.",
+  "specs": [
+   {
+    "label": "Hauteur mât",
+    "value": "2.21 m"
+   },
+   {
+    "label": "Caméra",
+    "value": "360° thermique"
+   },
+   {
+    "label": "Capteurs",
+    "value": "Air / Son / Vibration"
+   },
+   {
+    "label": "Batterie",
+    "value": "24 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "Autonome IP66"
+   },
+   {
+    "label": "Dimensions",
+    "value": "700 × 600 × 1500 mm (mât rétracté)"
+   }
+  ],
+  "stats": [
+   {
+    "value": "2m21",
+    "label": "Mât télescopique"
+   },
+   {
+    "value": "360°",
+    "label": "Caméra"
+   },
+   {
+    "value": "24h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "Multi",
+    "label": "Capteurs"
+   }
+  ],
+  "features": [
+   {
+    "title": "Mât Télescopique.",
+    "desc": "Mât télescopique pouvant atteindre 2m21 de hauteur pour inspecter et surveiller les zones difficiles d'accès.",
+    "metrics": [
+     {
+      "value": "2.21m",
+      "label": "Hauteur max"
+     },
+     {
+      "value": "IP66",
+      "label": "Étanchéité"
+     }
+    ]
+   },
+   {
+    "title": "Caméra 360° Thermique.",
+    "desc": "Vision panoramique 360° couplée à l'imagerie thermique pour détecter anomalies, surchauffes et intrusions de jour comme de nuit.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Vision"
+     },
+     {
+      "value": "IR",
+      "label": "Thermique"
+     }
+    ]
+   },
+   {
+    "title": "Capteurs Multi.",
+    "desc": "Suite de capteurs environnementaux mesurant la qualité de l'air, le son et les vibrations pour une supervision industrielle complète.",
+    "metrics": [
+     {
+      "value": "3+",
+      "label": "Capteurs"
+     },
+     {
+      "value": "24h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "c3",
+  "name": "Inbot PadBot C3",
+  "category": "nettoyage",
+  "desc": "Ultra compact et silencieux. Aspiration puissante 15 000 Pa et station automatique incluse pour les espaces commerciaux.",
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "15 000 Pa"
+   },
+   {
+    "label": "Niveau sonore",
+    "value": "55 dB"
+   },
+   {
+    "label": "Batterie",
+    "value": "3h"
+   },
+   {
+    "label": "Charge",
+    "value": "2.5h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "350 × 350 × 100 mm"
+   },
+   {
+    "label": "Réservoir poussière",
+    "value": "0.4 L"
+   },
+   {
+    "label": "Station",
+    "value": "Automatique incluse"
+   }
+  ],
+  "stats": [
+   {
+    "value": "15000 Pa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "3h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "55dB",
+    "label": "Ultra silencieux"
+   },
+   {
+    "value": "AUTO",
+    "label": "Station auto"
+   }
+  ],
+  "features": [
+   {
+    "title": "Aspiration 15 000 Pa.",
+    "desc": "Une puissance d'aspiration exceptionnelle pour capturer toute la poussière et les particules fines, même dans les espaces les plus exigeants.",
+    "metrics": [
+     {
+      "value": "15 000 Pa",
+      "label": "Puissance"
+     },
+     {
+      "value": "0.4L",
+      "label": "Réservoir"
+     }
+    ]
+   },
+   {
+    "title": "Ultra silencieux.",
+    "desc": "Avec seulement 55dB, le PadBot C3 nettoie discrètement même en présence de visiteurs ou de personnel sans perturber les activités.",
+    "metrics": [
+     {
+      "value": "55dB",
+      "label": "Niveau sonore"
+     },
+     {
+      "value": "24/7",
+      "label": "Discrétion"
+     }
+    ]
+   },
+   {
+    "title": "Station automatique.",
+    "desc": "Station de charge incluse pour un retour automatique. Le robot retourne à sa base, recharge ses batteries et reprend le travail sans intervention humaine.",
+    "metrics": [
+     {
+      "value": "3h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "2.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "monster",
+  "name": "Pudu Monster",
+  "category": "nettoyage",
+  "desc": "Balayage intelligent grande surface. Navigation LiDAR 360°, balayage en arc et autonomie de 10h pour les vastes espaces.",
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "4000 m²/h"
+   },
+   {
+    "label": "Largeur de balayage",
+    "value": "80 cm"
+   },
+   {
+    "label": "Batterie",
+    "value": "10 h"
+   },
+   {
+    "label": "Charge",
+    "value": "5 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 360°"
+   },
+   {
+    "label": "Dimensions",
+    "value": "750 × 650 × 1050 mm"
+   },
+   {
+    "label": "Réservoir déchets",
+    "value": "50 L"
+   }
+  ],
+  "stats": [
+   {
+    "value": "4000",
+    "label": "m²/h"
+   },
+   {
+    "value": "10h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "360°",
+    "label": "LiDAR"
+   },
+   {
+    "value": "80cm",
+    "label": "Brosse"
+   }
+  ],
+  "features": [
+   {
+    "title": "Balayage en arc.",
+    "desc": "Trajectoires de balayage en arc optimisées pour maximiser la couverture et l'efficacité sur les très grandes surfaces.",
+    "metrics": [
+     {
+      "value": "80cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "4000",
+      "label": "m²/h"
+     }
+    ]
+   },
+   {
+    "title": "LiDAR 360°.",
+    "desc": "Système de navigation LiDAR 360° pour une perception complète de l'environnement et un évitement précis des obstacles.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Détection"
+     },
+     {
+      "value": "IA",
+      "label": "Navigation"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie 10h.",
+    "desc": "Une autonomie remarquable de 10 heures qui permet de couvrir l'intégralité d'une journée d'opérations sur de vastes surfaces.",
+    "metrics": [
+     {
+      "value": "10h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "tn70",
+  "name": "Sparkoz TN70",
+  "category": "nettoyage",
+  "desc": "Rendement exceptionnel (2040 m²/h) avec 27kg de pression au sol et un grand réservoir 70L pour les nettoyages industriels.",
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "2040 m²/h"
+   },
+   {
+    "label": "Pression au sol",
+    "value": "27 kg"
+   },
+   {
+    "label": "Réservoir eau propre",
+    "value": "70 L"
+   },
+   {
+    "label": "Réservoir eau sale",
+    "value": "75 L"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "5h / 3h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "1100 × 650 × 1100 mm"
+   }
+  ],
+  "stats": [
+   {
+    "value": "2040",
+    "label": "Surface m²/h"
+   },
+   {
+    "value": "27kg",
+    "label": "Pression au sol"
+   },
+   {
+    "value": "70L",
+    "label": "Réservoir"
+   },
+   {
+    "value": "5h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Pression 27kg.",
+    "desc": "Pression au sol de 27 kg pour un nettoyage en profondeur des saletés les plus tenaces sur surfaces industrielles.",
+    "metrics": [
+     {
+      "value": "27kg",
+      "label": "Pression sol"
+     },
+     {
+      "value": "100%",
+      "label": "Efficacité"
+     }
+    ]
+   },
+   {
+    "title": "Réservoir 70L.",
+    "desc": "Grand réservoir 70L pour eau propre et 75L pour eau sale, garantissant de longues sessions de nettoyage sans interruption.",
+    "metrics": [
+     {
+      "value": "70L",
+      "label": "Eau propre"
+     },
+     {
+      "value": "75L",
+      "label": "Eau sale"
+     }
+    ]
+   },
+   {
+    "title": "Rendement 2040 m²/h.",
+    "desc": "Performance industrielle exceptionnelle de 2040 m²/h pour traiter rapidement les surfaces étendues d'entrepôts et sites logistiques.",
+    "metrics": [
+     {
+      "value": "2040",
+      "label": "m²/h"
+     },
+     {
+      "value": "5h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "l4",
+  "name": "Cenobots L4",
+  "category": "nettoyage",
+  "desc": "Navigation IA 3D complexe, brosse magnétique et productivité poussée jusqu'à 1944 m²/h pour les surfaces exigeantes.",
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "1944 m²/h"
+   },
+   {
+    "label": "Brosse magnétique",
+    "value": "65 cm"
+   },
+   {
+    "label": "Batterie",
+    "value": "6 h"
+   },
+   {
+    "label": "Charge",
+    "value": "3 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "IA 3D complexe"
+   },
+   {
+    "label": "Dimensions",
+    "value": "750 × 600 × 1200 mm"
+   },
+   {
+    "label": "Réservoir",
+    "value": "40 L"
+   }
+  ],
+  "stats": [
+   {
+    "value": "1944",
+    "label": "m²/h"
+   },
+   {
+    "value": "Mag.",
+    "label": "Brosse"
+   },
+   {
+    "value": "3D",
+    "label": "IA Navigation"
+   },
+   {
+    "value": "6h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Navigation IA 3D.",
+    "desc": "Système de navigation IA 3D complexe pour gérer des environnements exigeants avec une précision et une fluidité remarquables.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "Cartographie"
+     },
+     {
+      "value": "IA",
+      "label": "Pilotage"
+     }
+    ]
+   },
+   {
+    "title": "Brosse magnétique.",
+    "desc": "Système de brosse magnétique 65 cm pour un nettoyage performant et un changement rapide entre les zones d'usage.",
+    "metrics": [
+     {
+      "value": "65cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "Mag.",
+      "label": "Fixation"
+     }
+    ]
+   },
+   {
+    "title": "Productivité 1944 m²/h.",
+    "desc": "Une productivité poussée jusqu'à 1944 m²/h, idéale pour les surfaces exigeantes nécessitant rapidité et constance.",
+    "metrics": [
+     {
+      "value": "1944",
+      "label": "m²/h"
+     },
+     {
+      "value": "6h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "kleenbot-c30",
+  "name": "Kleenbot C30",
+  "category": "nettoyage",
+  "desc": "Cabine à pression négative et très forte aspiration (19 000 Pa) pour capturer les particules fines dans les environnements professionnels.",
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "19 000 Pa"
+   },
+   {
+    "label": "Cabine",
+    "value": "Pression négative"
+   },
+   {
+    "label": "Filtre",
+    "value": "HEPA H14"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "4h / 3h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "600 × 500 × 1100 mm"
+   },
+   {
+    "label": "Niveau sonore",
+    "value": "60 dB"
+   }
+  ],
+  "stats": [
+   {
+    "value": "19000 Pa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "−",
+    "label": "Pression Négative"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "H14",
+    "label": "Filtre HEPA"
+   }
+  ],
+  "features": [
+   {
+    "title": "Pression Négative.",
+    "desc": "Cabine confinée à pression négative pour empêcher la diffusion des particules fines et garantir la qualité de l'air.",
+    "metrics": [
+     {
+      "value": "−",
+      "label": "Pression"
+     },
+     {
+      "value": "100%",
+      "label": "Confinement"
+     }
+    ]
+   },
+   {
+    "title": "Aspiration 19 000 Pa.",
+    "desc": "Une puissance d'aspiration exceptionnelle de 19 000 Pa pour capturer les particules les plus fines, même à grande vitesse.",
+    "metrics": [
+     {
+      "value": "19k",
+      "label": "Pascals"
+     },
+     {
+      "value": "PRO",
+      "label": "Niveau Pro"
+     }
+    ]
+   },
+   {
+    "title": "Filtre HEPA H14.",
+    "desc": "Filtration HEPA H14 retenant 99,995 % des particules de 0,3 µm pour une qualité d'air irréprochable.",
+    "metrics": [
+     {
+      "value": "99.995%",
+      "label": "Efficacité"
+     },
+     {
+      "value": "0.3 µm",
+      "label": "Particules"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "s100",
+  "name": "Keenon S100",
+  "category": "logistique",
+  "desc": "Logistique continue 24/7, capacité 100 kg et système de batterie échangeable en 15 secondes pour un transport ininterrompu.",
+  "specs": [
+   {
+    "label": "Charge max",
+    "value": "100 kg"
+   },
+   {
+    "label": "Batterie échangeable",
+    "value": "15 secondes"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "800 × 600 × 1200 mm"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR + Vision"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1.5 m/s"
+   },
+   {
+    "label": "Indice protection",
+    "value": "IP54"
+   }
+  ],
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge"
+   },
+   {
+    "value": "24/7",
+    "label": "Continu"
+   },
+   {
+    "value": "15s",
+    "label": "Échange Batterie"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Logistique 24/7.",
+    "desc": "Un transport intralogistique sans interruption, jour et nuit, pour optimiser vos flux et augmenter la productivité.",
+    "metrics": [
+     {
+      "value": "24/7",
+      "label": "Disponibilité"
+     },
+     {
+      "value": "0",
+      "label": "Interruption"
+     }
+    ]
+   },
+   {
+    "title": "Batterie 15s.",
+    "desc": "Système de batterie échangeable en seulement 15 secondes pour une remise en service immédiate sans temps de charge.",
+    "metrics": [
+     {
+      "value": "15s",
+      "label": "Échange"
+     },
+     {
+      "value": "8h",
+      "label": "Autonomie"
+     }
+    ]
+   },
+   {
+    "title": "Charge 100 kg.",
+    "desc": "Capacité de transport pouvant atteindre 100 kg pour absorber les flux logistiques les plus exigeants en milieu industriel.",
+    "metrics": [
+     {
+      "value": "100 kg",
+      "label": "Charge max"
+     },
+     {
+      "value": "1.5 m/s",
+      "label": "Vitesse"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "carrybot_1",
+  "name": "OrionStar Carrybot 1",
+  "category": "logistique",
+  "desc": "Le robot de transport interne par excellence. Conçu pour déplacer de lourdes charges avec une agilité maximale dans les entrepôts et les espaces de production étroits.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "525 × 650 × 1377 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "58 kg"
+   },
+   {
+    "label": "Charge Utile",
+    "value": "150 kg"
+   },
+   {
+    "label": "Passage min",
+    "value": "60 cm"
+   },
+   {
+    "label": "Écran",
+    "value": "14\" HD"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + V-SLAM 2.0"
+   }
+  ],
+  "stats": [
+   {
+    "value": "150kg",
+    "label": "Charge Utile"
+   },
+   {
+    "value": "9h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "60cm",
+    "label": "Passage min"
+   },
+   {
+    "value": "3D",
+    "label": "LiDAR + V-SLAM"
+   }
+  ],
+  "features": [
+   {
+    "title": "Charge Lourde.",
+    "desc": "Conçu pour transporter jusqu'à 150 kg. Déplacez vos marchandises ou équipements lourds sans aucun effort pour vos équipes.",
+    "metrics": [
+     {
+      "value": "150kg",
+      "label": "Capacité"
+     },
+     {
+      "value": "58kg",
+      "label": "Poids robot"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Avancée.",
+    "desc": "Technologie V-SLAM 2.0 couplée au LiDAR 3D pour évoluer avec précision et franchir des couloirs étroits dès 60 cm de largeur.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "LiDAR"
+     },
+     {
+      "value": "60cm",
+      "label": "Passage min"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie Prolongée.",
+    "desc": "Jusqu'à 9 heures de fonctionnement ininterrompu. Recharge rapide en 4.5 heures pour maximiser la disponibilité.",
+    "metrics": [
+     {
+      "value": "9h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "4.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "oldSlug": "carrybot_3",
+  "name": "OrionStar Carrybot 3",
+  "category": "logistique",
+  "desc": "Le robot logistique avec étagères intégrées. Idéal pour le transport de boîtes multiples ou de composants volumineux, le Carrybot 3 excelle dans les environnements de production intensifs.",
+  "specs": [
+   {
+    "label": "Dimensions (LxlxH)",
+    "value": "525 x 650 x 1377 mm"
+   },
+   {
+    "label": "Charge Utile",
+    "value": "100 kg"
+   },
+   {
+    "label": "Équipement",
+    "value": "Étagère volumineuse intégrée"
+   },
+   {
+    "label": "Vitesse",
+    "value": "Jusqu'à 1 m/s"
+   },
+   {
+    "label": "Autonomie",
+    "value": "9 h (Charge : 4.5h)"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + V-SLAM 2.0"
+   }
+  ],
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge utile"
+   },
+   {
+    "value": "9h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "3D",
+    "label": "Navigation LiDAR"
+   },
+   {
+    "value": "1 m/s",
+    "label": "Vitesse"
+   }
+  ],
+  "features": [
+   {
+    "title": "Étagères Intégrées.",
+    "desc": "Structure robuste et volumineuse spécialement conçue pour le transport de composants encombrants ou de multiples boîtes.",
+    "metrics": [
+     {
+      "value": "100kg",
+      "label": "Capacité"
+     },
+     {
+      "value": "XL",
+      "label": "Volume"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Intelligente.",
+    "desc": "Technologie V-SLAM et LiDAR garantissant des déplacements fluides et un évitement d'obstacles optimal dans les environnements complexes.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "LiDAR"
+     },
+     {
+      "value": "2.0",
+      "label": "V-SLAM"
+     }
+    ]
+   },
+   {
+    "title": "Travail Collaboratif.",
+    "desc": "Système de coopération multi-robots pour automatiser et fluidifier les flux de production à très grande échelle.",
+    "metrics": [
+     {
+      "value": "9h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "4.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ]
+ }
+]

@@ -1,0 +1,3946 @@
+[
+ {
+  "slug": "novabot",
+  "category": "service",
+  "name": "Novabot",
+  "label": "Accueil IA",
+  "short": "Propulsé par ChatGPT et un système LiDAR 3D pour une interaction et navigation précises.",
+  "card_img": "assets/img/robots/novabot/produit.png",
+  "hidden": false,
+  "title_tag": "Novabot OrionStar | Robot d'accueil IA avec ChatGPT",
+  "meta_description": "Le Novabot d'OrionStar : robot d'accueil propulsé par ChatGPT et LiDAR 3D. 30+ langues, autonomie 14h, écran 14\". Location, vente, leasing.",
+  "keywords": "Novabot, OrionStar, robot accueil, ChatGPT robot, LiDAR 3D, robot reception",
+  "badge": "Gamme Service",
+  "brand": "OrionStar",
+  "model": "Novabot",
+  "desc": "Le robot d'accueil nouvelle génération. Propulsé par un processeur Qualcomm Snapdragon, il intègre ChatGPT et un système LiDAR 3D pour une interaction d'une précision absolue.",
+  "ref": "Réf. / NOVABOT-SERVICE",
+  "stats": [
+   {
+    "value": "14h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "30+",
+    "label": "Langues"
+   },
+   {
+    "value": "3D",
+    "label": "Navigation LiDAR"
+   },
+   {
+    "value": "14\"",
+    "label": "Écran HD"
+   }
+  ],
+  "features": [
+   {
+    "title": "Intelligence IA.",
+    "desc": "Intégration directe de ChatGPT. Capable d'échanger et de renseigner en plus de 30 langues différentes.",
+    "metrics": [
+     {
+      "value": "GPT-4",
+      "label": "Modèle IA"
+     },
+     {
+      "value": "30+",
+      "label": "Langues"
+     }
+    ]
+   },
+   {
+    "title": "Navigation LiDAR.",
+    "desc": "Cartographie de haute précision en 3D pour guider vos visiteurs en toute sécurité dans les locaux.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "Cartographie"
+     },
+     {
+      "value": "360°",
+      "label": "Détection"
+     }
+    ]
+   },
+   {
+    "title": "Service Continu.",
+    "desc": "Une autonomie poussée jusqu'à 14 heures, lui permettant de couvrir l'intégralité d'une journée d'accueil.",
+    "metrics": [
+     {
+      "value": "14h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "4.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une architecture hardware de pointe combinant puissance de calcul et capteurs environnementaux pour une interaction fluide et naturelle.",
+  "highlight": {
+   "label": "Processeur",
+   "value": "Qualcomm",
+   "sub": "8-Core Snapdragon"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "525 × 558 × 1350 mm"
+   },
+   {
+    "label": "Écran",
+    "value": "14\" HD"
+   },
+   {
+    "label": "Caméra & Son",
+    "value": "13 MP / Audio 30 W"
+   },
+   {
+    "label": "Processeur",
+    "value": "Qualcomm 8-Core"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "12h / 4.5h"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + SLAM"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/novabot/Situation.jpg",
+   "../assets/img/robots/novabot/produit.png",
+   "https://europbots.com/assets/img/robots/novabot/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/novabot/produit.png",
+   "assets/robots/novabot/Situation.jpg"
+  ]
+ },
+ {
+  "slug": "fourcast",
+  "category": "service",
+  "name": "Fourcast",
+  "label": "Affichage Mobile",
+  "short": "Robot publicitaire mobile : 4 écrans HD 38,8″, projection au sol et navigation autonome. Pour retail et événements.",
+  "card_img": "assets/img/robots/fourcast/produit.png",
+  "hidden": false,
+  "title_tag": "Temi Fourcast | Robot publicitaire mobile 4 écrans 38,8″",
+  "meta_description": "Temi Fourcast : robot publicitaire mobile autonome. 4 écrans HD 38,8″, projection au sol et navigation LiDAR. Idéal centres commerciaux, événements.",
+  "keywords": "Fourcast, Temi, robot publicitaire, affichage dynamique mobile, digital signage robot, robot événementiel",
+  "badge": "Affichage Dynamique",
+  "brand": "Temi",
+  "model": "Fourcast",
+  "desc": "Construit sur la base technologique Temi, le Fourcast intègre 4 immenses écrans HD de 38,8 pouces et une projection au sol pour captiver votre audience. Il navigue 100 % en autonomie au cœur du public grâce à son LiDAR 35 m et sa vision 3D avancée.",
+  "ref": "Réf. / FOURCAST-TEMI",
+  "stats": [
+   {
+    "value": "4",
+    "label": "Écrans"
+   },
+   {
+    "value": "20000 m²",
+    "label": "Couverture"
+   },
+   {
+    "value": "6h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "360°",
+    "label": "Projection"
+   }
+  ],
+  "features": [
+   {
+    "title": "4 écrans géants.",
+    "desc": "Quatre immenses écrans HD de 38,8 pouces diffusent vos contenus sur les quatre faces, visibles de tous les angles dans l'espace public.",
+    "metrics": [
+     {
+      "value": "38,8″",
+      "label": "Diagonale"
+     },
+     {
+      "value": "561×1920",
+      "label": "Résolution"
+     }
+    ]
+   },
+   {
+    "title": "Projection au sol.",
+    "desc": "Des projecteurs au sol affichent animations et messages interactifs à 360° autour du robot, créant une véritable zone d'attraction.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Couverture"
+     },
+     {
+      "value": "Sol",
+      "label": "Animation"
+     }
+    ]
+   },
+   {
+    "title": "Navigation autonome.",
+    "desc": "Déplacement 100 % autonome au cœur de la foule grâce à un LiDAR 35 mètres et une vision 3D avancée, pour une circulation fluide et sûre.",
+    "metrics": [
+     {
+      "value": "35 m",
+      "label": "LiDAR"
+     },
+     {
+      "value": "3D",
+      "label": "Vision"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un robot publicitaire mobile sur base Temi, pensé pour les centres commerciaux, événements, offices de tourisme et la grande distribution.",
+  "highlight": {
+   "label": "Affichage",
+   "value": "4 écrans HD",
+   "sub": "38,8″ · visibilité 360°"
+  },
+  "specs": [
+   {
+    "label": "Écrans",
+    "value": "4 × 38,8″ HD"
+   },
+   {
+    "label": "Résolution",
+    "value": "561 × 1920 px"
+   },
+   {
+    "label": "Couverture max",
+    "value": "20 000 m²"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 35 m + Caméras 3D"
+   },
+   {
+    "label": "Vitesse max",
+    "value": "1 m/s"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "6 h / 4 h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "500 × 500 × 1480 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "68 kg"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/fourcast/situation.png",
+   "../assets/img/robots/fourcast/produit.png",
+   "https://europbots.com/assets/img/robots/fourcast/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/fourcast/produit.png",
+   "assets/robots/fourcast/situation.png"
+  ]
+ },
+ {
+  "slug": "temi-v3",
+  "category": "service",
+  "name": "Temi V3",
+  "label": "Assistant",
+  "short": "Téléprésence immersive et suivi utilisateur en temps réel. Écran 13.3\" et son premium.",
+  "card_img": "assets/img/robots/s1-v3/produit.png",
+  "hidden": false,
+  "title_tag": "Temi V3 | Robot téléprésence ROBOX écran 13.3\"",
+  "meta_description": "Temi V3 : robot assistant personnel avec navigation ROBOX et écran tactile 13.3\" orientable. Téléprésence immersive et suivi utilisateur en temps réel.",
+  "keywords": "Temi V3, robot téléprésence, robot assistant, ROBOX navigation, robot suivi utilisateur",
+  "badge": "Gamme Service",
+  "brand": "Temi",
+  "model": "S1 V3",
+  "desc": "Le Temi V3 est le robot assistant personnel et professionnel ultime. Doté du système de navigation ROBOX™ et d'un écran tactile 13.3\" orientable, il offre une téléprésence immersive et un suivi utilisateur en temps réel.",
+  "ref": "Réf. / S1V3-CLEANER",
+  "stats": [
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "13.3\"",
+    "label": "Écran"
+   },
+   {
+    "value": "20W",
+    "label": "Son"
+   },
+   {
+    "value": "13MP",
+    "label": "Caméra"
+   }
+  ],
+  "features": [
+   {
+    "title": "Télé présence.",
+    "desc": "Vidéo HD et suivi automatique de l'utilisateur en temps réel pour des échanges immersifs à distance.",
+    "metrics": [
+     {
+      "value": "13.3\"",
+      "label": "Écran FHD"
+     },
+     {
+      "value": "Auto",
+      "label": "Suivi"
+     }
+    ]
+   },
+   {
+    "title": "Son Premium.",
+    "desc": "Système audio Harman 20W 2.1 pour des conversations claires et une qualité sonore professionnelle.",
+    "metrics": [
+     {
+      "value": "20W",
+      "label": "Harman"
+     },
+     {
+      "value": "2.1",
+      "label": "Audio"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Robox.",
+    "desc": "Système propriétaire ROBOX™ avec LiDAR et cartographie 3D pour des déplacements autonomes précis.",
+    "metrics": [
+     {
+      "value": "LiDAR",
+      "label": "Navigation"
+     },
+     {
+      "value": "3D",
+      "label": "Map"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un assistant tout-en-un combinant écran orientable, audio Harman et navigation ROBOX™ pour un usage professionnel polyvalent.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "35 × 45 × 97 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "12 kg"
+   },
+   {
+    "label": "Écran",
+    "value": "13.3\" IPS FHD"
+   },
+   {
+    "label": "Caméra",
+    "value": "13 MP + Autofocus"
+   },
+   {
+    "label": "Son",
+    "value": "20W 2.1"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8h"
+   },
+   {
+    "label": "OS",
+    "value": "Android 11"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1 m/s"
+   },
+   {
+    "label": "Navigation",
+    "value": "Lidar + 3D Map"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/s1-v3/situation.png",
+   "../assets/img/robots/s1-v3/produit.png",
+   "https://europbots.com/assets/img/robots/s1-v3/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/temi-v3/produit.png",
+   "assets/robots/temi-v3/situation.png"
+  ]
+ },
+ {
+  "slug": "minibot",
+  "category": "service",
+  "name": "Minibot",
+  "label": "Accueil Compact",
+  "short": "Compact et puissant avec son immersif Harman Kardon 30W et écran 14\".",
+  "card_img": "assets/img/robots/minibot/produit.png",
+  "hidden": false,
+  "title_tag": "Minibot OrionStar | Robot d'accueil compact Harman Kardon",
+  "meta_description": "Minibot OrionStar : robot d'accueil compact (41x41cm) avec son immersif Harman Kardon 30W et écran 14\" Full HD. Snapdragon 8-Core. Vente et leasing.",
+  "keywords": "Minibot, OrionStar, robot accueil compact, Harman Kardon, robot Snapdragon",
+  "badge": "Gamme Service",
+  "brand": "OrionStar",
+  "model": "Minibot",
+  "desc": "L'accueil compact et puissant. Le Minibot offre une expérience sonore immersive Harman Kardon 30W et une interaction ultra-fluide grâce à son processeur Snapdragon Octa-Core.",
+  "ref": "Réf. / MINIBOT-SERVICE",
+  "stats": [
+   {
+    "value": "30W",
+    "label": "Audio Harman Kardon"
+   },
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "14\"",
+    "label": "Écran FHD"
+   },
+   {
+    "value": "21kg",
+    "label": "Poids ultra-léger"
+   }
+  ],
+  "features": [
+   {
+    "title": "Son Premium.",
+    "desc": "Un système audio Harman Kardon de 30W offrant une qualité sonore immersive exceptionnelle.",
+    "metrics": [
+     {
+      "value": "30W",
+      "label": "Harman Kardon"
+     },
+     {
+      "value": "HiFi",
+      "label": "Qualité Audio"
+     }
+    ]
+   },
+   {
+    "title": "Ultra Réactif.",
+    "desc": "Propulsé par un processeur Snapdragon Octa-Core, garantissant une fluidité parfaite des échanges.",
+    "metrics": [
+     {
+      "value": "8-Core",
+      "label": "Snapdragon"
+     },
+     {
+      "value": "14\"",
+      "label": "Écran tactile"
+     }
+    ]
+   },
+   {
+    "title": "Design Compact.",
+    "desc": "Faible encombrement (41x41 cm au sol) lui permettant de se faufiler partout sans obstruer le passage.",
+    "metrics": [
+     {
+      "value": "41×41",
+      "label": "Empreinte cm"
+     },
+     {
+      "value": "21kg",
+      "label": "Poids"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Toute la puissance d'un processeur ultra-rapide et d'une technologie audiovisuelle avancée, condensée dans un robot d'un mètre de haut.",
+  "highlight": {
+   "label": "Processeur",
+   "value": "Qualcomm",
+   "sub": "8-Core Snapdragon"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "410 x 410 x 1000 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "21 kg"
+   },
+   {
+    "label": "Écran tactile",
+    "value": "14\" FHD"
+   },
+   {
+    "label": "Caméra & Son",
+    "value": "13 MP / Harman Kardon 30 W"
+   },
+   {
+    "label": "Processeur",
+    "value": "Qualcomm 8-Core"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "12h / 4.5h"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/minibot/situation.jpg",
+   "../assets/img/robots/minibot/produit.png",
+   "https://europbots.com/assets/img/robots/minibot/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/minibot/produit.png",
+   "assets/robots/minibot/situation.jpg"
+  ]
+ },
+ {
+  "slug": "T5",
+  "category": "service",
+  "name": "Dinerbot T5",
+  "label": "Serveur Autonome",
+  "short": "Le serveur nouvelle génération. 4 plateaux, 40 kg de charge et autonomie record de 15h.",
+  "card_img": "assets/img/robots/dinerbot-t5/produit.png",
+  "hidden": false,
+  "title_tag": "Dinerbot T5 Orionstar | Robot serveur 4 plateaux 40kg",
+  "meta_description": "Dinerbot T5 d'Orionstar : robot serveur nouvelle génération avec 4 plateaux, charge 40kg et autonomie 15h. Pour restaurants et hôtellerie haut de gamme.",
+  "keywords": "Dinerbot T5, Orionstar, robot serveur, robot restaurant 4 plateaux",
+  "badge": "Gamme Service",
+  "brand": "Dinerbot",
+  "model": "T5",
+  "desc": "Le serveur nouvelle génération. 4 plateaux, 40 kg de charge et une autonomie record pour maximiser votre productivité en salle.",
+  "ref": "Réf. / T5-DINERBOT",
+  "stats": [
+   {
+    "value": "15h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "40kg",
+    "label": "Charge utile"
+   },
+   {
+    "value": "4",
+    "label": "Plateaux"
+   },
+   {
+    "value": "V-SLAM",
+    "label": "Navigation"
+   }
+  ],
+  "features": [
+   {
+    "title": "4 Plateaux Modulables.",
+    "desc": "Service hautement optimisé et modulable grâce à quatre niveaux de distribution, idéal pour servir et débarrasser simultanément.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Plateaux"
+     },
+     {
+      "value": "10kg",
+      "label": "Par niveau"
+     }
+    ]
+   },
+   {
+    "title": "Charge 40 kg.",
+    "desc": "Châssis robuste supportant jusqu'à 40 kg au total, permettant le transport simultané d'un grand volume de plats ou de vaisselle sale.",
+    "metrics": [
+     {
+      "value": "40kg",
+      "label": "Charge totale"
+     },
+     {
+      "value": "50kg",
+      "label": "Poids robot"
+     }
+    ]
+   },
+   {
+    "title": "Service Continu.",
+    "desc": "Une autonomie de 12 à 15 heures couvrant l'intégralité d'une journée d'exploitation, avec travail en flotte pour multiplier l'efficacité.",
+    "metrics": [
+     {
+      "value": "15h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "Fleet",
+      "label": "Travail en flotte"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une architecture pensée pour le rendement intensif, combinant grande capacité de charge et stabilité à toute épreuve.",
+  "highlight": {
+   "label": "Charge utile",
+   "value": "40 kg",
+   "sub": "Sur 4 plateaux"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "506 × 502 × 1205 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "50 kg"
+   },
+   {
+    "label": "Plateaux",
+    "value": "4"
+   },
+   {
+    "label": "Charge utile",
+    "value": "40 kg"
+   },
+   {
+    "label": "Autonomie",
+    "value": "12 - 15 heures"
+   },
+   {
+    "label": "Navigation",
+    "value": "V-SLAM"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/dinerbot-t5/situation.jpg",
+   "../assets/img/robots/dinerbot-t5/produit.png",
+   "https://europbots.com/assets/img/robots/dinerbot-t5/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/T5/produit.png",
+   "assets/robots/T5/situation.jpg"
+  ]
+ },
+ {
+  "slug": "T8",
+  "category": "service",
+  "name": "Dinerbot T8",
+  "label": "Espaces Réduits",
+  "short": "L'agilité absolue. Largeur de passage de 55 cm, 3 plateaux et vision à 204°.",
+  "card_img": "assets/img/robots/dinerbot-t8/produit.png",
+  "hidden": false,
+  "title_tag": "Dinerbot T8 Orionstar | Robot serveur agile 55cm passage",
+  "meta_description": "Dinerbot T8 d'Orionstar : robot serveur compact avec largeur de passage 55cm, 3 plateaux et vision 204°. Idéal pour les espaces restreints.",
+  "keywords": "Dinerbot T8, Orionstar, robot serveur compact, robot espaces restreints",
+  "badge": "Gamme Service",
+  "brand": "Dinerbot",
+  "model": "T8",
+  "desc": "L'agilité absolue. Avec seulement 55 cm de largeur de passage, le T8 se faufile partout avec une précision millimétrique.",
+  "ref": "Réf. / T8-DINERBOT",
+  "stats": [
+   {
+    "value": "18h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "55cm",
+    "label": "Passage min"
+   },
+   {
+    "value": "20kg",
+    "label": "Charge utile"
+   },
+   {
+    "value": "204°",
+    "label": "Vision"
+   }
+  ],
+  "features": [
+   {
+    "title": "Passe Partout.",
+    "desc": "Largeur minimale de 55 cm. Le robot le plus agile de sa catégorie, capable de se faufiler dans les passages les plus étroits.",
+    "metrics": [
+     {
+      "value": "55 cm",
+      "label": "Passage min"
+     },
+     {
+      "value": "±1 mm",
+      "label": "Précision"
+     }
+    ]
+   },
+   {
+    "title": "Vision 204°.",
+    "desc": "Détection d'obstacles totale grâce à un champ de vision élargi à 204°, garantissant une sécurité maximale dans les environnements dynamiques.",
+    "metrics": [
+     {
+      "value": "204°",
+      "label": "Champ de vision"
+     },
+     {
+      "value": "LiDAR",
+      "label": "+ Vision"
+     }
+    ]
+   },
+   {
+    "title": "Endurance Continue.",
+    "desc": "Jusqu'à 18 heures d'autonomie. Capacité de 3 plateaux pouvant supporter jusqu'à 20 kg, couvrant tous les services d'une journée.",
+    "metrics": [
+     {
+      "value": "18h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "3 / 20kg",
+      "label": "Plateaux / charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une architecture ultra-compacte maximisant la manœuvrabilité tout en préservant une grande capacité d'emport pour le service intensif.",
+  "highlight": {
+   "label": "Passage minimum",
+   "value": "55 cm",
+   "sub": "Le plus agile de sa catégorie"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "384 × 468 × 1111 mm"
+   },
+   {
+    "label": "Passage min",
+    "value": "55 cm"
+   },
+   {
+    "label": "Plateaux",
+    "value": "3"
+   },
+   {
+    "label": "Charge utile",
+    "value": "20 kg"
+   },
+   {
+    "label": "Autonomie",
+    "value": "15 - 18 heures"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR + Vision 204°"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/dinerbot-t8/produit.png",
+   "https://europbots.com/assets/img/robots/dinerbot-t8/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/T8/produit.png"
+  ]
+ },
+ {
+  "slug": "t9",
+  "category": "service",
+  "name": "Dinerbot T9",
+  "label": "Stabilité Pro",
+  "short": "Châssis amortisseur exclusif absorbant les vibrations pour transporter sans renverser. 4 plateaux.",
+  "card_img": "assets/img/robots/dinerbot-t9/produit.png",
+  "hidden": false,
+  "title_tag": "Dinerbot T9 Orionstar | Robot serveur châssis amortisseur",
+  "meta_description": "Dinerbot T9 d'Orionstar : robot serveur avec châssis amortisseur exclusif absorbant les vibrations. 4 plateaux, charge 40kg, autonomie 12h.",
+  "keywords": "Dinerbot T9, Orionstar, robot serveur stable, châssis amortisseur, robot restaurant",
+  "badge": "Stabilité Pro",
+  "brand": "Orionstar",
+  "model": "Dinerbot T9",
+  "desc": "Châssis amortisseur exclusif absorbant les vibrations pour transporter sans renverser. 4 plateaux pour service grande capacité.",
+  "ref": "Réf. / T9-DINERBOT",
+  "stats": [
+   {
+    "value": "4",
+    "label": "Plateaux"
+   },
+   {
+    "value": "40kg",
+    "label": "Charge"
+   },
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "360°",
+    "label": "Vision"
+   }
+  ],
+  "features": [
+   {
+    "title": "Châssis amortisseur.",
+    "desc": "Châssis exclusif absorbant les vibrations pour transporter assiettes, verres et boissons sans rien renverser.",
+    "metrics": [
+     {
+      "value": "0%",
+      "label": "Renversement"
+     },
+     {
+      "value": "40kg",
+      "label": "Charge max"
+     }
+    ]
+   },
+   {
+    "title": "4 plateaux modulables.",
+    "desc": "Quatre plateaux configurables pour le service grande capacité, optimisés pour les restaurants à fort volume.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Plateaux"
+     },
+     {
+      "value": "10kg",
+      "label": "Par plateau"
+     }
+    ]
+   },
+   {
+    "title": "Navigation V-SLAM.",
+    "desc": "Système V-SLAM avec vision 360° pour évoluer dans les espaces denses, contourner les obstacles et servir avec précision.",
+    "metrics": [
+     {
+      "value": "V-SLAM",
+      "label": "Cartographie"
+     },
+     {
+      "value": "360°",
+      "label": "Vision"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Architecture pensée pour la stabilité et la précision : châssis amortisseur, navigation V-SLAM et autonomie longue durée.",
+  "highlight": {
+   "label": "Châssis",
+   "value": "Amortisseur",
+   "sub": "Exclusif anti-vibrations"
+  },
+  "specs": [
+   {
+    "label": "Plateaux",
+    "value": "4 plateaux"
+   },
+   {
+    "label": "Charge max",
+    "value": "40 kg"
+   },
+   {
+    "label": "Dimensions",
+    "value": "530 × 520 × 1290 mm"
+   },
+   {
+    "label": "Écran",
+    "value": "Tactile"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "12h / 4h"
+   },
+   {
+    "label": "Navigation",
+    "value": "V-SLAM"
+   },
+   {
+    "label": "Châssis",
+    "value": "Amortisseur exclusif"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/dinerbot-t9/situation.jpg",
+   "../assets/img/robots/dinerbot-t9/produit.png",
+   "https://europbots.com/assets/img/robots/dinerbot-t9/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/t9/produit.png",
+   "assets/robots/t9/situation.jpg"
+  ]
+ },
+ {
+  "slug": "T10",
+  "category": "service",
+  "name": "Dinerbot T10",
+  "label": "Service & Marketing",
+  "short": "Navigation V-SLAM et écran publicitaire massif de 23.8 pouces pour dynamiser vos ventes.",
+  "card_img": "assets/img/robots/dinerbot-t10/produit.png",
+  "hidden": false,
+  "title_tag": "Dinerbot T10 Orionstar | Robot serveur écran pub 23.8\"",
+  "meta_description": "Dinerbot T10 d'Orionstar : robot serveur avec navigation V-SLAM et écran publicitaire 23.8\" pour dynamiser vos ventes. Service et marketing combinés.",
+  "keywords": "Dinerbot T10, Orionstar, robot serveur écran publicitaire, V-SLAM",
+  "badge": "Gamme Service / Ref: T10-DINERBOT",
+  "brand": "Dinerbot",
+  "model": "T10",
+  "desc": "Polyvalence et Interaction. Le T10 combine un service de livraison efficace et une communication marketing percutante grâce à son écran géant de 23.8 pouces.",
+  "ref": "Réf. / T10-DINERBOT",
+  "stats": [
+   {
+    "value": "23.8\"",
+    "label": "Écran Pub"
+   },
+   {
+    "value": "40kg",
+    "label": "Charge utile"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "4",
+    "label": "Plateaux"
+   }
+  ],
+  "features": [
+   {
+    "title": "Écran Publicitaire.",
+    "desc": "Diffusez vidéo, menus et promotions sur un écran immersif de 23.8 pouces. Un canal marketing puissant directement intégré à votre service.",
+    "metrics": [
+     {
+      "value": "23.8\"",
+      "label": "Diagonale"
+     },
+     {
+      "value": "HD",
+      "label": "Résolution"
+     }
+    ]
+   },
+   {
+    "title": "Service Efficace.",
+    "desc": "Doté de 4 plateaux supportant jusqu'à 40 kg, le T10 dessert plusieurs tables en un seul trajet pour optimiser le travail de vos équipes.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Plateaux"
+     },
+     {
+      "value": "40kg",
+      "label": "Charge"
+     }
+    ]
+   },
+   {
+    "title": "Vision 3D.",
+    "desc": "Vision Stéréo et LiDAR offrent une cartographie instantanée et un évitement intelligent des obstacles, même dans les allées étroites de 59 cm.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "Stéréo + LiDAR"
+     },
+     {
+      "value": "59cm",
+      "label": "Allée mini."
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Le T10 concentre puissance de transport et affichage digital haute définition dans un châssis remarquablement fin pour les espaces de service.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "486 × 555 × 1399 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "58 kg"
+   },
+   {
+    "label": "Plateaux / Charge",
+    "value": "4 plateaux / 40 kg"
+   },
+   {
+    "label": "Écran Pub",
+    "value": "23.8\" HD"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8 heures"
+   },
+   {
+    "label": "Navigation",
+    "value": "V-SLAM + LiDAR"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/dinerbot-t10/situation.jpg",
+   "../assets/img/robots/dinerbot-t10/produit.png",
+   "https://europbots.com/assets/img/robots/dinerbot-t10/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/T10/produit.png",
+   "assets/robots/T10/situation.jpg"
+  ]
+ },
+ {
+  "slug": "luckibot",
+  "category": "service",
+  "name": "LuckiBot",
+  "label": "Polyvalent",
+  "short": "Navigation Dual SLAM, service à table et mode croisière pour la distribution mobile.",
+  "card_img": "assets/img/robots/luckibot/produit.png",
+  "hidden": false,
+  "title_tag": "LuckiBot Pudu | Robot polyvalent service & distribution",
+  "meta_description": "LuckiBot de Pudu : robot polyvalent navigation Dual SLAM, mode service à table et croisière mobile. Idéal restauration et distribution. Vente, leasing.",
+  "keywords": "LuckiBot, Pudu, robot serveur, Dual SLAM, robot restauration",
+  "badge": "Gamme Service",
+  "brand": "OrionStar",
+  "model": "LuckiBot",
+  "desc": "Le robot serveur polyvalent. Doté d'une navigation Dual SLAM, il excelle dans le service à table, l'accueil et propose un mode croisière pour la distribution mobile interactive.",
+  "ref": "Réf. / LUCKIBOT-SERVICE",
+  "stats": [
+   {
+    "value": "40kg",
+    "label": "Charge max"
+   },
+   {
+    "value": "15h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "4",
+    "label": "Plateaux"
+   },
+   {
+    "value": "SLAM",
+    "label": "Navigation Dual"
+   }
+  ],
+  "features": [
+   {
+    "title": "Navigation Dual SLAM.",
+    "desc": "Combinaison de LiDAR et V-SLAM pour un positionnement d'une précision millimétrique, même dans des lieux complexes.",
+    "metrics": [
+     {
+      "value": "LiDAR",
+      "label": "Capteur 1"
+     },
+     {
+      "value": "V-SLAM",
+      "label": "Capteur 2"
+     }
+    ]
+   },
+   {
+    "title": "Service Efficace.",
+    "desc": "Équipé de 4 plateaux robustes capables de transporter jusqu'à 40 kg, optimisant vos allers-retours.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Plateaux"
+     },
+     {
+      "value": "40kg",
+      "label": "Charge max"
+     }
+    ]
+   },
+   {
+    "title": "Mode Croisière.",
+    "desc": "Idéal pour les événements ou buffets : le robot se déplace sur un parcours prédéfini pour distribuer snacks ou boissons.",
+    "metrics": [
+     {
+      "value": "Auto",
+      "label": "Parcours"
+     },
+     {
+      "value": "15h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Des capacités de charge importantes et une technologie de cartographie hybride intégrées dans un format adapté au service.",
+  "highlight": {
+   "label": "Navigation",
+   "value": "Dual SLAM",
+   "sub": "LiDAR + Vision"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "530 x 500 x 1330 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "42 kg"
+   },
+   {
+    "label": "Écran",
+    "value": "10.1\" HD"
+   },
+   {
+    "label": "Plateaux (Charge max)",
+    "value": "4 (40 kg au total)"
+   },
+   {
+    "label": "Autonomie",
+    "value": "12 - 15 Heures"
+   },
+   {
+    "label": "Navigation",
+    "value": "Dual SLAM (LiDAR + Vision)"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/luckibot/situation.jpg",
+   "../assets/img/robots/luckibot/produit.png",
+   "https://europbots.com/assets/img/robots/luckibot/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/luckibot/produit.png",
+   "assets/robots/luckibot/situation.jpg"
+  ]
+ },
+ {
+  "slug": "luckibot_plus",
+  "category": "service",
+  "name": "LuckiBot Plus",
+  "label": "Communication",
+  "short": "Écran géant de 27 pouces Full HD. Propulsé par Qualcomm 8-coeurs et Android 9.",
+  "card_img": "assets/img/robots/luckibot-plus/produit.png",
+  "hidden": false,
+  "title_tag": "LuckiBot Plus Pudu | Robot écran géant 27\" Full HD",
+  "meta_description": "LuckiBot Plus de Pudu : robot communication avec écran géant 27\" Full HD, processeur Qualcomm 8-coeurs. Marketing dynamique et accueil interactif.",
+  "keywords": "LuckiBot Plus, Pudu, robot écran 27 pouces, robot marketing, robot communication",
+  "badge": "Gamme Service",
+  "brand": "OrionStar",
+  "model": "LuckiBot Plus",
+  "desc": "Le robot de communication ultime. Doté d'un écran géant de 27 pouces Full HD, il capte l'attention et interagit avec vos clients grâce à son processeur Qualcomm 8-cœurs et Android 9.",
+  "ref": "Réf. / LUCKIP-SERVICE",
+  "stats": [
+   {
+    "value": "27\"",
+    "label": "Écran FHD"
+   },
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "8-Core",
+    "label": "Qualcomm"
+   },
+   {
+    "value": "3D",
+    "label": "Dual SLAM"
+   }
+  ],
+  "features": [
+   {
+    "title": "Écran Géant.",
+    "desc": "Une dalle immersive de 27 pouces Full HD pour diffuser vos menus, vidéos promotionnelles et messages d'accueil.",
+    "metrics": [
+     {
+      "value": "27\"",
+      "label": "Diagonale"
+     },
+     {
+      "value": "1080p",
+      "label": "Full HD"
+     }
+    ]
+   },
+   {
+    "title": "Ultra Réactif.",
+    "desc": "Équipé d'un puissant processeur Qualcomm 8-cœurs pour garantir des interactions tactiles et vocales sans aucune latence.",
+    "metrics": [
+     {
+      "value": "8-Core",
+      "label": "Qualcomm"
+     },
+     {
+      "value": "A9",
+      "label": "Android 9"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Intelligente.",
+    "desc": "Système Dual SLAM (LiDAR + Caméras) pour se déplacer et guider les visiteurs en toute sécurité dans les espaces complexes.",
+    "metrics": [
+     {
+      "value": "Dual",
+      "label": "SLAM"
+     },
+     {
+      "value": "3D",
+      "label": "LiDAR + Vision"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un affichage numérique hors norme monté sur une base mobile autonome et intelligente, conçu pour capter tous les regards.",
+  "highlight": {
+   "label": "Écran",
+   "value": "27\" FHD",
+   "sub": "1080p Tactile"
+  },
+  "specs": [
+   {
+    "label": "Écran principal",
+    "value": "27\" FHD (1080p)"
+   },
+   {
+    "label": "Processeur",
+    "value": "Qualcomm 8-Core"
+   },
+   {
+    "label": "Système d'exploitation",
+    "value": "Android 9"
+   },
+   {
+    "label": "Navigation",
+    "value": "Dual SLAM (LiDAR + Vision 3D)"
+   },
+   {
+    "label": "Audio",
+    "value": "Système Haut-Parleur Premium"
+   },
+   {
+    "label": "Autonomie",
+    "value": "Jusqu'à 12 Heures"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/luckibot-plus/situation.jpg",
+   "../assets/img/robots/luckibot-plus/produit.png",
+   "https://europbots.com/assets/img/robots/luckibot-plus/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/luckibot_plus/produit.png",
+   "assets/robots/luckibot_plus/situation.jpg"
+  ]
+ },
+ {
+  "slug": "one-s55",
+  "category": "nettoyage",
+  "name": "One S55",
+  "label": "Nettoyage Industriel",
+  "short": "Nettoyage 3-en-1 avec cartographie en temps réel. Haute capacité avec réservoirs 22L/15L.",
+  "card_img": "assets/img/robots/one-s55/produit.png",
+  "hidden": false,
+  "title_tag": "One S55 IKITbot | Robot nettoyage 3-en-1 cartographie",
+  "meta_description": "One S55 d'IKITbot : robot nettoyage industriel 3-en-1 avec cartographie temps réel. Réservoirs 22L/15L. Pour grandes surfaces commerciales.",
+  "keywords": "One S55, IKITbot, robot nettoyage industriel, autolaveuse robot, robot 3-en-1",
+  "badge": "Gamme Nettoyage",
+  "brand": "IKITbot",
+  "model": "ONE S55",
+  "desc": "Le ONE S55 intègre une navigation intelligente de haute précision. Capable de cartographier son environnement en temps réel, il optimise la consommation d'eau et d'énergie pour garantir un nettoyage sans interruption.",
+  "ref": "Réf. / S55-CLEANER",
+  "stats": [
+   {
+    "value": "1000m²/h",
+    "label": "Rendement"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "22L",
+    "label": "Eau propre"
+   },
+   {
+    "value": "42dB",
+    "label": "Silencieux"
+   }
+  ],
+  "features": [
+   {
+    "title": "Nettoyage 3-en-1.",
+    "desc": "Lave, aspire et sèche en un seul passage pour un résultat optimal et un gain de temps massif.",
+    "metrics": [
+     {
+      "value": "1000m²/h",
+      "label": "Rendement"
+     },
+     {
+      "value": "62cm",
+      "label": "Largeur"
+     }
+    ]
+   },
+   {
+    "title": "Haute Capacité.",
+    "desc": "Réservoirs 22L eau propre / 15L eau usée pour de longs cycles de nettoyage sans recharge.",
+    "metrics": [
+     {
+      "value": "22L",
+      "label": "Eau propre"
+     },
+     {
+      "value": "15L",
+      "label": "Eau usée"
+     }
+    ]
+   },
+   {
+    "title": "Ultra Silencieux.",
+    "desc": "Seulement 42 dB en balayage : idéal pour nettoyer pendant les heures d'activité sans gêner.",
+    "metrics": [
+     {
+      "value": "42dB",
+      "label": "Niveau sonore"
+     },
+     {
+      "value": "8h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une architecture optimisée pour le nettoyage professionnel combinant haute capacité, silence et intelligence embarquée pour une exploitation continue.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "580 × 650 × 550 mm"
+   },
+   {
+    "label": "Largeur de travail",
+    "value": "62 cm"
+   },
+   {
+    "label": "Rendement",
+    "value": "1000 m²/h"
+   },
+   {
+    "label": "Réservoirs",
+    "value": "22L / 15L"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "8h / 3h"
+   },
+   {
+    "label": "Navigation",
+    "value": "3D Vision + LiDAR"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/one-s55/situation.jpg",
+   "../assets/img/robots/one-s55/produit.png",
+   "https://europbots.com/assets/img/robots/one-s55/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/one-s55/produit.png",
+   "assets/robots/one-s55/situation.jpg"
+  ]
+ },
+ {
+  "slug": "tn10",
+  "category": "nettoyage",
+  "name": "TN10",
+  "label": "Nettoyage Compact",
+  "short": "Solution 4-en-1 (balaie, aspire, lave) gérée par une station de vidange/recharge intelligente.",
+  "card_img": "assets/img/robots/tn10/produit.png",
+  "hidden": false,
+  "title_tag": "TN10 Sparkoz | Robot nettoyage 4-en-1 station automatique",
+  "meta_description": "TN10 de Sparkoz : robot nettoyage 4-en-1 (balaie, aspire, lave, sèche) avec station de vidange/recharge intelligente. 1200m²/h, autonomie 4h.",
+  "keywords": "TN10, Sparkoz, robot nettoyage compact, robot 4-en-1, station automatique",
+  "badge": "Nettoyage Compact",
+  "brand": "Sparkoz",
+  "model": "TN10",
+  "desc": "Solution 4-en-1 (balaie, aspire, lave, sèche) gérée par une station de vidange/recharge intelligente pour un nettoyage sans intervention.",
+  "ref": "Réf. / TN10-CLEAN",
+  "stats": [
+   {
+    "value": "4-en-1",
+    "label": "Fonctions"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "Auto",
+    "label": "Station"
+   },
+   {
+    "value": "1200",
+    "label": "m²/h"
+   }
+  ],
+  "features": [
+   {
+    "title": "Nettoyage 4-en-1.",
+    "desc": "Balayage, aspiration, lavage et séchage en un seul passage pour un sol impeccable et sec immédiatement.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Modes"
+     },
+     {
+      "value": "12L",
+      "label": "Réservoir"
+     }
+    ]
+   },
+   {
+    "title": "Station automatique.",
+    "desc": "Station de vidange et de recharge intelligente pour un fonctionnement entièrement autonome, sans intervention humaine.",
+    "metrics": [
+     {
+      "value": "Auto",
+      "label": "Vidange"
+     },
+     {
+      "value": "2h",
+      "label": "Charge"
+     }
+    ]
+   },
+   {
+    "title": "Cartographie SLAM.",
+    "desc": "Navigation intelligente par cartographie SLAM pour optimiser les trajets et garantir une couverture totale des zones à nettoyer.",
+    "metrics": [
+     {
+      "value": "SLAM",
+      "label": "Cartographie"
+     },
+     {
+      "value": "1200",
+      "label": "m²/h"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme compacte et autonome combinant 4 fonctions de nettoyage, station intelligente et navigation SLAM pour un service continu sans intervention.",
+  "highlight": {
+   "label": "Système",
+   "value": "4-en-1",
+   "sub": "Balayage / Aspiration / Lavage / Séchage"
+  },
+  "specs": [
+   {
+    "label": "Système",
+    "value": "4-en-1 (balayage / aspiration / lavage / séchage)"
+   },
+   {
+    "label": "Station",
+    "value": "Vidange / Recharge automatique"
+   },
+   {
+    "label": "Surface / heure",
+    "value": "1200 m²/h"
+   },
+   {
+    "label": "Réservoir",
+    "value": "12 L"
+   },
+   {
+    "label": "Dimensions",
+    "value": "500 × 500 × 950 mm"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "4h / 2h"
+   },
+   {
+    "label": "Navigation",
+    "value": "Cartographie SLAM"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/tn10/situation.png",
+   "../assets/img/robots/tn10/produit.png",
+   "https://europbots.com/assets/img/robots/tn10/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/tn10/produit.png",
+   "assets/robots/tn10/situation.png"
+  ]
+ },
+ {
+  "slug": "l3",
+  "category": "nettoyage",
+  "name": "Cenobots L3",
+  "label": "Autolaveuse IA",
+  "short": "Propulsé par puce NVIDIA 100 TOPS. Franchit les espaces étroits et obéit aux commandes vocales.",
+  "card_img": "assets/img/robots/l3/produit.png",
+  "hidden": false,
+  "title_tag": "Cenobots L3 | Autolaveuse IA NVIDIA, commandes vocales",
+  "meta_description": "Cenobots L3 : autolaveuse IA propulsée par puce NVIDIA 100 TOPS. Franchit les espaces étroits (50cm) et obéit aux commandes vocales.",
+  "keywords": "Cenobots L3, autolaveuse IA, NVIDIA 100 TOPS, robot commande vocale, robot espace étroit",
+  "badge": "Autolaveuse IA",
+  "brand": "Cenobots",
+  "model": "L3",
+  "desc": "Propulsé par puce NVIDIA 100 TOPS. Franchit les espaces étroits et obéit aux commandes vocales pour une autolaveuse IA nouvelle génération.",
+  "ref": "Réf. / L3-CENOBOTS",
+  "stats": [
+   {
+    "value": "100 TOPS",
+    "label": "Puce NVIDIA"
+   },
+   {
+    "value": "1200 m²/h",
+    "label": "Surface"
+   },
+   {
+    "value": "5h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "VOX",
+    "label": "Commandes vocales"
+   }
+  ],
+  "features": [
+   {
+    "title": "Puce NVIDIA.",
+    "desc": "Puce NVIDIA 100 TOPS pour une intelligence embarquée capable d'analyser l'environnement en temps réel.",
+    "metrics": [
+     {
+      "value": "100",
+      "label": "TOPS"
+     },
+     {
+      "value": "3D",
+      "label": "Navigation IA"
+     }
+    ]
+   },
+   {
+    "title": "Commandes vocales.",
+    "desc": "Pilotage vocal intuitif. Démarrez, arrêtez ou redirigez le robot par la voix sans interface complexe.",
+    "metrics": [
+     {
+      "value": "VOX",
+      "label": "Activation vocale"
+     },
+     {
+      "value": "IA",
+      "label": "Compréhension"
+     }
+    ]
+   },
+   {
+    "title": "Espaces étroits 50cm.",
+    "desc": "Largeur compacte de 50 cm pour franchir couloirs, allées et zones de circulation exiguës sans compromettre le rendement.",
+    "metrics": [
+     {
+      "value": "50cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "5h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme IA embarquée combinant puissance NVIDIA et navigation 3D pour un nettoyage autonome dans les environnements professionnels les plus exigeants.",
+  "specs": [
+   {
+    "label": "Puce IA",
+    "value": "NVIDIA 100 TOPS"
+   },
+   {
+    "label": "Surface horaire",
+    "value": "1200 m²/h"
+   },
+   {
+    "label": "Largeur",
+    "value": "50 cm"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "5h / 3h"
+   },
+   {
+    "label": "Navigation",
+    "value": "IA 3D"
+   },
+   {
+    "label": "Pilotage",
+    "value": "Commandes vocales"
+   },
+   {
+    "label": "Dimensions",
+    "value": "600 × 500 × 1150 mm"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/l3/situation.jpg",
+   "../assets/img/robots/l3/produit.png",
+   "https://europbots.com/assets/img/robots/l3/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/l3/produit.png",
+   "assets/robots/l3/situation.jpg"
+  ]
+ },
+ {
+  "slug": "l50",
+  "category": "nettoyage",
+  "name": "Cenobots L50",
+  "label": "IA Grande Capacité",
+  "short": "Réservoir de 55L et mise à jour automatique de la cartographie en continu pour les vastes surfaces.",
+  "card_img": "assets/img/robots/l50/produit.png",
+  "hidden": false,
+  "title_tag": "Cenobots L50 | Autolaveuse IA réservoir 55L vastes surfaces",
+  "meta_description": "Cenobots L50 : autolaveuse IA grande capacité avec réservoir 55L et mise à jour automatique de la cartographie. Pour les vastes surfaces industrielles.",
+  "keywords": "Cenobots L50, autolaveuse 55L, robot grande capacité, IA cartographie automatique",
+  "badge": "Gamme Nettoyage / Ref: L50-CADEBOT",
+  "brand": "Cenobots",
+  "model": "L50",
+  "desc": "Le Cenobots L50 est la solution de nettoyage industriel par excellence. Avec son réservoir de 55 L et une autonomie atteignant 6 heures, il couvre sans effort les moyennes et grandes surfaces. Son système IA met à jour la cartographie en continu pour ne rater aucune zone.",
+  "ref": "Réf. / L50-CADEBOT",
+  "stats": [
+   {
+    "value": "2203m²/h",
+    "label": "Rendement"
+   },
+   {
+    "value": "55L",
+    "label": "Propre"
+   },
+   {
+    "value": "6h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "45cm",
+    "label": "Largeur"
+   }
+  ],
+  "features": [
+   {
+    "title": "Haute Productivité.",
+    "desc": "Jusqu'à 2203 m²/h pour les moyennes et grandes surfaces industrielles sans compromis sur la qualité.",
+    "metrics": [
+     {
+      "value": "2203m²/h",
+      "label": "Rendement"
+     },
+     {
+      "value": "45cm",
+      "label": "Largeur"
+     }
+    ]
+   },
+   {
+    "title": "Mappage Intelligent.",
+    "desc": "Mise à jour automatique de la cartographie pour s'adapter en temps réel aux changements d'environnement.",
+    "metrics": [
+     {
+      "value": "Auto",
+      "label": "Mise à jour"
+     },
+     {
+      "value": "IA",
+      "label": "Mappage"
+     }
+    ]
+   },
+   {
+    "title": "Grande Autonomie.",
+    "desc": "6h de batterie et réservoir de 55L pour couvrir de longs cycles sans interruption.",
+    "metrics": [
+     {
+      "value": "6h",
+      "label": "Batterie"
+     },
+     {
+      "value": "55L",
+      "label": "Réservoir"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme de nettoyage industriel combinant grande capacité, IA de cartographie et robustesse pour les environnements les plus exigeants.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "580 × 1055 × 1045 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "190 kg"
+   },
+   {
+    "label": "Largeur de nettoyage",
+    "value": "45 cm"
+   },
+   {
+    "label": "Rendement",
+    "value": "2203 m²/h"
+   },
+   {
+    "label": "Réservoirs",
+    "value": "55L / 55L"
+   },
+   {
+    "label": "Autonomie",
+    "value": "6h"
+   },
+   {
+    "label": "Charge",
+    "value": "4h"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1 m/s"
+   },
+   {
+    "label": "Navigation",
+    "value": "3D Vision + LiDAR"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/l50/situation.jpg",
+   "../assets/img/robots/l50/produit.png",
+   "https://europbots.com/assets/img/robots/l50/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/l50/produit.png",
+   "assets/robots/l50/situation.jpg"
+  ]
+ },
+ {
+  "slug": "sp50",
+  "category": "nettoyage",
+  "name": "SP50",
+  "label": "Spot-Cleaning IA",
+  "short": "IA détectant les déchets avec 99% de précision. Aspiration super puissante de 25kPa.",
+  "card_img": "assets/img/robots/sp50/produit.png",
+  "hidden": false,
+  "title_tag": "SP50 Cenobots | Robot spot-cleaning IA détection 99% 25kPa",
+  "meta_description": "SP50 de Cenobots : robot spot-cleaning avec IA détectant les déchets à 99% de précision et aspiration super puissante 25kPa. Nettoyage intelligent ciblé.",
+  "keywords": "SP50, Cenobots, spot-cleaning IA, robot détection déchets, aspiration 25kPa",
+  "badge": "Spot-Cleaning IA",
+  "brand": "Cenobots",
+  "model": "SP50",
+  "desc": "IA détectant les déchets avec 99% de précision. Aspiration super puissante de 25kPa pour le spot-cleaning intelligent.",
+  "ref": "Réf. / SP50-CLEAN",
+  "stats": [
+   {
+    "value": "99%",
+    "label": "Détection IA"
+   },
+   {
+    "value": "25kPa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "IA",
+    "label": "Visuelle"
+   }
+  ],
+  "features": [
+   {
+    "title": "IA Détection 99%.",
+    "desc": "Intelligence artificielle visuelle détectant chaque déchet avec une précision de 99%. Le SP50 cible directement les zones à nettoyer.",
+    "metrics": [
+     {
+      "value": "99%",
+      "label": "Précision"
+     },
+     {
+      "value": "IA",
+      "label": "Visuelle"
+     }
+    ]
+   },
+   {
+    "title": "Aspiration 25kPa.",
+    "desc": "Une puissance d'aspiration exceptionnelle de 25kPa pour éliminer même les saletés les plus tenaces sur tous types de surfaces.",
+    "metrics": [
+     {
+      "value": "25kPa",
+      "label": "Puissance"
+     },
+     {
+      "value": "5L",
+      "label": "Réservoir"
+     }
+    ]
+   },
+   {
+    "title": "Spot-cleaning Intelligent.",
+    "desc": "Nettoyage ciblé optimisé : le SP50 intervient uniquement où c'est nécessaire, économisant temps et énergie.",
+    "metrics": [
+     {
+      "value": "4h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "3h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme de nettoyage intelligent associant détection IA visuelle, aspiration haute puissance et navigation LiDAR pour un spot-cleaning d'une efficacité redoutable.",
+  "highlight": {
+   "label": "Détection",
+   "value": "IA Visuelle",
+   "sub": "99% de précision"
+  },
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "25 kPa"
+   },
+   {
+    "label": "Détection IA",
+    "value": "Visuelle 99%"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "4h / 3h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "450 × 450 × 950 mm"
+   },
+   {
+    "label": "Réservoir",
+    "value": "5 L"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/sp50/situation.jpg",
+   "../assets/img/robots/sp50/produit.png",
+   "https://europbots.com/assets/img/robots/sp50/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/sp50/produit.png",
+   "assets/robots/sp50/situation.jpg"
+  ]
+ },
+ {
+  "slug": "cleanibot-c5",
+  "category": "nettoyage",
+  "name": "CleaniBot C5",
+  "label": "Lavage Professionnel",
+  "short": "Lavage, balayage et poussée 3-en-1. Moteur 400W, 1980 m²/h, réservoir 90L et autonomie 3h.",
+  "card_img": "assets/img/robots/cleanibot-c5/produit.png",
+  "hidden": false,
+  "title_tag": "CleaniBot C5 | Robot laveur OrionStar 1980 m²/h",
+  "meta_description": "CleaniBot C5 : robot laveur professionnel OrionStar. Lavage, balayage et poussée en un seul robot. 1980 m²/h, 90L, autonomie 3h.",
+  "keywords": "CleaniBot C5, robot laveur, OrionStar, nettoyage professionnel, 1980 m²/h, lavage balayage",
+  "badge": "Nettoyage Professionnel",
+  "brand": "CleaniBot",
+  "model": "C5",
+  "desc": "Robot de lavage, balayage et poussée de poussière 3-en-1. Efficacité de 1 980 m²/h, réservoir 90 L et autonomie de 3 h pour les grands espaces professionnels.",
+  "ref": "Réf. / C5-CLEANIBOT",
+  "stats": [
+   {
+    "value": "1980 m²/h",
+    "label": "Efficacité"
+   },
+   {
+    "value": "90 L",
+    "label": "Réservoir"
+   },
+   {
+    "value": "3h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "< 68 dB",
+    "label": "Niveau sonore"
+   }
+  ],
+  "features": [
+   {
+    "title": "Lavage Profond.",
+    "desc": "Moteur principal 400W et double brosse pour un lavage en profondeur atteignant 95 % de couverture, avec raclette double cavité.",
+    "metrics": [
+     {
+      "value": "400W",
+      "label": "Puissance"
+     },
+     {
+      "value": "95%",
+      "label": "Couverture"
+     }
+    ]
+   },
+   {
+    "title": "Efficacité Maximale.",
+    "desc": "1 980 m²/h grâce à une largeur de lavage de 550 mm, un réservoir de 90 L et une recharge rapide en 1,5 h.",
+    "metrics": [
+     {
+      "value": "1980",
+      "label": "m²/h"
+     },
+     {
+      "value": "90L",
+      "label": "Réservoir"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie Intelligente.",
+    "desc": "Recharge, vidange et nettoyage de cuve automatiques. Pilotage APP, cloud et robot pour une autonomie totale.",
+    "metrics": [
+     {
+      "value": "4 min",
+      "label": "Auto-nettoyage"
+     },
+     {
+      "value": "3 modes",
+      "label": "Contrôle"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un robot laveur 3-en-1 avec moteur 400W, double brosse et réservoir 90 L pour un nettoyage haute performance des grands espaces.",
+  "highlight": {
+   "label": "Efficacité",
+   "value": "1 980 m²/h",
+   "sub": "Lavage + Balayage + Poussée"
+  },
+  "specs": [
+   {
+    "label": "Efficacité",
+    "value": "1 980 m²/h"
+   },
+   {
+    "label": "Largeur lavage",
+    "value": "550 mm (raclette 750 mm)"
+   },
+   {
+    "label": "Réservoir",
+    "value": "90 L (45 + 45)"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "3h / 1,5h (charge rapide)"
+   },
+   {
+    "label": "Dimensions",
+    "value": "820 × 680 × 1 130 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "160 kg"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/cleanibot-c5/situation.png",
+   "../assets/img/robots/cleanibot-c5/produit.png",
+   "https://europbots.com/assets/img/robots/cleanibot-c5/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/cleanibot-c5/produit.png",
+   "assets/robots/cleanibot-c5/situation.png"
+  ]
+ },
+ {
+  "slug": "cleanibot-k1",
+  "category": "nettoyage",
+  "name": "CleaniBot K1",
+  "label": "Aspirateur Compact",
+  "short": "Aspiration 20 kPa, design compact 42 cm, nettoyage tapis et 8h d'autonomie.",
+  "card_img": "assets/img/robots/cleanibot-k1/produit.png",
+  "hidden": false,
+  "title_tag": "CleaniBot K1 | Robot aspirateur professionnel compact 20 kPa",
+  "meta_description": "CleaniBot K1 : robot aspirateur professionnel compact OrionStar. 20 kPa, 10L, 8h d'autonomie, nettoyage tapis, design 42 cm.",
+  "keywords": "CleaniBot K1, robot aspirateur professionnel, OrionStar, 20 kPa, nettoyage compact, serpilliere",
+  "badge": "Nettoyage Professionnel",
+  "brand": "CleaniBot",
+  "model": "K1",
+  "desc": "Robot compact d’aspiration, balayage et serpillière avec une puissance de 20 kPa et un bac de 10 L pour des espaces professionnels impeccables.",
+  "ref": "Réf. / K1-CLEANIBOT",
+  "stats": [
+   {
+    "value": "20 kPa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "700 m²/h",
+    "label": "Efficacité"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "46 kg",
+    "label": "Poids"
+   }
+  ],
+  "features": [
+   {
+    "title": "Aspiration Profonde.",
+    "desc": "Aspiration surpuissante de 20 kPa avec bac de 10 L, design anti-enchêvêtrement et nettoyage tapis haute qualité.",
+    "metrics": [
+     {
+      "value": "20 kPa",
+      "label": "Aspiration"
+     },
+     {
+      "value": "10L",
+      "label": "Bac"
+     }
+    ]
+   },
+   {
+    "title": "Design Compact.",
+    "desc": "Seulement 42 cm de large pour passer partout. Mode manuel et automatique combinés, maintenance simplifiée.",
+    "metrics": [
+     {
+      "value": "42 cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "46 kg",
+      "label": "Poids"
+     }
+    ]
+   },
+   {
+    "title": "Gestion à Distance.",
+    "desc": "Application mobile et plateforme cloud pour planifier, surveiller et générer des rapports de nettoyage en temps réel.",
+    "metrics": [
+     {
+      "value": "24/7",
+      "label": "Monitoring"
+     },
+     {
+      "value": "OTA",
+      "label": "Mises à jour"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un robot compact d’aspiration, balayage et serpillière conçu pour les espaces professionnels les plus exigeants.",
+  "highlight": {
+   "label": "Aspiration",
+   "value": "20 kPa",
+   "sub": "Aspiration profonde"
+  },
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "20 kPa"
+   },
+   {
+    "label": "Efficacité",
+    "value": "700 m²/h"
+   },
+   {
+    "label": "Largeur nettoyage",
+    "value": "440 mm"
+   },
+   {
+    "label": "Bac à poussière",
+    "value": "10 L"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "8h (aspiration) - 4h (serpillière) / 1,5h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "660 × 525 × 718 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "46 kg"
+   },
+   {
+    "label": "Capteurs",
+    "value": "8 (lidar, RGBD, TOF, ultrasons, géomagnétique)"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/cleanibot-k1/situation.png",
+   "../assets/img/robots/cleanibot-k1/produit.png",
+   "https://europbots.com/assets/img/robots/cleanibot-k1/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/cleanibot-k1/produit.png",
+   "assets/robots/cleanibot-k1/situation.png"
+  ]
+ },
+ {
+  "slug": "cleanibot-m1",
+  "category": "nettoyage",
+  "name": "CleaniBot M1",
+  "label": "Autolaveuse Pro",
+  "short": "Lavage et serpillière avec double roller 50 cm, 1200 m²/h, 68L et 11 capteurs.",
+  "card_img": "assets/img/robots/cleanibot-m1/produit.png",
+  "hidden": false,
+  "title_tag": "CleaniBot M1 | Robot laveur professionnel OrionStar",
+  "meta_description": "CleaniBot M1 : robot laveur professionnel OrionStar. Lavage, balayage et serpillière. 1200 m²/h, 68L, 11 capteurs, navigation intelligente.",
+  "keywords": "CleaniBot M1, robot laveur, OrionStar, nettoyage professionnel, lavage automatique, serpillière",
+  "badge": "Nettoyage Professionnel",
+  "brand": "CleaniBot",
+  "model": "M1",
+  "desc": "Robot de lavage, balayage et serpillière OrionStar. Double brosse roller pressurisée, raclette auto-levante et navigation intelligente pour un nettoyage professionnel autonome.",
+  "ref": "Réf. / M1-CLEANIBOT",
+  "stats": [
+   {
+    "value": "1200 m²/h",
+    "label": "Efficacité"
+   },
+   {
+    "value": "68 L",
+    "label": "Réservoir"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "11",
+    "label": "Capteurs"
+   }
+  ],
+  "features": [
+   {
+    "title": "Lavage en Profondeur.",
+    "desc": "Double brosse roller 50 cm flottante et pressurisée, raclette 68 cm auto-levante pour un lavage en profondeur sans résidus.",
+    "metrics": [
+     {
+      "value": "50 cm",
+      "label": "Brosse"
+     },
+     {
+      "value": "68 cm",
+      "label": "Raclette"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Intelligente.",
+    "desc": "Planification intelligente, ascenseur automatique, remplissage et vidange autonomes pour un fonctionnement 100 % mains libres.",
+    "metrics": [
+     {
+      "value": "11",
+      "label": "Capteurs"
+     },
+     {
+      "value": "Auto",
+      "label": "Remplissage"
+     }
+    ]
+   },
+   {
+    "title": "Sécurité Maximale.",
+    "desc": "11 capteurs (lidar, RGBD, TOF, ultrasons) en fusion pour une détection et un évitement d'obstacles ultra-précis.",
+    "metrics": [
+     {
+      "value": "1080P",
+      "label": "Caméras"
+     },
+     {
+      "value": "360°",
+      "label": "Détection"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un robot laveur 3-en-1 avec double brosse roller pressurisée, raclette auto-levante et navigation autonome pour les grandes surfaces professionnelles.",
+  "highlight": {
+   "label": "Efficacité",
+   "value": "1 200 m²/h",
+   "sub": "Lavage + balayage + serpillière"
+  },
+  "specs": [
+   {
+    "label": "Efficacité",
+    "value": "1 200 m²/h"
+   },
+   {
+    "label": "Largeur nettoyage",
+    "value": "500 mm (raclette 680 mm)"
+   },
+   {
+    "label": "Réservoir",
+    "value": "68 L (35 + 33)"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "3,5h (lavage) – 8h (serpillière) / 2h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "784 × 680 × 1 015 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "121,7 kg"
+   },
+   {
+    "label": "Capteurs",
+    "value": "11 (lidar, 3 RGBD, 2 TOF, 4 ultrasons, géomagnétique)"
+   },
+   {
+    "label": "Restriction",
+    "value": "Non compatible tapis et parquet"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/cleanibot-m1/situation.png",
+   "../assets/img/robots/cleanibot-m1/produit.png",
+   "https://europbots.com/assets/img/robots/cleanibot-m1/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/cleanibot-m1/produit.png",
+   "assets/robots/cleanibot-m1/situation.png"
+  ]
+ },
+ {
+  "slug": "carrybot_2",
+  "category": "logistique",
+  "name": "Carrybot 2",
+  "label": "Multi-plateaux",
+  "short": "2 plateaux modulables supportant 30kg chacun pour optimiser les flux et limiter les trajets.",
+  "card_img": "assets/img/robots/carrybot-2/produit.png",
+  "hidden": false,
+  "title_tag": "Carrybot 2 | Robot transport 2 plateaux modulables 30kg",
+  "meta_description": "Carrybot 2 : robot transport avec 2 plateaux modulables supportant 30kg chacun. Optimisez vos flux et limitez les trajets internes.",
+  "keywords": "Carrybot 2, robot multi-plateaux, robot transport 30kg, robot logistique modulaire",
+  "badge": "Gamme Logistique",
+  "brand": "OrionStar",
+  "model": "Carrybot 2",
+  "desc": "La logistique multi-plateaux. Équipé de deux plateaux modulables supportant 30 kg chacun, le Carrybot 2 optimise la préparation de commandes et le transport de pièces multiples.",
+  "ref": "Réf. / CARRYBOT2-SERVICE",
+  "stats": [
+   {
+    "value": "2",
+    "label": "Plateaux"
+   },
+   {
+    "value": "30kg",
+    "label": "Par plateau"
+   },
+   {
+    "value": "9h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "3D",
+    "label": "LiDAR + V-SLAM"
+   }
+  ],
+  "features": [
+   {
+    "title": "Multi Plateaux.",
+    "desc": "Équipé de 2 plateaux modulables, idéal pour transporter plusieurs types de commandes ou de composants en un seul trajet.",
+    "metrics": [
+     {
+      "value": "2",
+      "label": "Plateaux"
+     },
+     {
+      "value": "30kg",
+      "label": "Par plateau"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Précise.",
+    "desc": "Alliance de la technologie LiDAR 3D et du V-SLAM 2.0 pour circuler en toute sécurité dans les allées d'entrepôt étroites.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "LiDAR"
+     },
+     {
+      "value": "60cm",
+      "label": "Passage min"
+     }
+    ]
+   },
+   {
+    "title": "Interface Intuitive.",
+    "desc": "Un écran tactile capacitif de 14\" Haute Définition pour assigner les missions rapidement directement sur le robot.",
+    "metrics": [
+     {
+      "value": "14\"",
+      "label": "Écran HD"
+     },
+     {
+      "value": "9h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Des données industrielles solides conçues pour soutenir une logistique de préparation de commandes intensive.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "525 × 650 × 1377 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "58 kg"
+   },
+   {
+    "label": "Plateaux & Charge",
+    "value": "2 plateaux (30 kg par plateau)"
+   },
+   {
+    "label": "Charge totale max",
+    "value": "150 kg (Base incluse)"
+   },
+   {
+    "label": "Passage min",
+    "value": "60 cm"
+   },
+   {
+    "label": "Écran",
+    "value": "14\" HD"
+   },
+   {
+    "label": "Autonomie",
+    "value": "9h (Charge 4.5h)"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + V-SLAM 2.0"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/carrybot-2/situation.png",
+   "../assets/img/robots/carrybot-2/produit.png",
+   "https://europbots.com/assets/img/robots/carrybot-2/produit.png"
+  ],
+  "local_images": [
+   "assets/robots/carrybot_2/produit.png",
+   "assets/robots/carrybot_2/situation.png"
+  ]
+ },
+ {
+  "slug": "cruzr",
+  "category": "service",
+  "name": "Cruzr",
+  "label": "Humanoïde",
+  "short": "Robot humanoïde basé sur l'IA avec bras articulés et plateforme de gestion cloud.",
+  "card_img": "cruzr.png",
+  "hidden": true,
+  "title_tag": "Cruzr Ubtech | Robot humanoïde IA avec bras articulés",
+  "meta_description": "Cruzr d'Ubtech : robot humanoïde IA, bras articulés 6-DOF, écran 11.6\" et plateforme cloud. 28+ langues. Solution premium pour accueil et démos.",
+  "keywords": "Cruzr, Ubtech, robot humanoïde, IA bras articulés, robot accueil premium",
+  "badge": "Humanoïde",
+  "brand": "Ubtech",
+  "model": "Cruzr",
+  "desc": "Robot humanoïde basé sur l'IA avec bras articulés et plateforme de gestion cloud. Conçu pour l'accueil personnalisé et les démonstrations interactives.",
+  "ref": "Réf. / CRUZR-HUMANOID",
+  "stats": [
+   {
+    "value": "2",
+    "label": "Bras articulés"
+   },
+   {
+    "value": "28+",
+    "label": "Langues"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "SLAM",
+    "label": "Navigation"
+   }
+  ],
+  "features": [
+   {
+    "title": "Bras Articulés.",
+    "desc": "Deux bras 6-DOF expressifs et précis. Permet des gestes naturels, démonstrations interactives et accueil personnalisé.",
+    "metrics": [
+     {
+      "value": "6-DOF",
+      "label": "Par bras"
+     },
+     {
+      "value": "2",
+      "label": "Bras"
+     }
+    ]
+   },
+   {
+    "title": "IA Conversationnelle.",
+    "desc": "Une intelligence artificielle avancée pour échanger naturellement en plus de 28 langues, avec reconnaissance vocale et synthèse fluide.",
+    "metrics": [
+     {
+      "value": "28+",
+      "label": "Langues"
+     },
+     {
+      "value": "HD",
+      "label": "Caméra"
+     }
+    ]
+   },
+   {
+    "title": "Plateforme Cloud.",
+    "desc": "Gestion centralisée à distance, mises à jour OTA, déploiement de scénarios personnalisés et analytics en temps réel.",
+    "metrics": [
+     {
+      "value": "OTA",
+      "label": "Mises à jour"
+     },
+     {
+      "value": "24/7",
+      "label": "Monitoring"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme humanoïde complète intégrant bras 6-DOF, navigation SLAM, écran multimédia et intelligence cloud pour des interactions de haut niveau.",
+  "highlight": {
+   "label": "Format",
+   "value": "Humanoïde",
+   "sub": "128 cm / 47 kg"
+  },
+  "specs": [
+   {
+    "label": "Hauteur / Poids",
+    "value": "128 cm / 47 kg"
+   },
+   {
+    "label": "Bras",
+    "value": "2 bras 6-DOF"
+   },
+   {
+    "label": "Écran",
+    "value": "11.6\""
+   },
+   {
+    "label": "Caméra & Son",
+    "value": "Caméra HD / Son stéréo"
+   },
+   {
+    "label": "Batterie",
+    "value": "4h d'autonomie"
+   },
+   {
+    "label": "Navigation",
+    "value": "SLAM Laser + Vision"
+   }
+  ],
+  "images": [
+   "cruzr.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "padbot-x3",
+  "category": "service",
+  "name": "PadBot X3",
+  "label": "Accueil Personnalisé",
+  "short": "Tête motorisée orientable, reconnaissance faciale et navigation SLAM Laser.",
+  "card_img": "padbot-x3.png",
+  "hidden": true,
+  "title_tag": "PadBot X3 Inbot | Robot accueil reconnaissance faciale",
+  "meta_description": "PadBot X3 d'Inbot : robot accueil, tête motorisée orientable, reconnaissance faciale et navigation SLAM. Écran tactile 10.1\". Personnalisation visiteurs.",
+  "keywords": "PadBot X3, Inbot, robot reconnaissance faciale, robot accueil personnalisé, SLAM Laser",
+  "badge": "Accueil Personnalisé",
+  "brand": "Inbot",
+  "model": "PadBot X3",
+  "desc": "Tête motorisée orientable, reconnaissance faciale et navigation SLAM Laser pour un accueil personnalisé adaptatif.",
+  "ref": "Réf. / PADBOTX3-SERVICE",
+  "stats": [
+   {
+    "value": "360°",
+    "label": "Tête motorisée"
+   },
+   {
+    "value": "AI",
+    "label": "Reconnaissance faciale"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "10.1\"",
+    "label": "Écran tactile"
+   }
+  ],
+  "features": [
+   {
+    "title": "Tête Motorisée 360°.",
+    "desc": "Une tête entièrement orientable suit naturellement les visiteurs et crée une présence chaleureuse à l'accueil.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Rotation"
+     },
+     {
+      "value": "10.1\"",
+      "label": "Écran"
+     }
+    ]
+   },
+   {
+    "title": "Reconnaissance Faciale.",
+    "desc": "Identifiez vos visiteurs récurrents et personnalisez l'accueil avec une reconnaissance faciale rapide et fiable.",
+    "metrics": [
+     {
+      "value": "AI",
+      "label": "Reconnaissance"
+     },
+     {
+      "value": "RGPD",
+      "label": "Compatible"
+     }
+    ]
+   },
+   {
+    "title": "Navigation SLAM Laser.",
+    "desc": "Cartographie laser de précision pour évoluer en toute autonomie et guider vos visiteurs avec sécurité.",
+    "metrics": [
+     {
+      "value": "Laser",
+      "label": "SLAM"
+     },
+     {
+      "value": "8h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme d'accueil compacte combinant tête motorisée, reconnaissance faciale et navigation laser pour un service adaptatif et fiable.",
+  "highlight": {
+   "label": "Spécialité",
+   "value": "Accueil",
+   "sub": "Personnalisé adaptatif"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "410 × 410 × 1280 mm"
+   },
+   {
+    "label": "Tête motorisée",
+    "value": "Rotation 360°"
+   },
+   {
+    "label": "Écran",
+    "value": "Tactile 10.1\""
+   },
+   {
+    "label": "Reconnaissance",
+    "value": "Faciale par IA"
+   },
+   {
+    "label": "Navigation",
+    "value": "SLAM Laser"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "8h / 4h"
+   }
+  ],
+  "images": [
+   "padbot-x3.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "W3",
+  "category": "service",
+  "name": "Butlerbot W3",
+  "label": "Room Service",
+  "short": "Livraison et environnements sécurisés avec gestion d'ascenseurs (jusqu'à 4 compartiments).",
+  "card_img": "W3.png",
+  "hidden": true,
+  "title_tag": "Butlerbot W3 Pudu | Robot livraison hôtelier 4 compartiments",
+  "meta_description": "Butlerbot W3 de Pudu : robot livraison sécurisée avec 4 compartiments et gestion d'ascenseurs. Solution hôtelière pour le room service.",
+  "keywords": "Butlerbot W3, Pudu, robot livraison hôtel, room service robot, robot ascenseur",
+  "badge": "Hôtellerie & Service",
+  "brand": "Butlerbot",
+  "model": "W3",
+  "desc": "L'élégance au service de l'hospitalité. Le Butlerbot W3 redéfinit le room service grâce à ses compartiments sécurisés et sa capacité à emprunter les ascenseurs en totale autonomie.",
+  "ref": "Réf. / W3-BUTLERBOT",
+  "stats": [
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "4",
+    "label": "Compartiments"
+   },
+   {
+    "value": "90L",
+    "label": "Volume total"
+   },
+   {
+    "value": "IoT",
+    "label": "Ascenseur"
+   }
+  ],
+  "features": [
+   {
+    "title": "Intégration Ascenseur.",
+    "desc": "Le W3 s'interface avec le système IoT de votre bâtiment pour appeler l'ascenseur et changer d'étage sans assistance humaine.",
+    "metrics": [
+     {
+      "value": "IoT",
+      "label": "Protocole"
+     },
+     {
+      "value": "Multi",
+      "label": "Étages"
+     }
+    ]
+   },
+   {
+    "title": "Cabines Sécurisées.",
+    "desc": "Multiples compartiments verrouillés numériquement. Le client ouvre son casier via un code PIN ou un QR code sur l'écran.",
+    "metrics": [
+     {
+      "value": "4",
+      "label": "Compartiments"
+     },
+     {
+      "value": "PIN/QR",
+      "label": "Verrouillage"
+     }
+    ]
+   },
+   {
+    "title": "Évitement 3D.",
+    "desc": "Caméras de profondeur et capteurs LiDAR permettant au robot d'éviter les obstacles dynamiques avec une précision millimétrique.",
+    "metrics": [
+     {
+      "value": "V-SLAM",
+      "label": "Navigation"
+     },
+     {
+      "value": "3D",
+      "label": "Caméras"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Le W3 concentre les dernières avancées en matière de robotique de service dans un châssis élégant et discret, conçu pour les établissements les plus prestigieux.",
+  "highlight": {
+   "label": "Compartiments",
+   "value": "90 L",
+   "sub": "Jusqu'à 4 compartiments sécurisés"
+  },
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "450 × 450 × 1080 mm"
+   },
+   {
+    "label": "Poids à vide",
+    "value": "45 kg"
+   },
+   {
+    "label": "Compartiments",
+    "value": "Jusqu'à 4 (Total : 90 L)"
+   },
+   {
+    "label": "Charge utile",
+    "value": "20 kg"
+   },
+   {
+    "label": "Navigation",
+    "value": "V-SLAM (Vision IA + Laser)"
+   },
+   {
+    "label": "Vitesse max",
+    "value": "1.0 m/s (ajustable)"
+   },
+   {
+    "label": "Autonomie / Charge",
+    "value": "10-12h / 4.5h"
+   }
+  ],
+  "images": [
+   "W3.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "cadebot-l100",
+  "category": "service",
+  "name": "Cadebot L100",
+  "label": "Livraison & Marketing",
+  "short": "Double écran (10.1\" tactile + 21.5\" Pub) et navigation U-SLAM Fusion (Laser + Vision IA).",
+  "card_img": "cadebot-l100.png",
+  "hidden": true,
+  "title_tag": "Cadebot L100 Reeman | Robot livraison double écran U-SLAM",
+  "meta_description": "Cadebot L100 de Reeman : robot avec double écran (10.1\" tactile + 21.5\" pub) et navigation U-SLAM Fusion. Livraison et marketing combinés. Charge 100kg.",
+  "keywords": "Cadebot L100, Reeman, robot livraison, U-SLAM, robot double écran",
+  "badge": "Livraison & Marketing",
+  "brand": "Reeman",
+  "model": "Cadebot L100",
+  "desc": "Double écran (10.1\" tactile + 21.5\" Pub) et navigation U-SLAM Fusion (Laser + Vision IA) pour livraison et publicité combinées.",
+  "ref": "Réf. / L100-CADEBOT",
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge max"
+   },
+   {
+    "value": "2",
+    "label": "Écrans"
+   },
+   {
+    "value": "12h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "U-SLAM",
+    "label": "Fusion"
+   }
+  ],
+  "features": [
+   {
+    "title": "Double Écran.",
+    "desc": "Combinaison d'un écran tactile 10.1\" pour l'interaction et d'un écran publicitaire 21.5\" pour diffuser vos contenus marketing.",
+    "metrics": [
+     {
+      "value": "10.1\"",
+      "label": "Tactile"
+     },
+     {
+      "value": "21.5\"",
+      "label": "Publicitaire"
+     }
+    ]
+   },
+   {
+    "title": "U-SLAM Fusion.",
+    "desc": "Navigation hybride combinant LiDAR laser et vision par intelligence artificielle pour une cartographie dynamique et fiable.",
+    "metrics": [
+     {
+      "value": "Laser",
+      "label": "LiDAR"
+     },
+     {
+      "value": "Vision IA",
+      "label": "Caméra"
+     }
+    ]
+   },
+   {
+    "title": "Charge 100kg.",
+    "desc": "Capacité de charge utile jusqu'à 100 kg pour assurer le transport et la livraison de vos marchandises en toute fiabilité.",
+    "metrics": [
+     {
+      "value": "100kg",
+      "label": "Charge max"
+     },
+     {
+      "value": "12h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme robuste pour la livraison et la diffusion publicitaire, alliant capacité de charge, écrans haute résolution et navigation hybride U-SLAM Fusion.",
+  "highlight": {
+   "label": "Navigation",
+   "value": "U-SLAM",
+   "sub": "Laser + Vision IA"
+  },
+  "specs": [
+   {
+    "label": "Charge max",
+    "value": "100 kg"
+   },
+   {
+    "label": "Écran tactile",
+    "value": "10.1\""
+   },
+   {
+    "label": "Écran publicitaire",
+    "value": "21.5\""
+   },
+   {
+    "label": "Navigation",
+    "value": "U-SLAM Fusion (Laser + Vision IA)"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "12h / 4h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "600 × 500 × 1450 mm"
+   }
+  ],
+  "images": [
+   "cadebot-l100.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "temi-platform",
+  "category": "service",
+  "name": "Temi Platform",
+  "label": "Base Modulaire",
+  "short": "Base mobile autonome ouverte (Open source, SDK Android) pour intégrer vos propres dispositifs.",
+  "card_img": "temi-platform.png",
+  "hidden": true,
+  "title_tag": "Temi Platform | Base mobile autonome SDK Android",
+  "meta_description": "Temi Platform : base mobile autonome ouverte (Open source, SDK Android) pour intégrer vos propres dispositifs. Solution modulaire pour développeurs.",
+  "keywords": "Temi Platform, base mobile robot, SDK Android, plateforme robotique open source",
+  "badge": "Gamme Service",
+  "brand": "Temi",
+  "model": "Platform",
+  "desc": "La Temi Platform est une base mobile autonome ouverte. Conçue pour les entreprises et laboratoires, elle permet d'intégrer facilement vos propres dispositifs (écrans, capteurs, bras) sur un système de navigation éprouvé.",
+  "ref": "Réf. / PLATFORM-SERVICE",
+  "stats": [
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "50kg",
+    "label": "Charge"
+   },
+   {
+    "value": "20000m²",
+    "label": "Couverture"
+   },
+   {
+    "value": "1000",
+    "label": "Points"
+   }
+  ],
+  "features": [
+   {
+    "title": "Open Source.",
+    "desc": "SDK Android complet pour développer vos propres applications et workflows sur mesure.",
+    "metrics": [
+     {
+      "value": "SDK",
+      "label": "Android"
+     },
+     {
+      "value": "Open",
+      "label": "Source"
+     }
+    ]
+   },
+   {
+    "title": "Modulaire Intégrable.",
+    "desc": "Fixations standard pour ajouter écrans, capteurs, bras robotiques ou modules métier spécifiques.",
+    "metrics": [
+     {
+      "value": "Modulaire",
+      "label": "Base"
+     },
+     {
+      "value": "50kg",
+      "label": "Charge"
+     }
+    ]
+   },
+   {
+    "title": "Navigation LiDAR.",
+    "desc": "LiDAR et caméras 3D pour une cartographie jusqu'à 20 000 m² et 1000 emplacements.",
+    "metrics": [
+     {
+      "value": "LiDAR",
+      "label": "3D Cam"
+     },
+     {
+      "value": "20K m²",
+      "label": "Couverture"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une base mobile ouverte, modulaire et robuste, conçue pour accueillir vos intégrations hardware et logicielles.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "500 × 500 × 320 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "36.3 kg"
+   },
+   {
+    "label": "Charge utile",
+    "value": "50 kg"
+   },
+   {
+    "label": "Emplacements",
+    "value": "1000 emplacements"
+   },
+   {
+    "label": "Couverture",
+    "value": "20 000 m²"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8h"
+   },
+   {
+    "label": "Charge",
+    "value": "4h"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1 m/s"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR"
+   }
+  ],
+  "images": [
+   "../assets/img/robots/platform/Situation.jpg",
+   "../assets/img/robots/platform/produit.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "blackjack",
+  "category": "service",
+  "name": "Blackjack",
+  "label": "Inspection & Sécurité",
+  "short": "Mât télescopique (2m21), caméra 360° thermique, capteurs d'air, son et vibrations.",
+  "card_img": "blackjack.png",
+  "hidden": true,
+  "title_tag": "Blackjack SMP Robotics | Robot inspection 360° thermique",
+  "meta_description": "Blackjack de SMP Robotics : robot inspection autonome, mât télescopique 2m21, caméra 360° thermique et capteurs air/son/vibrations. Sécurité industrielle.",
+  "keywords": "Blackjack, SMP Robotics, robot inspection, caméra thermique 360, robot sécurité",
+  "badge": "Inspection & Sécurité",
+  "brand": "SMP Robotics",
+  "model": "Blackjack",
+  "desc": "Mât télescopique (2m21), caméra 360° thermique, capteurs d'air, son et vibrations pour inspection et sécurité industrielles.",
+  "ref": "Réf. / BLACKJACK-INSPECTION",
+  "stats": [
+   {
+    "value": "2m21",
+    "label": "Mât télescopique"
+   },
+   {
+    "value": "360°",
+    "label": "Caméra"
+   },
+   {
+    "value": "24h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "Multi",
+    "label": "Capteurs"
+   }
+  ],
+  "features": [
+   {
+    "title": "Mât Télescopique.",
+    "desc": "Mât télescopique pouvant atteindre 2m21 de hauteur pour inspecter et surveiller les zones difficiles d'accès.",
+    "metrics": [
+     {
+      "value": "2.21m",
+      "label": "Hauteur max"
+     },
+     {
+      "value": "IP66",
+      "label": "Étanchéité"
+     }
+    ]
+   },
+   {
+    "title": "Caméra 360° Thermique.",
+    "desc": "Vision panoramique 360° couplée à l'imagerie thermique pour détecter anomalies, surchauffes et intrusions de jour comme de nuit.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Vision"
+     },
+     {
+      "value": "IR",
+      "label": "Thermique"
+     }
+    ]
+   },
+   {
+    "title": "Capteurs Multi.",
+    "desc": "Suite de capteurs environnementaux mesurant la qualité de l'air, le son et les vibrations pour une supervision industrielle complète.",
+    "metrics": [
+     {
+      "value": "3+",
+      "label": "Capteurs"
+     },
+     {
+      "value": "24h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme d'inspection autonome conçue pour les environnements industriels exigeants, alliant capteurs environnementaux et imagerie thermique 360°.",
+  "highlight": {
+   "label": "Étanchéité",
+   "value": "IP66",
+   "sub": "Tout-terrain"
+  },
+  "specs": [
+   {
+    "label": "Hauteur mât",
+    "value": "2.21 m"
+   },
+   {
+    "label": "Caméra",
+    "value": "360° thermique"
+   },
+   {
+    "label": "Capteurs",
+    "value": "Air / Son / Vibration"
+   },
+   {
+    "label": "Batterie",
+    "value": "24 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "Autonome IP66"
+   },
+   {
+    "label": "Dimensions",
+    "value": "700 × 600 × 1500 mm (mât rétracté)"
+   }
+  ],
+  "images": [
+   "blackjack.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "c3",
+  "category": "nettoyage",
+  "name": "PadBot C3",
+  "label": "Commercial Compact",
+  "short": "Ultra compact et silencieux. Aspiration puissante 15 000 Pa et station automatique incluse.",
+  "card_img": "c3.png",
+  "hidden": true,
+  "title_tag": "PadBot C3 Inbot | Robot aspirateur commercial 15000 Pa",
+  "meta_description": "PadBot C3 d'Inbot : robot aspirateur ultra compact et silencieux (55dB) avec aspiration 15 000 Pa et station automatique. Pour espaces commerciaux.",
+  "keywords": "PadBot C3, Inbot, robot aspirateur, robot commercial silencieux, 15000 Pa",
+  "badge": "Commercial Compact",
+  "brand": "Inbot",
+  "model": "PadBot C3",
+  "desc": "Ultra compact et silencieux. Aspiration puissante 15 000 Pa et station automatique incluse pour les espaces commerciaux.",
+  "ref": "Réf. / C3-CLEAN",
+  "stats": [
+   {
+    "value": "15000 Pa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "3h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "55dB",
+    "label": "Ultra silencieux"
+   },
+   {
+    "value": "AUTO",
+    "label": "Station auto"
+   }
+  ],
+  "features": [
+   {
+    "title": "Aspiration 15 000 Pa.",
+    "desc": "Une puissance d'aspiration exceptionnelle pour capturer toute la poussière et les particules fines, même dans les espaces les plus exigeants.",
+    "metrics": [
+     {
+      "value": "15 000 Pa",
+      "label": "Puissance"
+     },
+     {
+      "value": "0.4L",
+      "label": "Réservoir"
+     }
+    ]
+   },
+   {
+    "title": "Ultra silencieux.",
+    "desc": "Avec seulement 55dB, le PadBot C3 nettoie discrètement même en présence de visiteurs ou de personnel sans perturber les activités.",
+    "metrics": [
+     {
+      "value": "55dB",
+      "label": "Niveau sonore"
+     },
+     {
+      "value": "24/7",
+      "label": "Discrétion"
+     }
+    ]
+   },
+   {
+    "title": "Station automatique.",
+    "desc": "Station de charge incluse pour un retour automatique. Le robot retourne à sa base, recharge ses batteries et reprend le travail sans intervention humaine.",
+    "metrics": [
+     {
+      "value": "3h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "2.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un design ultra compact qui combine puissance d'aspiration et discrétion sonore pour un nettoyage commercial sans compromis.",
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "15 000 Pa"
+   },
+   {
+    "label": "Niveau sonore",
+    "value": "55 dB"
+   },
+   {
+    "label": "Batterie",
+    "value": "3h"
+   },
+   {
+    "label": "Charge",
+    "value": "2.5h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "350 × 350 × 100 mm"
+   },
+   {
+    "label": "Réservoir poussière",
+    "value": "0.4 L"
+   },
+   {
+    "label": "Station",
+    "value": "Automatique incluse"
+   }
+  ],
+  "images": [
+   "c3.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "monster",
+  "category": "nettoyage",
+  "name": "Monster",
+  "label": "Balayage IA",
+  "short": "Balayage intelligent grande surface. Navigation LiDAR 360°, balayage en arc et autonomie de 10h.",
+  "card_img": "monster.png",
+  "hidden": true,
+  "title_tag": "Monster Pudu | Robot balayage IA LiDAR 360° grande surface",
+  "meta_description": "Monster de Pudu : robot balayage intelligent grande surface (4000m²/h) avec navigation LiDAR 360° et autonomie 10h. Pour entrepôts et zones logistiques.",
+  "keywords": "Monster, Pudu, robot balayage, LiDAR 360, robot grande surface, robot entrepôt",
+  "badge": "Balayage IA",
+  "brand": "Pudu",
+  "model": "Monster",
+  "desc": "Balayage intelligent grande surface. Navigation LiDAR 360°, balayage en arc et autonomie de 10h pour les vastes espaces.",
+  "ref": "Réf. / MONSTER-CLEAN",
+  "stats": [
+   {
+    "value": "4000",
+    "label": "m²/h"
+   },
+   {
+    "value": "10h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "360°",
+    "label": "LiDAR"
+   },
+   {
+    "value": "80cm",
+    "label": "Brosse"
+   }
+  ],
+  "features": [
+   {
+    "title": "Balayage en arc.",
+    "desc": "Trajectoires de balayage en arc optimisées pour maximiser la couverture et l'efficacité sur les très grandes surfaces.",
+    "metrics": [
+     {
+      "value": "80cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "4000",
+      "label": "m²/h"
+     }
+    ]
+   },
+   {
+    "title": "LiDAR 360°.",
+    "desc": "Système de navigation LiDAR 360° pour une perception complète de l'environnement et un évitement précis des obstacles.",
+    "metrics": [
+     {
+      "value": "360°",
+      "label": "Détection"
+     },
+     {
+      "value": "IA",
+      "label": "Navigation"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie 10h.",
+    "desc": "Une autonomie remarquable de 10 heures qui permet de couvrir l'intégralité d'une journée d'opérations sur de vastes surfaces.",
+    "metrics": [
+     {
+      "value": "10h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Un châssis de balayage robuste pensé pour les grandes surfaces, équipé d'un LiDAR 360° et d'une brosse 80 cm pour une productivité maximale.",
+  "highlight": {
+   "label": "Navigation",
+   "value": "LiDAR 360°",
+   "sub": "Perception complète de l'environnement"
+  },
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "4000 m²/h"
+   },
+   {
+    "label": "Largeur de balayage",
+    "value": "80 cm"
+   },
+   {
+    "label": "Batterie",
+    "value": "10 h"
+   },
+   {
+    "label": "Charge",
+    "value": "5 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 360°"
+   },
+   {
+    "label": "Dimensions",
+    "value": "750 × 650 × 1050 mm"
+   },
+   {
+    "label": "Réservoir déchets",
+    "value": "50 L"
+   }
+  ],
+  "images": [
+   "monster.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "tn70",
+  "category": "nettoyage",
+  "name": "Sparkoz TN70",
+  "label": "Puissance Industrielle",
+  "short": "Rendement exceptionnel (2040 m²/h) avec 27kg de pression au sol et un grand réservoir 70L.",
+  "card_img": "tn70.png",
+  "hidden": true,
+  "title_tag": "Sparkoz TN70 | Autolaveuse industrielle 2040 m²/h 70L",
+  "meta_description": "Sparkoz TN70 : autolaveuse industrielle haute performance avec rendement 2040 m²/h, 27kg de pression au sol et grand réservoir 70L.",
+  "keywords": "Sparkoz TN70, autolaveuse industrielle, robot nettoyage 70L, robot 2040 m2/h",
+  "badge": "Puissance Industrielle",
+  "brand": "Sparkoz",
+  "model": "TN70",
+  "desc": "Rendement exceptionnel (2040 m²/h) avec 27kg de pression au sol et un grand réservoir 70L pour les nettoyages industriels.",
+  "ref": "Réf. / TN70-INDUSTRIAL",
+  "stats": [
+   {
+    "value": "2040",
+    "label": "Surface m²/h"
+   },
+   {
+    "value": "27kg",
+    "label": "Pression au sol"
+   },
+   {
+    "value": "70L",
+    "label": "Réservoir"
+   },
+   {
+    "value": "5h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Pression 27kg.",
+    "desc": "Pression au sol de 27 kg pour un nettoyage en profondeur des saletés les plus tenaces sur surfaces industrielles.",
+    "metrics": [
+     {
+      "value": "27kg",
+      "label": "Pression sol"
+     },
+     {
+      "value": "100%",
+      "label": "Efficacité"
+     }
+    ]
+   },
+   {
+    "title": "Réservoir 70L.",
+    "desc": "Grand réservoir 70L pour eau propre et 75L pour eau sale, garantissant de longues sessions de nettoyage sans interruption.",
+    "metrics": [
+     {
+      "value": "70L",
+      "label": "Eau propre"
+     },
+     {
+      "value": "75L",
+      "label": "Eau sale"
+     }
+    ]
+   },
+   {
+    "title": "Rendement 2040 m²/h.",
+    "desc": "Performance industrielle exceptionnelle de 2040 m²/h pour traiter rapidement les surfaces étendues d'entrepôts et sites logistiques.",
+    "metrics": [
+     {
+      "value": "2040",
+      "label": "m²/h"
+     },
+     {
+      "value": "5h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Architecture industrielle robuste alliant haute pression mécanique et grande capacité de réservoir pour des nettoyages d'envergure.",
+  "highlight": {
+   "label": "Catégorie",
+   "value": "Industriel",
+   "sub": "Nettoyage intensif"
+  },
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "2040 m²/h"
+   },
+   {
+    "label": "Pression au sol",
+    "value": "27 kg"
+   },
+   {
+    "label": "Réservoir eau propre",
+    "value": "70 L"
+   },
+   {
+    "label": "Réservoir eau sale",
+    "value": "75 L"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "5h / 3h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "1100 × 650 × 1100 mm"
+   }
+  ],
+  "images": [
+   "tn70.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "l4",
+  "category": "nettoyage",
+  "name": "Cenobots L4",
+  "label": "Haute Performance",
+  "short": "Navigation IA 3D complexe, brosse magnétique et productivité poussée jusqu'à 1944 m²/h.",
+  "card_img": "l4.png",
+  "hidden": true,
+  "title_tag": "Cenobots L4 | Autolaveuse IA 3D brosse magnétique 1944 m²/h",
+  "meta_description": "Cenobots L4 : autolaveuse haute performance avec navigation IA 3D, brosse magnétique 65cm et productivité 1944 m²/h.",
+  "keywords": "Cenobots L4, autolaveuse haute performance, IA 3D, brosse magnétique, robot 1944 m2/h",
+  "badge": "Haute Performance",
+  "brand": "Cenobots",
+  "model": "L4",
+  "desc": "Navigation IA 3D complexe, brosse magnétique et productivité poussée jusqu'à 1944 m²/h pour les surfaces exigeantes.",
+  "ref": "Réf. / L4-CENOBOTS",
+  "stats": [
+   {
+    "value": "1944",
+    "label": "m²/h"
+   },
+   {
+    "value": "Mag.",
+    "label": "Brosse"
+   },
+   {
+    "value": "3D",
+    "label": "IA Navigation"
+   },
+   {
+    "value": "6h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Navigation IA 3D.",
+    "desc": "Système de navigation IA 3D complexe pour gérer des environnements exigeants avec une précision et une fluidité remarquables.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "Cartographie"
+     },
+     {
+      "value": "IA",
+      "label": "Pilotage"
+     }
+    ]
+   },
+   {
+    "title": "Brosse magnétique.",
+    "desc": "Système de brosse magnétique 65 cm pour un nettoyage performant et un changement rapide entre les zones d'usage.",
+    "metrics": [
+     {
+      "value": "65cm",
+      "label": "Largeur"
+     },
+     {
+      "value": "Mag.",
+      "label": "Fixation"
+     }
+    ]
+   },
+   {
+    "title": "Productivité 1944 m²/h.",
+    "desc": "Une productivité poussée jusqu'à 1944 m²/h, idéale pour les surfaces exigeantes nécessitant rapidité et constance.",
+    "metrics": [
+     {
+      "value": "1944",
+      "label": "m²/h"
+     },
+     {
+      "value": "6h",
+      "label": "Autonomie"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme haute performance combinant intelligence 3D, brosse magnétique modulaire et productivité élevée pour les environnements professionnels exigeants.",
+  "highlight": {
+   "label": "Navigation",
+   "value": "IA 3D",
+   "sub": "Cartographie complexe en temps réel"
+  },
+  "specs": [
+   {
+    "label": "Surface / heure",
+    "value": "1944 m²/h"
+   },
+   {
+    "label": "Brosse magnétique",
+    "value": "65 cm"
+   },
+   {
+    "label": "Batterie",
+    "value": "6 h"
+   },
+   {
+    "label": "Charge",
+    "value": "3 h"
+   },
+   {
+    "label": "Navigation",
+    "value": "IA 3D complexe"
+   },
+   {
+    "label": "Dimensions",
+    "value": "750 × 600 × 1200 mm"
+   },
+   {
+    "label": "Réservoir",
+    "value": "40 L"
+   }
+  ],
+  "images": [
+   "l4.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "kleenbot-c30",
+  "category": "nettoyage",
+  "name": "Kleenbot C30",
+  "label": "Nettoyage Professionnel",
+  "short": "Cabine à pression négative et très forte aspiration (19 000 Pa) pour capturer les particules fines.",
+  "card_img": "kleenbot-c30.png",
+  "hidden": true,
+  "title_tag": "Kleenbot C30 | Robot pression négative 19000 Pa HEPA",
+  "meta_description": "Kleenbot C30 : robot nettoyage professionnel avec cabine à pression négative et aspiration 19 000 Pa. Filtre HEPA H14 pour capturer les particules fines.",
+  "keywords": "Kleenbot C30, robot pression négative, aspiration 19000 Pa, filtre HEPA, nettoyage professionnel",
+  "badge": "Nettoyage Professionnel",
+  "brand": "Kleenbot",
+  "model": "C30",
+  "desc": "Cabine à pression négative et très forte aspiration (19 000 Pa) pour capturer les particules fines dans les environnements professionnels.",
+  "ref": "Réf. / C30-KLEENBOT",
+  "stats": [
+   {
+    "value": "19000 Pa",
+    "label": "Aspiration"
+   },
+   {
+    "value": "−",
+    "label": "Pression Négative"
+   },
+   {
+    "value": "4h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "H14",
+    "label": "Filtre HEPA"
+   }
+  ],
+  "features": [
+   {
+    "title": "Pression Négative.",
+    "desc": "Cabine confinée à pression négative pour empêcher la diffusion des particules fines et garantir la qualité de l'air.",
+    "metrics": [
+     {
+      "value": "−",
+      "label": "Pression"
+     },
+     {
+      "value": "100%",
+      "label": "Confinement"
+     }
+    ]
+   },
+   {
+    "title": "Aspiration 19 000 Pa.",
+    "desc": "Une puissance d'aspiration exceptionnelle de 19 000 Pa pour capturer les particules les plus fines, même à grande vitesse.",
+    "metrics": [
+     {
+      "value": "19k",
+      "label": "Pascals"
+     },
+     {
+      "value": "PRO",
+      "label": "Niveau Pro"
+     }
+    ]
+   },
+   {
+    "title": "Filtre HEPA H14.",
+    "desc": "Filtration HEPA H14 retenant 99,995 % des particules de 0,3 µm pour une qualité d'air irréprochable.",
+    "metrics": [
+     {
+      "value": "99.995%",
+      "label": "Efficacité"
+     },
+     {
+      "value": "0.3 µm",
+      "label": "Particules"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une cabine à pression négative équipée d'une aspiration industrielle et d'un filtre HEPA H14 pour les environnements les plus exigeants.",
+  "highlight": {
+   "label": "Aspiration",
+   "value": "19 000 Pa",
+   "sub": "Pression négative"
+  },
+  "specs": [
+   {
+    "label": "Aspiration",
+    "value": "19 000 Pa"
+   },
+   {
+    "label": "Cabine",
+    "value": "Pression négative"
+   },
+   {
+    "label": "Filtre",
+    "value": "HEPA H14"
+   },
+   {
+    "label": "Batterie / Charge",
+    "value": "4h / 3h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "600 × 500 × 1100 mm"
+   },
+   {
+    "label": "Niveau sonore",
+    "value": "60 dB"
+   }
+  ],
+  "images": [
+   "kleenbot-c30.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "s100",
+  "category": "logistique",
+  "name": "Keenon S100",
+  "label": "Charges Lourdes",
+  "short": "Logistique continue 24/7, capacité 100kg et système de batterie échangeable en 15 secondes.",
+  "card_img": "s100.png",
+  "hidden": true,
+  "title_tag": "Keenon S100 | Robot logistique 100kg batterie échangeable",
+  "meta_description": "Keenon S100 : robot logistique 24/7 avec capacité 100kg et système de batterie échangeable en 15 secondes. Transport ininterrompu pour entrepôts.",
+  "keywords": "Keenon S100, robot logistique, robot 100kg, batterie échangeable, robot entrepôt 24/7",
+  "badge": "Charges Lourdes",
+  "brand": "Keenon",
+  "model": "S100",
+  "desc": "Logistique continue 24/7, capacité 100 kg et système de batterie échangeable en 15 secondes pour un transport ininterrompu.",
+  "ref": "Réf. / S100-LOGISTICS",
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge"
+   },
+   {
+    "value": "24/7",
+    "label": "Continu"
+   },
+   {
+    "value": "15s",
+    "label": "Échange Batterie"
+   },
+   {
+    "value": "8h",
+    "label": "Autonomie"
+   }
+  ],
+  "features": [
+   {
+    "title": "Logistique 24/7.",
+    "desc": "Un transport intralogistique sans interruption, jour et nuit, pour optimiser vos flux et augmenter la productivité.",
+    "metrics": [
+     {
+      "value": "24/7",
+      "label": "Disponibilité"
+     },
+     {
+      "value": "0",
+      "label": "Interruption"
+     }
+    ]
+   },
+   {
+    "title": "Batterie 15s.",
+    "desc": "Système de batterie échangeable en seulement 15 secondes pour une remise en service immédiate sans temps de charge.",
+    "metrics": [
+     {
+      "value": "15s",
+      "label": "Échange"
+     },
+     {
+      "value": "8h",
+      "label": "Autonomie"
+     }
+    ]
+   },
+   {
+    "title": "Charge 100 kg.",
+    "desc": "Capacité de transport pouvant atteindre 100 kg pour absorber les flux logistiques les plus exigeants en milieu industriel.",
+    "metrics": [
+     {
+      "value": "100 kg",
+      "label": "Charge max"
+     },
+     {
+      "value": "1.5 m/s",
+      "label": "Vitesse"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Une plateforme de transport robotisée combinant capacité 100 kg, batterie échangeable et navigation autonome avancée pour vos flux logistiques.",
+  "highlight": {
+   "label": "Charge max",
+   "value": "100 kg",
+   "sub": "Logistique 24/7"
+  },
+  "specs": [
+   {
+    "label": "Charge max",
+    "value": "100 kg"
+   },
+   {
+    "label": "Batterie échangeable",
+    "value": "15 secondes"
+   },
+   {
+    "label": "Autonomie",
+    "value": "8h"
+   },
+   {
+    "label": "Dimensions",
+    "value": "800 × 600 × 1200 mm"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR + Vision"
+   },
+   {
+    "label": "Vitesse",
+    "value": "1.5 m/s"
+   },
+   {
+    "label": "Indice protection",
+    "value": "IP54"
+   }
+  ],
+  "images": [
+   "s100.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "carrybot_1",
+  "category": "logistique",
+  "name": "Carrybot 1",
+  "label": "Transport Interne",
+  "short": "Agilité maximale via LIDAR et V-SLAM 2.0 pour franchir les couloirs étroits (150kg de charge).",
+  "card_img": "carrybot-1.png",
+  "hidden": true,
+  "title_tag": "Carrybot 1 | Robot transport interne LIDAR V-SLAM 2.0 150kg",
+  "meta_description": "Carrybot 1 : robot transport interne avec navigation LIDAR et V-SLAM 2.0. Charge 150kg, agilité maximale pour franchir les couloirs étroits.",
+  "keywords": "Carrybot 1, robot transport interne, V-SLAM 2.0, robot 150kg, robot couloir étroit",
+  "badge": "Gamme Logistique",
+  "brand": "OrionStar",
+  "model": "Carrybot 1",
+  "desc": "Le robot de transport interne par excellence. Conçu pour déplacer de lourdes charges avec une agilité maximale dans les entrepôts et les espaces de production étroits.",
+  "ref": "Réf. / CARRYBOT1-SERVICE",
+  "stats": [
+   {
+    "value": "150kg",
+    "label": "Charge Utile"
+   },
+   {
+    "value": "9h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "60cm",
+    "label": "Passage min"
+   },
+   {
+    "value": "3D",
+    "label": "LiDAR + V-SLAM"
+   }
+  ],
+  "features": [
+   {
+    "title": "Charge Lourde.",
+    "desc": "Conçu pour transporter jusqu'à 150 kg. Déplacez vos marchandises ou équipements lourds sans aucun effort pour vos équipes.",
+    "metrics": [
+     {
+      "value": "150kg",
+      "label": "Capacité"
+     },
+     {
+      "value": "58kg",
+      "label": "Poids robot"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Avancée.",
+    "desc": "Technologie V-SLAM 2.0 couplée au LiDAR 3D pour évoluer avec précision et franchir des couloirs étroits dès 60 cm de largeur.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "LiDAR"
+     },
+     {
+      "value": "60cm",
+      "label": "Passage min"
+     }
+    ]
+   },
+   {
+    "title": "Autonomie Prolongée.",
+    "desc": "Jusqu'à 9 heures de fonctionnement ininterrompu. Recharge rapide en 4.5 heures pour maximiser la disponibilité.",
+    "metrics": [
+     {
+      "value": "9h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "4.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "La solution industrielle de référence, alliant capacité d'emport massive et agilité directionnelle pour les environnements exigeants.",
+  "specs": [
+   {
+    "label": "Dimensions",
+    "value": "525 × 650 × 1377 mm"
+   },
+   {
+    "label": "Poids",
+    "value": "58 kg"
+   },
+   {
+    "label": "Charge Utile",
+    "value": "150 kg"
+   },
+   {
+    "label": "Passage min",
+    "value": "60 cm"
+   },
+   {
+    "label": "Écran",
+    "value": "14\" HD"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + V-SLAM 2.0"
+   }
+  ],
+  "images": [
+   "carrybot-1.png"
+  ],
+  "local_images": []
+ },
+ {
+  "slug": "carrybot_3",
+  "category": "logistique",
+  "name": "Carrybot 3",
+  "label": "Étagères Intégrées",
+  "short": "Étagère robuste dédiée au transport de boîtes multiples ou de composants volumineux (100kg).",
+  "card_img": "carrybot-3.png",
+  "hidden": true,
+  "title_tag": "Carrybot 3 | Robot transport étagère robuste 100kg",
+  "meta_description": "Carrybot 3 : robot transport avec étagère robuste dédiée aux boîtes multiples ou composants volumineux. Charge 100kg, navigation autonome.",
+  "keywords": "Carrybot 3, robot étagère intégrée, robot 100kg, robot composants volumineux",
+  "badge": "Gamme Logistique",
+  "brand": "OrionStar",
+  "model": "Carrybot 3",
+  "desc": "Le robot logistique avec étagères intégrées. Idéal pour le transport de boîtes multiples ou de composants volumineux, le Carrybot 3 excelle dans les environnements de production intensifs.",
+  "ref": "Réf. / CARRYBOT3-SERVICE",
+  "stats": [
+   {
+    "value": "100kg",
+    "label": "Charge utile"
+   },
+   {
+    "value": "9h",
+    "label": "Autonomie"
+   },
+   {
+    "value": "3D",
+    "label": "Navigation LiDAR"
+   },
+   {
+    "value": "1 m/s",
+    "label": "Vitesse"
+   }
+  ],
+  "features": [
+   {
+    "title": "Étagères Intégrées.",
+    "desc": "Structure robuste et volumineuse spécialement conçue pour le transport de composants encombrants ou de multiples boîtes.",
+    "metrics": [
+     {
+      "value": "100kg",
+      "label": "Capacité"
+     },
+     {
+      "value": "XL",
+      "label": "Volume"
+     }
+    ]
+   },
+   {
+    "title": "Navigation Intelligente.",
+    "desc": "Technologie V-SLAM et LiDAR garantissant des déplacements fluides et un évitement d'obstacles optimal dans les environnements complexes.",
+    "metrics": [
+     {
+      "value": "3D",
+      "label": "LiDAR"
+     },
+     {
+      "value": "2.0",
+      "label": "V-SLAM"
+     }
+    ]
+   },
+   {
+    "title": "Travail Collaboratif.",
+    "desc": "Système de coopération multi-robots pour automatiser et fluidifier les flux de production à très grande échelle.",
+    "metrics": [
+     {
+      "value": "9h",
+      "label": "Autonomie"
+     },
+     {
+      "value": "4.5h",
+      "label": "Charge"
+     }
+    ]
+   }
+  ],
+  "spec_desc": "Des capacités de transport volumineuses adossées à une base autonome fiable pour révolutionner la manutention.",
+  "highlight": {
+   "label": "Charge utile",
+   "value": "100 kg",
+   "sub": "Étagère intégrée"
+  },
+  "specs": [
+   {
+    "label": "Dimensions (LxlxH)",
+    "value": "525 x 650 x 1377 mm"
+   },
+   {
+    "label": "Charge Utile",
+    "value": "100 kg"
+   },
+   {
+    "label": "Équipement",
+    "value": "Étagère volumineuse intégrée"
+   },
+   {
+    "label": "Vitesse",
+    "value": "Jusqu'à 1 m/s"
+   },
+   {
+    "label": "Autonomie",
+    "value": "9 h (Charge : 4.5h)"
+   },
+   {
+    "label": "Navigation",
+    "value": "LiDAR 3D + V-SLAM 2.0"
+   }
+  ],
+  "images": [
+   "carrybot-3.png"
+  ],
+  "local_images": []
+ }
+]
