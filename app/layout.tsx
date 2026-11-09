@@ -1,4 +1,5 @@
 import type { Metadata, Viewport } from "next";
+import Script from "next/script";
 import "./globals.css";
 import Nav from "@/components/Nav";
 import Footer from "@/components/Footer";
@@ -65,6 +66,14 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Nav />
         {children}
         <Footer />
+        {/* Radar by taap.it : visiteurs, sources, clics sortants et formulaires */}
+        <Script
+          src="https://taap.it/scripts/tracker.js"
+          data-project="pk_0eb5a6b8d370679abae31f7739be21db"
+          data-track-outbound="true"
+          data-track-forms="true"
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   );

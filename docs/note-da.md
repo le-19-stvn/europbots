@@ -55,7 +55,7 @@ Sur https://www.bing.com/webmasters, importer le site depuis Search Console (un 
 6. **Formulaire de contact** : il ouvre la messagerie du visiteur avec la demande pré-remplie vers contact@europbots.com. Pour un envoi direct sans messagerie, brancher une route `/api/devis` (Resend, Brevo ou webhook CRM).
 7. **Vidéo du hero** : 40 Mo. À compresser (cible < 8 Mo, H.264 1080p) pour accélérer le chargement ; elle n'est chargée qu'en desktop.
 8. **Photo du showroom de Clermont-Ferrand** : la carte utilise une photo de robot en attendant une vraie photo du lieu.
-9. **Cookies** : le site n'utilise aucun traceur. La carte Google Maps ne se charge qu'après un clic du visiteur (puis reste affichée). Si vous ajoutez Google Analytics ou un pixel, il faudra un bandeau de consentement.
+9. **Mesure d'audience** : la balise Radar by taap.it (`app/layout.tsx`) suit les visiteurs, leurs sources, les clics sortants et les envois de formulaires (identifiant du formulaire seulement, jamais les champs saisis). Elle stocke un identifiant visiteur dans le navigateur (localStorage) : selon la CNIL, cela demande un consentement, sauf si l'outil remplit les conditions d'exemption de la mesure d'audience. À vérifier avec taap.it ; sinon ajouter un bandeau de consentement. La carte Google Maps ne se charge qu'après un clic.
 
 ## Lancer le site
 
