@@ -22,3 +22,6 @@ export const showrooms = [
 
 // Tous les CTA de démonstration mènent au formulaire de contact (sujet pré-sélectionné).
 export const BOOKING_HREF = "/contact?sujet=demo#devis";
+// Bouton secondaire : la preuve par le calcul.
+export const ROI_HREF = "/location-leasing-robot#simulateur";
+export const demoFor = (slug: string) => `/contact?sujet=demo&robot=${slug}#devis`;

@@ -1,7 +1,7 @@
 // d'après footers-cta.md (CTA final pleine largeur sur photo, titre affiche + 2 actions, réassurance d'une ligne).
 import { Button } from "./ui";
 import { LineReveal } from "./motion";
-import { BOOKING_HREF } from "@/lib/site";
+import { BOOKING_HREF, ROI_HREF } from "@/lib/site";
 
 export default function CtaFinal({ photo = "/assets/robots/luckibot/situation.webp", title = ["Votre robot", "en service", "ce mois-ci."] }: { photo?: string; title?: string[] }) {
   return (
@@ -18,7 +18,7 @@ export default function CtaFinal({ photo = "/assets/robots/luckibot/situation.we
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Button href={BOOKING_HREF}>Demander une démo</Button>
-            <Button href="/contact#devis" variant="line" onDark>Demander un devis</Button>
+            <Button href={ROI_HREF} variant="line" onDark>Calculer ma rentabilité</Button>
           </div>
           <p className="t-mono mt-5 text-on-dark-subtle">Réponse sous 24 h ouvrées</p>
         </div>

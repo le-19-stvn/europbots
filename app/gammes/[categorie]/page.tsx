@@ -6,7 +6,7 @@ import RobotCard from "@/components/RobotCard";
 import { LineReveal } from "@/components/motion";
 import { Button, Eyebrow } from "@/components/ui";
 import { categories, robotsBy, type CategoryId } from "@/lib/robots";
-import { BOOKING_HREF } from "@/lib/site";
+import { BOOKING_HREF, ROI_HREF } from "@/lib/site";
 
 export function generateStaticParams() {
   return Object.keys(categories).map((categorie) => ({ categorie }));
@@ -38,7 +38,10 @@ export default async function RangePage({ params }: { params: Promise<{ categori
           </h1>
           <div className="mt-10 grid gap-8 border-t border-on-dark/15 pt-8 md:grid-cols-[1fr_auto] md:items-end">
             <p className="max-w-[56ch] text-[18px] leading-relaxed text-on-dark-muted">{c.lead}</p>
-            <Button href={BOOKING_HREF}>Demander une démo</Button>
+            <div className="flex flex-wrap gap-3">
+              <Button href={BOOKING_HREF}>Demander une démo</Button>
+              <Button href={ROI_HREF} variant="line" onDark>Calculer ma rentabilité</Button>
+            </div>
           </div>
         </div>
       </section>

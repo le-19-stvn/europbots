@@ -10,7 +10,7 @@ import StickyFeatures from "@/components/StickyFeatures";
 import { CountUp, Reveal } from "@/components/motion";
 import { Arrow, Button, Eyebrow, Stage } from "@/components/ui";
 import { categories, getRobot, robots, summary } from "@/lib/robots";
-import { BOOKING_HREF, SITE_URL } from "@/lib/site";
+import { ROI_HREF, SITE_URL, demoFor } from "@/lib/site";
 
 export function generateStaticParams() {
   return robots.map((r) => ({ slug: r.slug }));
@@ -89,10 +89,10 @@ export default async function RobotPage({ params }: { params: Promise<{ slug: st
             <p className="mt-6 text-[clamp(1.35rem,2vw,1.75rem)] font-medium leading-snug tracking-[-0.025em]">{r.tagline}</p>
             <p className="mt-5 max-w-[54ch] text-[17px] leading-relaxed text-text-muted">{r.desc}</p>
             <div className="mt-9 flex flex-wrap gap-3">
-              <Button href={`/contact?robot=${r.slug}#devis`}>Demander un devis</Button>
-              <Button href={BOOKING_HREF} variant="line">Demander une démo</Button>
+              <Button href={demoFor(r.slug)}>Demander une démo</Button>
+              <Button href={ROI_HREF} variant="line">Calculer la rentabilité</Button>
             </div>
-            <p className="t-mono mt-6 text-text-subtle">Leasing 36 mois · gamme dès 500 € HT / mois · <Link href="/location-leasing-robot#simulateur" className="underline underline-offset-4 hover:text-ink">calculer la rentabilité</Link></p>
+            <p className="t-mono mt-6 text-text-subtle">Leasing 36 mois · gamme dès 500 € HT / mois · réponse sous 24 h</p>
           </div>
           <Stage className="aspect-square overflow-hidden lg:aspect-[5/5.4]">
             <span className="floor-glow" />

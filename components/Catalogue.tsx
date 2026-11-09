@@ -5,6 +5,7 @@ import { AnimatePresence, LayoutGroup, motion } from "framer-motion";
 import { useState } from "react";
 import type { CategoryId, Robot } from "@/lib/robots";
 import RobotCard from "./RobotCard";
+import { Button } from "./ui";
 
 const TABS: { id: "all" | CategoryId; label: string }[] = [
   { id: "all", label: "Tous" },
@@ -13,7 +14,8 @@ const TABS: { id: "all" | CategoryId; label: string }[] = [
   { id: "logistique", label: "Logistique" },
 ];
 
-export default function Catalogue({ robots, initial = "all" }: { robots: Robot[]; initial?: "all" | CategoryId }) {
+/** mobileLimit : nombre de fiches visibles sous 640 px, suivies d'un bouton vers le catalogue complet. */
+export default function Catalogue({ robots, initial = "all", mobileLimit }: { robots: Robot[]; initial?: "all" | CategoryId; mobileLimit?: number }) {
   const [tab, setTab] = useState<"all" | CategoryId>(initial);
   const list = tab === "all" ? robots : robots.filter((r) => r.category === tab);
 
@@ -57,12 +59,24 @@ export default function Catalogue({ robots, initial = "all" }: { robots: Robot[]
               animate={{ opacity: 1, y: 0 }}
               exit={{ opacity: 0, scale: 0.97 }}
               transition={{ duration: 0.45, delay: Math.min(i, 8) * 0.03, ease: [0.32, 0.72, 0, 1] }}
+              className={mobileLimit !== undefined && i >= mobileLimit ? "max-sm:hidden" : undefined}
             >
               <RobotCard robot={r} index={i} priority={i < 4} />
             </motion.div>
           ))}
         </AnimatePresence>
       </motion.div>
+
+      {mobileLimit !== undefined && list.length > mobileLimit && (
+        <div className="mt-12 border-t border-border pt-8 sm:hidden">
+          <p className="text-[15px] text-text-muted">
+            {list.length - mobileLimit} autres robots {tab === "all" ? "au catalogue" : `dans la gamme ${TABS.find((t) => t.id === tab)!.label.toLowerCase()}`}.
+          </p>
+          <Button href={tab === "all" ? "/robots" : `/gammes/${tab}`} className="mt-4 w-full justify-between">
+            {tab === "all" ? `Voir les ${list.length} robots` : `Voir toute la gamme`}
+          </Button>
+        </div>
+      )}
     </div>
   );
 }

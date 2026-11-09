@@ -56,6 +56,7 @@ export const formulas = [
     text: "Un robot pour quelques jours ou quelques semaines, livré, programmé et récupéré par nos équipes.",
     lines: ["Durée à la journée ou à la semaine", "Livraison et reprise incluses", "Programmation des contenus", "Technicien présent à la mise en route", "Idéal pour tester avant de s'engager"],
     cta: "Louer pour un événement",
+    href: "/contact?sujet=evenement#devis",
     featured: false,
   },
   {
@@ -65,6 +66,7 @@ export const formulas = [
     text: "Un loyer mensuel sur 36 mois, à partir de 500 € HT selon le modèle. Pas d'investissement initial important, un budget prévisible.",
     lines: ["Loyer mensuel, sans apport", "Installation et cartographie incluses", "Support technique inclus", "Formation de vos équipes", "Maintenance selon les conditions du contrat"],
     cta: "Étudier un leasing",
+    href: "/contact?sujet=leasing#devis",
     featured: true,
   },
   {
@@ -74,6 +76,7 @@ export const formulas = [
     text: "Le robot vous appartient. Nous l'installons, formons vos équipes et assurons le support technique.",
     lines: ["Robot neuf, garantie constructeur", "Installation et cartographie", "Formation des équipes", "Contrat de maintenance en option", "Pièces détachées et réparations"],
     cta: "Demander un prix",
+    href: "/contact?sujet=achat#devis",
     featured: false,
   },
 ];

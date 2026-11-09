@@ -10,7 +10,7 @@ import { LineReveal } from "@/components/motion";
 import { Arrow, Button, Eyebrow, Stage } from "@/components/ui";
 import { getRobot } from "@/lib/robots";
 import { getSector, sectorPages } from "@/lib/sectors";
-import { BOOKING_HREF, SITE_URL } from "@/lib/site";
+import { BOOKING_HREF, ROI_HREF, SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
   return sectorPages.map((s) => ({ slug: s.slug }));
@@ -56,7 +56,10 @@ export default async function SectorPage({ params }: { params: Promise<{ slug: s
           </h1>
           <div className="mt-10 grid gap-8 border-t border-on-dark/15 pt-8 md:grid-cols-[1fr_auto] md:items-end">
             <p className="max-w-[58ch] text-[18px] leading-relaxed text-on-dark-muted">{s.intro[0]}</p>
-            <Button href={BOOKING_HREF}>Demander une démo</Button>
+            <div className="flex flex-wrap gap-3">
+              <Button href={BOOKING_HREF}>Demander une démo</Button>
+              <Button href={ROI_HREF} variant="line" onDark>Calculer ma rentabilité</Button>
+            </div>
           </div>
         </div>
       </section>

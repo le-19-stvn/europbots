@@ -13,7 +13,7 @@ import { CountUp, LineReveal, Reveal } from "@/components/motion";
 import { Arrow, Button, Eyebrow } from "@/components/ui";
 import { formulas, homeFaq, sectors, steps } from "@/lib/home";
 import { categories, getRobot, makers, robots, robotsBy, type CategoryId } from "@/lib/robots";
-import { BOOKING_HREF, showrooms } from "@/lib/site";
+import { BOOKING_HREF, demoFor, showrooms } from "@/lib/site";
 
 const faqJsonLd = {
   "@context": "https://schema.org",
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
             <div className="flex flex-wrap gap-3">
               <Button href={BOOKING_HREF}>Demander une démo</Button>
-              <Button href="#catalogue" variant="line" onDark>Voir les {robots.length} robots</Button>
+              <Button href="#catalogue" variant="line" onDark>Voir le catalogue</Button>
             </div>
           </div>
         </div>
@@ -135,7 +135,7 @@ export default function Home() {
               Chaque fiche détaille les usages, les chiffres clés, la fiche technique et les questions fréquentes.
             </p>
           </div>
-          <Catalogue robots={robots} />
+          <Catalogue robots={robots} mobileLimit={4} />
         </div>
       </section>
 
@@ -160,7 +160,7 @@ export default function Home() {
             </div>
             <div className="mt-10 flex flex-wrap gap-3">
               <Button href={`/robots/${nova.slug}`}>Découvrir le Novabot</Button>
-              <Button href={`/contact?robot=${nova.slug}#devis`} variant="line" onDark>Devis Novabot</Button>
+              <Button href={demoFor(nova.slug)} variant="line" onDark>Demander une démo</Button>
             </div>
           </div>
         </div>
@@ -191,7 +191,7 @@ export default function Home() {
                   ))}
                 </ul>
                 <div className="mt-auto pt-10">
-                  <Button href="/contact#devis" variant={f.featured ? "lime" : "line"} className="w-full justify-between">{f.cta}</Button>
+                  <Button href={f.href} variant={f.featured ? "lime" : "line"} className="w-full justify-between">{f.cta}</Button>
                 </div>
               </div>
             ))}
