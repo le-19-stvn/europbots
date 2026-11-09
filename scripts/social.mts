@@ -171,59 +171,65 @@ const TAGS: Record<string, string[]> = {
   logistique: ["#robotique", "#logistique", "#entrepot", "#industrie", "#AMR", "#supplychain"],
 };
 
+const lc = (t: string) => t.charAt(0).toLowerCase() + t.slice(1);
+/** « L50 » seul ne dit rien : on préfixe le constructeur aux noms de modèle courts. */
+const fullName = (r: Robot) => (/^[A-Z]{1,3}\s?[A-Z]?\d/.test(r.name) ? `${r.maker} ${r.name}` : r.name);
+const stat = (x: { value: string; label: string }) => `${x.label} : ${x.value}`;
+
 function robotChannels(r: Robot) {
   const [a, b] = r.stats;
   const c = r.cases[0];
+  const n = fullName(r);
   const url = `${DOMAIN}/robots/${r.slug}`;
   const tags = ["#Europbots", ...TAGS[r.category], `#${r.maker.replace(/\s/g, "")}`];
-  return `# ${r.name} (${r.maker}) · descriptions par canal
+  return `# ${n} (${r.maker}) · descriptions par canal
 
 Visuels : \`visuels/<format>/robots/${r.slug}.png\` · Vidéo : \`videos/robots/${r.slug}.mp4\`
 
 ## LinkedIn
-${r.tagline}
+${n} : ${lc(r.tagline)}
 
-${a.value} ${a.label.toLowerCase()}. ${b.value} ${b.label.toLowerCase()}.
+${stat(a)}. ${stat(b)}.
 
-${c.place} : ${c.text}
+${c.place} : ${lc(c.text)}
 
-En leasing dès ${pricing.leaseFrom} € HT par mois sur ${pricing.leaseMonths} mois. À ${pricing.hourlyCost} € de l'heure, il est rentable dès ${BREAK_EVEN} heures de travail évitées par mois : moins de 2 heures par jour.
+En leasing dès ${pricing.leaseFrom} € HT par mois sur ${pricing.leaseMonths} mois. À ${pricing.hourlyCost} € de l'heure, le loyer est couvert dès ${BREAK_EVEN} heures de travail évitées par mois : moins de 2 heures par jour.
 
 ${CTA.demo} : ${url}
 
 ${tags.slice(0, 3).join(" ")}
 
 ## Instagram (feed et carrousel)
-${r.tagline}
+${n} : ${lc(r.tagline)}
 
-${a.value} ${a.label.toLowerCase()} · ${b.value} ${b.label.toLowerCase()}
+${stat(a)} · ${stat(b)}
 ${c.title}.
 
-Leasing dès ${pricing.leaseFrom} € HT/mois. Rentable dès ${BREAK_EVEN} h de travail évitées par mois.
+Leasing dès ${pricing.leaseFrom} € HT/mois. Loyer couvert dès ${BREAK_EVEN} h de travail évitées par mois.
 ${CTA.demo} : lien en bio.
 
 ${tags.join(" ")}
 
 ## Reels, TikTok, YouTube Shorts
-Texte à l'écran : « ${r.name} : ${c.title.toLowerCase()} »
+Texte à l'écran : « ${c.title} »
 
-Légende : ${r.tagline} Dès ${pricing.leaseFrom} €/mois en leasing. ${tags.slice(0, 4).join(" ")}
+Légende : ${n}, ${lc(r.tagline)} Dès ${pricing.leaseFrom} €/mois en leasing. ${tags.slice(0, 4).join(" ")}
 
-Titre Shorts : ${r.name}, le robot qui ${c.title.charAt(0).toLowerCase() + c.title.slice(1)}
+Titre Shorts : ${n} · ${lc(c.title)}
 
 ## Facebook
-${r.tagline} ${c.text}
+${n} : ${lc(r.tagline)} ${c.text}
 
 Disponible en location, en leasing (dès ${pricing.leaseFrom} € HT par mois) ou à l'achat, installé et suivi par nos équipes. Démonstration dans nos showrooms de Paris et de Clermont-Ferrand.
 
 ${url}
 
 ## Google Business Profile (actualité, bouton « En savoir plus »)
-${r.name} : ${r.tagline} ${a.value} ${a.label.toLowerCase()}, ${b.value} ${b.label.toLowerCase()}. Leasing dès ${pricing.leaseFrom} € HT par mois sur ${pricing.leaseMonths} mois, installation et formation comprises. Démonstration au showroom de Paris, 9 avenue de la Grande Armée.
+${n} : ${lc(r.tagline)} ${stat(a)}, ${lc(stat(b))}. Leasing dès ${pricing.leaseFrom} € HT par mois sur ${pricing.leaseMonths} mois, installation et formation comprises. Démonstration au showroom de Paris, 9 avenue de la Grande Armée.
 Lien du bouton : https://${url}
 
 ## X
-${r.name} : ${r.tagline.replace(/\.$/, "")}. ${a.value} ${a.label.toLowerCase()}, dès ${pricing.leaseFrom} €/mois en leasing. ${url}
+${n} : ${lc(r.tagline).replace(/\.$/, "")}. ${stat(a)}, dès ${pricing.leaseFrom} €/mois en leasing. ${url}
 `;
 }
 
@@ -231,7 +237,7 @@ function sectorChannels(s: SectorPage) {
   const hrs = s.pitch!.hours;
   const r = simulate({ hoursPerDay: hrs });
   const url = `${DOMAIN}/secteurs/${s.slug}`;
-  const names = s.solutions.slice(0, 3).map((x) => robots.find((y) => y.slug === x.slug)!.name).join(", ");
+  const names = s.solutions.slice(0, 3).map((x) => fullName(robots.find((y) => y.slug === x.slug)!)).join(", ");
   return `# ${s.name} · descriptions par canal
 
 Visuels : \`visuels/<format>/verticales/${s.slug}.png\` · Vidéo : \`videos/verticales/${s.slug}.mp4\`

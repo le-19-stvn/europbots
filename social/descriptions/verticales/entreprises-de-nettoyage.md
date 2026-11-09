@@ -15,7 +15,7 @@ Le calcul avec un robot en leasing à 500 € HT par mois et 13 € de l'heure :
 
 Une condition : les heures libérées doivent réduire vos dépenses de personnel ou vous éviter un recrutement.
 
-Robots adaptés : L50, C5, M1.
+Robots adaptés : Cenobots L50, OrionStar C5, OrionStar M1.
 Calculer ma rentabilité : europbots.com/location-leasing-robot
 
 ## Instagram
