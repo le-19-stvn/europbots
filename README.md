@@ -33,3 +33,9 @@ node scripts/indexnow.mjs
 
 La note de DA, le guide Search Console et la liste des points à valider sont dans [`docs/note-da.md`](docs/note-da.md).
 Les données brutes récupérées sur l'ancien site sont dans `docs/scraping/`.
+
+## Communication
+
+- **Routine SEO, GEO et netlinking** : [`docs/routine-seo-geo.md`](docs/routine-seo-geo.md) (mots-clés, concurrents, prompts GEO, cibles de netlinking, prompt hebdomadaire à lancer).
+- **Kit réseaux** : `social/` · 27 visuels 1080 × 1350 (`social/planche.html` pour l'aperçu), posts par verticale (`social/posts.md`) et légendes par robot (`social/legendes-robots.md`). Régénérer après un changement de prix ou de robot : `npx tsx scripts/social.mts`.
+- **Mesure d'audience** : balise Radar by taap.it dans `app/layout.tsx`.
