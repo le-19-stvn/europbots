@@ -9,7 +9,7 @@ Rythme conseillé : 3 posts par semaine (lundi chiffre, mercredi verticale, vend
 ---
 
 ## 1. Entreprises de nettoyage
-Visuel : `visuels/verticales/entreprises-de-nettoyage.png`
+Visuel : `visuels/portrait/verticales/entreprises-de-nettoyage.png`
 
 Une entreprise de propreté vend des heures et des mètres carrés.
 
@@ -31,7 +31,7 @@ On fait le calcul sur vos contrats ? europbots.com/secteurs/entreprises-de-netto
 ---
 
 ## 2. Hôtels
-Visuel : `visuels/verticales/hotellerie.png`
+Visuel : `visuels/portrait/verticales/hotellerie.png`
 
 Dans un hôtel, l'heure de ménage la plus chère est celle de nuit.
 
@@ -51,7 +51,7 @@ europbots.com/secteurs/hotellerie
 ---
 
 ## 3. Grandes surfaces
-Visuel : `visuels/verticales/retail.png`
+Visuel : `visuels/portrait/verticales/retail.png`
 
 1 200 m² d'allées. Lavées tous les jours. À la main.
 
@@ -68,7 +68,7 @@ europbots.com/secteurs/retail
 ---
 
 ## 4. Restauration
-Visuel : `visuels/verticales/restauration.png`
+Visuel : `visuels/portrait/verticales/restauration.png`
 
 Un serveur peut parcourir plusieurs kilomètres par service, surtout entre la cuisine et la salle.
 
@@ -87,7 +87,7 @@ europbots.com/secteurs/restauration
 ---
 
 ## 5. Santé et EHPAD
-Visuel : `visuels/verticales/sante.png`
+Visuel : `visuels/portrait/verticales/sante.png`
 
 Chaque navette de linge, chaque passage de lavage dans un couloir, c'est du temps qui n'est pas passé auprès des patients.
 
@@ -100,7 +100,7 @@ europbots.com/secteurs/sante
 ---
 
 ## 6. Industrie et entrepôts
-Visuel : `visuels/verticales/industrie-logistique.png`
+Visuel : `visuels/portrait/verticales/industrie-logistique.png`
 
 Les trajets à vide ne se voient pas sur une fiche de poste. Ils se voient sur la fiche de paie.
 
@@ -115,7 +115,7 @@ europbots.com/secteurs/industrie-logistique
 ---
 
 ## 7. Événementiel
-Visuel : `visuels/robots/temi-fourcast.png`
+Visuel : `visuels/portrait/robots/temi-fourcast.png`
 
 Sur un salon, des centaines de stands se disputent le même visiteur.
 
@@ -130,7 +130,7 @@ europbots.com/secteurs/evenementiel
 ## Posts « chiffre »
 
 ### Le seuil
-Visuel : `visuels/chiffres/seuil-39-heures.png`
+Visuel : `visuels/portrait/chiffres/seuil.png`
 
 39.
 
@@ -145,7 +145,7 @@ La vraie question n'est donc pas « un robot peut-il remplacer quelqu'un ? » ma
 Faites le calcul avec vos chiffres : europbots.com/location-leasing-robot
 
 ### Salarié contre robot
-Visuel : `visuels/chiffres/salarie-vs-robot.png`
+Visuel : `visuels/portrait/chiffres/comparatif.png`
 
 72 000 € d'un côté. 18 000 € de l'autre.
 
@@ -161,6 +161,6 @@ europbots.com/location-leasing-robot
 
 ## Légendes « robot en action »
 
-Une par robot, avec le visuel `visuels/robots/<robot>.png`. Format : promesse, deux chiffres, un usage, le prix d'appel.
+Une par robot, avec le visuel `visuels/portrait/robots/<robot>.png`. Format : promesse, deux chiffres, un usage, le prix d'appel.
 
-Voir `social/legendes-robots.md`, généré à partir des données du site.
+Voir `social/descriptions/robots/<robot>.md` (LinkedIn, Instagram, Reels/TikTok/Shorts, Facebook, Google Business Profile, X), générés par `npx tsx scripts/social.mts`.

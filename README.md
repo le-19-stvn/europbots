@@ -37,5 +37,5 @@ Les données brutes récupérées sur l'ancien site sont dans `docs/scraping/`.
 ## Communication
 
 - **Routine SEO, GEO et netlinking** : [`docs/routine-seo-geo.md`](docs/routine-seo-geo.md) (mots-clés, concurrents, prompts GEO, cibles de netlinking, prompt hebdomadaire à lancer).
-- **Kit réseaux** : `social/` · 27 visuels 1080 × 1350 (`social/planche.html` pour l'aperçu), posts par verticale (`social/posts.md`) et légendes par robot (`social/legendes-robots.md`). Régénérer après un changement de prix ou de robot : `npx tsx scripts/social.mts`.
+- **Kit réseaux** : skill Claude Code `europbots-reseaux` (`.claude/skills/europbots-reseaux/` : charte, règles par canal, vidéos IA). Générer visuels (portrait, carré, story), vidéos MP4 et descriptions par canal : `npx tsx scripts/social.mts --video` (≈ 5 min) → `social/visuels/`, `social/videos/`, `social/descriptions/`, aperçu `social/planche.html`. Les images et vidéos ne sont pas versionnées (régénérables). Posts LinkedIn de référence : `social/posts.md`.
 - **Mesure d'audience** : balise Radar by taap.it dans `app/layout.tsx`.
